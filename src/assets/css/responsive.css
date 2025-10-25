@@ -25,3 +25,102 @@
 .show-menu{
   left: 0;
 }
+
+
+
+
+/* For large devices  */
+
+@media screen and (min-width: 1150px) {
+
+
+  .nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .nav__logo img {
+    width: 130px;
+  }
+
+
+  .nav__toggle,
+  .nav__close{
+    display: none;
+  }
+
+  .nav__search-desktop {
+    display: block;
+    flex: 1;
+    max-width: 450px;
+  }
+
+  .cart {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .nav__credit-desktop {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .nav__bottom {
+    display: block;
+    background-color: #f7f9fb;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .nav__bottom-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0.7rem 0;
+  }
+
+  .nav__bottom .nav__link {
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav__menu {
+    display: none; /* se oculta el menú mobile */
+  }
+
+
+}
+
+
+/* ======== Distribución Desktop ======== */
+@media screen and (min-width: 1024px) {
+  .nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  /* Orden deseado: Logo → Búsqueda → Carrito → Botón crédito */
+  .nav__logo {
+    order: 1;
+  }
+
+  .nav__search-desktop {
+    order: 2;
+    flex: 1; /* Permite que la barra de búsqueda crezca */
+    max-width: 500px; /* opcional, para limitar tamaño */
+  }
+
+  .cart {
+    order: 3;
+  }
+
+  .nav__credit-desktop {
+    order: 4;
+  }
+}
+
+

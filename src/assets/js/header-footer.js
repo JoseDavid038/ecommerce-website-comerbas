@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-  loadComponent("header", "/components/header.html" , () => {
+  loadComponent("header", "/components/header2.html" , () => {
     
     setNavLinks();
     // Modify button text based on the page

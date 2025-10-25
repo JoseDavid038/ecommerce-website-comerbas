@@ -231,6 +231,14 @@
 }
 
 
+.nav__credit-desktop {
+  display: none; /* se muestra solo en desktop */
+}
+
+.nav__bottom {
+  display: none; /* se muestra solo en desktop */
+}
+
 
 
 
