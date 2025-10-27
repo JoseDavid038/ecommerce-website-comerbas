@@ -33,6 +33,16 @@
 
 @media screen and (min-width: 1150px) {
 
+  .nav{
+    height: calc(var(--header-height) + 2.3rem);
+    margin-inline: 1.5rem;
+  }
+
+  .container{
+   
+    margin-inline: 1.5rem;
+    margin-bottom: 1rem;
+  }
 
   .nav__container {
     display: flex;
@@ -41,9 +51,9 @@
     gap: 1.5rem;
   }
 
-  .nav__logo img {
+  /* .nav__logo img {
     width: 130px;
-  }
+  } */
 
 
   .nav__toggle,
@@ -89,6 +99,130 @@
   .nav__menu {
     display: none; /* se oculta el menú mobile */
   }
+
+  .logo{
+    width: 12.5rem;
+    height: auto;
+  }
+
+
+  /* hero-swiper */
+
+  .main {
+    padding-block: 6.8rem .1rem;
+  }
+
+  .swiper{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 32.5rem;
+  }
+
+  .swiper-image-container{
+    position: relative;
+    display: flex;
+    justify-content: center; /* Align image to the right */
+    left: -10.625rem;
+    width: 43.75rem;
+  }
+
+  .swiper__img{
+    width: 41.875rem;
+    max-width: 100%;
+    position: relative;
+     /*left: -90px; Move image to overlap the text area */
+    object-fit: cover;
+    object-position: center;
+    left: 60px;
+  }
+
+  .swiper__img.index.slide1{
+    width: 41.875rem;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+    top: -80px;
+    left: 60px;
+    
+  }
+
+  .swiper__img.index.slide2{
+    width: 41.875rem;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+    top: -80px;
+    left: 60px;
+    
+  }
+
+  .swiper__img.index.slide3{
+    width: 41.875rem;
+    height: auto;
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+    top: -80px;
+    left: 60px;
+  }
+
+   .swiper__img.index.slide4{
+    width: 600px;
+    height: auto;
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+    top: -50px;
+    left: 60px;
+  }
+
+   
+
+  .swiper-slide-hero {
+  display: grid;
+  grid-template-columns: minmax(20rem, 1.5fr) minmax(20rem, 1fr);
+  grid-template-rows: auto;
+  padding-inline: clamp(3rem, 8vw, 15rem);
+  padding-top: 0.3rem;
+  position: relative;
+  gap: 2rem; /* espacio entre columnas */
+}
+
+  .title__slider {
+    margin-bottom: 20px;
+    font-size: 4rem;
+    color: var(--primary-color);
+    font-weight: var(--font-semibold);
+    letter-spacing: -2px;
+  }
+
+  .text__slider{
+    font-size: 18px;
+    max-width: 100%;
+    width: clamp(300px, 90vw, 590px);
+    line-height: 1.8rem;
+    font-weight: var(--font-medium);
+  }
+  
+  .button__slider{
+    padding: 1rem 1rem;
+  }
+
+  .swiper-pagination{
+    margin-bottom: 20px;
+  }
+
+
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--background-dark-blue);
+  }
+
+
 
 
 }
