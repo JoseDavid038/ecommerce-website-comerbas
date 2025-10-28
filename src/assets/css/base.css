@@ -82,6 +82,7 @@ img {
 .section__content{
   text-align: center;
   margin-inline: 1.5rem;
+  
 }
  
 
@@ -96,6 +97,7 @@ img {
   font-weight: var(--font-extrabold);
   margin-bottom: 1.5rem;
   color: var(--text-dark-blue);
+
 }
 
 

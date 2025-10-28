@@ -105,6 +105,13 @@
     height: auto;
   }
 
+  .section__title {
+    font-size: var(--font-heading);
+    margin-top: 1.5rem;
+
+  }
+
+
 
   /* hero-swiper */
 
@@ -222,6 +229,92 @@
     background: var(--background-dark-blue);
   }
 
+  
+  /* footer */
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 3.125rem;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+
+  .footer{
+    padding-top: 4rem;
+  }
+
+  .footer__nav__list{
+    display: grid;
+    grid-template-rows: 1rem;
+    grid-template-columns: repeat(2,15rem);
+  }
+
+  .footer__rights{
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+
+
+  .footer__nav__list > .nav__link{
+    font-size: var(--normal-font-size);
+  }
+
+  .footer__section{
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .footer__slogan{
+    width: 23.125rem;
+  }
+
+  /* .footer-nav-link{
+    width: 21.875rem;
+  } */
+
+  .footer-nav-link{
+    width: auto;
+  }
+
+  /* .footer__grid{
+    display: grid;
+    grid-template-columns: 400px 500px 400px;
+  } */
+
+
+  /* whatsapp button */
+
+  .whatsapp{
+    background: #2DA41D;
+    right: 3rem;
+    bottom: 2rem;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem .10rem;
+  }
+
+  .whatsapp-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .whatsapp-icon{
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: contain;
+  }
+
+  .whatsapp-text{
+    display: flex;
+    font-size: 0.7rem;
+    color: var(--white-color);
+    width: 100px;
+  }
 
 
 
@@ -255,6 +348,54 @@
   .nav__credit-desktop {
     order: 4;
   }
+
+  /* detalle de producto  */
+
+  .product-detail {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .product-gallery,
+  .product-info {
+    flex: 1;
+  }
+
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-gallery {
+    margin-bottom: 2rem;
+  }
+
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .product-actions {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .related-products .swiper-wrapper {
+    display: flex;
+  }
+
+  .product-main-image{
+    width: 30rem;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    
+  }
+
+
+
 }
 
 
