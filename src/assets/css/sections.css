@@ -32,12 +32,15 @@
   padding: 1rem;
   text-align: center;
   min-width: 220px;
+  margin-top: 2rem;
 }
 
 .swiper-slide-card img {
   width: 100%;
   border-radius: 8px;
 }
+
+
 
 .name__product-card {
   font-size: 1rem;
@@ -117,7 +120,9 @@
 
 
 /* detalle de producto */
-
+.section3{
+    padding-inline: 2rem;
+  }
 
 .main.detalle{
   overflow: hidden;
@@ -125,18 +130,24 @@
 }
 
 .product-detail {
-  padding: 1.5rem;
+  
   font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .product-main-image {
   width: 100%;
   height: auto;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .product-info {
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .product-title {
@@ -148,7 +159,7 @@
   font-size: 1.3rem;
   color: #1b1b1b;
   font-weight: 600;
-  margin: 0.5rem 0;
+  
 }
 
 .product-short-desc {
@@ -156,6 +167,7 @@
   color: #555;
   margin-bottom: 1rem;
   text-align: left;
+  line-height: 1.5;
 }
 
 
@@ -173,6 +185,7 @@
   height: 30px;
   font-weight: bold;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .product-quantity input {
@@ -213,11 +226,120 @@
   text-align: left;
 }
 
+.product-description h2 {
+  margin-bottom: 0.8rem;
+}
+
+.product-description p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
 .product-description ul {
   list-style: disc;
   padding-left: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 .related-products {
   margin-top: 3rem;
+}
+
+
+/* cart */
+
+.main.cart {
+  overflow: hidden;
+  padding-block: 10rem 5rem;
+  text-align: left;
+  margin-inline: .2rem;
+}
+
+
+.detalle__resumen {
+  background-color: #f8f9fb;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.detalle__resumen h2 {
+  font-size: 1.4rem;
+  color: #0d1a40;
+  margin-bottom: 1.2rem;
+}
+
+.detalle__producto {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.detalle__nombre {
+  color: #0d1a40;
+  font-weight: 600;
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.detalle__precio {
+  font-weight: 600;
+}
+
+.detalle__costos {
+  font-size: 0.95rem;
+  color: #0d1a40;
+}
+
+.detalle__costos p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.detalle__total {
+  font-weight: 700;
+}
+
+/* ========== Formulario ========== */
+.detalle__form {
+  background-color: #f8f9fb;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+
+.detalle__form h2 {
+  font-size: 1.4rem;
+  color: #0d1a40;
+  margin-bottom: 0.5rem;
+}
+
+.detalle__form p {
+  color: #0d1a40;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.form__group {
+  margin-bottom: 1rem;
+}
+
+.form__group input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid #e0e4ec;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.form__group input:focus {
+  border-color: #162964;
+}
+
+
+
+.btn-primary:hover {
+  background-color: #0d1a40;
 }
