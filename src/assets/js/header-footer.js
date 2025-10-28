@@ -1,9 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   loadComponent("header", "/components/header2.html" , () => {
-    
-    setNavLinks();
-    // Modify button text based on the page
    
     setupMenu();  // Ensure hamburger menu works after header loads
 
@@ -28,45 +25,6 @@ function loadComponent(tag, file, callback = null){
 
 
 
-
-// Function to handle navigation links and active class
-
-function setNavLinks(){
-
-  const navLinks = document.querySelectorAll('.js-nav__link');
-
-  navLinks.forEach(link => {
-
-    // handle navigation links
-
-      const pageMap = {
-        "Para Empresas": "/src/pages/empresas.html",
-        "Para Personas": "/src/pages/index.html",
-        "IPS": "/src/pages/ips.html",
-        "Sobre nosotros": "/src/pages/nosotros.html",
-      };
-
-       // Add active class based on the current page
-    if (window.location.pathname === pageMap[link.textContent.trim()]) {
-      navLinks.forEach(l => l.classList.remove("active-link")); // Remove from all
-      link.classList.add("active-link");
-    }
-
-    // Add event listener for clicks
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      const page = link.textContent.trim();
-
-      if (pageMap[page]) {
-        window.location.href = pageMap[page];
-      };
-    });
-  });
-
-};
-
-
-
 function setNavLinks2(){
 
   const navLinks = document.querySelectorAll('.js-nav__link');
@@ -76,10 +34,9 @@ function setNavLinks2(){
     // handle navigation links
 
       const pageMap = {
-        "Para Empresas": "/src/pages/empresas.html",
-        "Para Personas": "/src/pages/index.html",
-        "IPS": "/src/pages/ips.html",
-        "Sobre nosotros": "/src/pages/nosotros.html",
+        "Para Empresas": "https://comerbas.com/empresas.html",
+        "Para Personas": "https://comerbas.com/index.html",
+        "Sobre Nosotros": "https://comerbas.com/nosotros.html",
         "Protección de Datos": "/public/docs/Politica_tratamiento_datos.pdf"
       };
 
