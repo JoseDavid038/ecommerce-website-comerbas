@@ -80,6 +80,42 @@
 }
 
 
+/* cart */
+
+.cart {
+  position: relative; /* Necesario para que el span se posicione dentro */
+  display: inline-block;
+  font-size: 1.8rem; /* tamaño del ícono */
+  color: #333; /* color del ícono, ajusta según tu tema */
+  cursor: pointer;
+}
+
+.cart-quantity {
+  position: absolute;
+  top: -2px; /* sube el número */
+  right: -10px; /* lo desplaza hacia la derecha */
+  background-color: var(--background-dark-blue); /* color del fondo (rojo) */
+  color: #fff; /* color del texto */
+  border-radius: 50%; /* círculo */
+  padding: 2px 6px; /* tamaño del círculo */
+  font-size: 0.75rem; /* tamaño del número */
+  font-weight: 600;
+  line-height: 1;
+  min-width: 18px;
+  text-align: center;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.cart i {
+  vertical-align: middle;
+}
+
+.ri-shopping-cart-line {
+  font-size: 1.5rem;
+}
+
+
+
 /* button */
 .button--menu{
   display: inline-flex;
