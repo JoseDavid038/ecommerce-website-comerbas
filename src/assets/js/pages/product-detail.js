@@ -1,4 +1,5 @@
-import { productsMasVendidos } from './data.js'; // importa datos
+import { productsMasVendidos } from './data.js';
+import {cart} from './cart.js'; // importa datos
 
 // Obtiene el ID del producto desde la URL
 // const params = new URLSearchParams(window.location.search);
@@ -79,7 +80,7 @@ if (product) {
             
             <div class="product-actions">
               <a href="cart.html" class="button btn-primary"><button class="btn-primary">Comprar ahora</button></a>
-              <button class="button btn-outline js-add-to-cart">Añadir al carrito</button>
+              <button class="button btn-outline js-add-to-cart" data-product-id="${product.id}">Añadir al carrito</button>
             </div>
           </section>
 
@@ -101,3 +102,28 @@ if (product) {
 } else {
   document.getElementById('product-detail-general').innerHTML = "<p>Producto no encontrado.</p>";
 }
+
+document.querySelectorAll('.js-add-to-cart')
+    .forEach((button) => {
+      button.addEventListener('click', () => {
+       const productId = button.dataset.productId;
+
+       let matchingItem;
+       cart.forEach((item) =>{
+        if (productId === item.productId){
+          matchingItem = item;
+        }
+       });
+
+       if (matchingItem){
+          matchingItem.quantity += 1;
+       }else{
+          cart.push({
+          productId: productId,
+          quantity: 1
+       });
+       }
+
+       console.log(cart);
+      });
+    });
