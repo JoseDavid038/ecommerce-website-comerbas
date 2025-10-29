@@ -354,6 +354,10 @@
     order: 4;
   }
 
+  .price {
+    text-align: left;
+  }
+
   /* detalle de producto  */
 
   .main.detalle{

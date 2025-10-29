@@ -73,6 +73,7 @@
   font-weight: var(--font-bold);
   line-height: 25px;
   width: 80%;
+  text-align: left;
 }
 
 .price{
@@ -244,6 +245,14 @@
 
 .related-products {
   margin-top: 3rem;
+}
+
+
+/* todos los productos */
+
+.main.productos{
+  overflow: hidden;
+  padding-block: 8rem 2rem;
 }
 
 
