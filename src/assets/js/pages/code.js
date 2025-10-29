@@ -16,7 +16,7 @@ function renderProducts(array, targetClass) {
   container.innerHTML = array.map(product => `
     <article class="swiper-slide-card swiper-slide">
       <div class="card-image-container">
-        <a href=""><img src="${product.image}" alt="${product.name}" class="card-image"></a>
+        <a href="detalleproducto.html?id=${product.id}"><img src="${product.image}" alt="${product.name}" class="card-image"></a>
       </div>
       <div class="card-info-container card-personas">
         <h2 class="name__product-card">${product.name}</h2>
