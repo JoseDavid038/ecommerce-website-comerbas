@@ -90,8 +90,21 @@
 
 .card-image-container{
   margin-bottom: 1.1rem;
+  width: 100%;
+  height: 220px; /* altura fija para uniformar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* evita desbordes */
 }
 
+.card-image-container img,
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* mantiene proporción sin cortar */
+  object-position: center;
+}
 
 
 .button--services{

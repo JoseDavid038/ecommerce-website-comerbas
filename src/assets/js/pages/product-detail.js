@@ -1,47 +1,11 @@
-import { productsMasVendidos } from './data.js';
+import { products } from './data.js';
 import {cart} from './cart.js'; // importa datos
-
-// Obtiene el ID del producto desde la URL
-// const params = new URLSearchParams(window.location.search);
-// const id = parseInt(params.get('id'));
-
-//  Busca el producto
-// const product = productsMasVendidos[id];
-
-// Selecciona el contenedor
-// const container = document.getElementById('detalle-producto');
-
-//  Verifica que exista
-// if (product) {
-//   const precioFormateado = new Intl.NumberFormat('es-CO', {
-//     style: 'currency',
-//     currency: 'COP',
-//     minimumFractionDigits: 0
-//   }).format(product.price);
-
-//   container.innerHTML = `
-//     <div class="detalle-card">
-//       <img src="${product.image}" alt="${product.name}" class="detalle-img">
-//       <div class="detalle-info">
-//         <h1>${product.name}</h1>
-//         <p class="detalle-precio">${precioFormateado}</p>
-//         <p class="detalle-descripcion">${product.descripcion}</p>
-//         <div class="product-actions">
-//           <a href="cart.html" class="button btn-primary">Comprar ahora</a>
-//           <button class="button btn-outline">Añadir al carrito</button>
-//         </div>
-//       </div>
-//     </div>
-//   `;
-// } else {
-//   container.innerHTML = `<p>Producto no encontrado</p>`;
-// }
 
 
 const params = new URLSearchParams(window.location.search);
 const id = parseInt(params.get("id"));
 
-const product = productsMasVendidos.find(p => p.id === id);
+const product = products.find(p => p.id === id);
 
 if (product) {
   const formatoCOP = new Intl.NumberFormat('es-CO', {
@@ -50,7 +14,7 @@ if (product) {
     minimumFractionDigits: 0
   });
 
-  // Crear lista de características
+  // Crea lista de características
   const featuresHTML = product.features
     .map(feature => `<li>${feature}</li>`)
     .join('');

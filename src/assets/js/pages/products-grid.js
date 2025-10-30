@@ -1,14 +1,14 @@
 
-import { audio,celulares,lavadoras,cocina,televisores } from './data.js';
+import { products } from './data.js';
 
-// formateador de moneda
+// Formateador de moneda
 const formatoCOP = new Intl.NumberFormat('es-CO', {
   style: 'currency',
   currency: 'COP',
   minimumFractionDigits: 0
 });
 
-
+// Función genérica para renderizar productos
 function renderProducts(array, targetClass) {
   const container = document.querySelector(targetClass);
   if (!container) return;
@@ -16,7 +16,9 @@ function renderProducts(array, targetClass) {
   container.innerHTML = array.map(product => `
     <article class="swiper-slide-card swiper-slide">
       <div class="card-image-container">
-        <a href=""><img src="${product.image}" alt="${product.name}" class="card-image"></a>
+        <a href="detalleproducto.html?id=${product.id}">
+          <img src="${product.image}" alt="${product.name}" class="card-image">
+        </a>
       </div>
       <div class="card-info-container card-personas">
         <h2 class="name__product-card">${product.name}</h2>
@@ -26,8 +28,10 @@ function renderProducts(array, targetClass) {
   `).join('');
 }
 
-renderProducts(audio, '.js-audio-grid');
-renderProducts(celulares, '.js-celulares-grid');
-renderProducts(lavadoras, '.js-lavadoras-grid');
-renderProducts(cocina, '.js-cocina-grid');
-renderProducts(televisores, '.js-televisores-grid');
+// 🔹 Filtrar por categoría
+const categorias = ["audio", "celulares", "lavadoras", "cocina", "televisores"];
+
+categorias.forEach(categoria => {
+  const productosFiltrados = products.filter(p => p.category === categoria);
+  renderProducts(productosFiltrados, `.js-${categoria}-grid`);
+});
