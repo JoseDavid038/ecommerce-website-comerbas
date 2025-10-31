@@ -438,7 +438,8 @@
     margin: 0;
   }
 
-  .detalle__form h2 {
+  .detalle__form h2,
+  .detalle__resumen h2 {
     font-size: 1.8rem;
   }
 
