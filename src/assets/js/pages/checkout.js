@@ -1,4 +1,4 @@
-import {cart, removeFromCart} from './cart.js';
+import {cart, decreaseQuantity} from './cart.js';
 import { products } from './data.js';
 
 // Formateador de moneda en pesos colombianos
@@ -28,7 +28,7 @@ cart.forEach((cartItem) => {
   const formattedPrice = formatoCOP.format(matchingProduct.price);
 
   cartSummaryHTML += `
-  <div class="detalle__producto">
+  <div class="detalle__producto js-cart-item-container-${matchingProduct.id}">
     <img src="${matchingProduct.image}" alt="" class="cart-item__image">
     <div class="cart-item__details">
       <p class="detalle__nombre">${matchingProduct.name}</p>
@@ -47,13 +47,25 @@ cart.forEach((cartItem) => {
 document.querySelector('.js-order-summary').innerHTML = cartSummaryHTML;
 
 
+// document.querySelectorAll('.js-delete-quantity')
+//   .forEach((link) => {
+//     link.addEventListener('click', () => {
+//       const productId = Number(link.dataset.productId);
+//       removeFromCart(productId);
+//       console.log(cart);
+//     });
+
+// });
+
+
 document.querySelectorAll('.js-delete-quantity')
   .forEach((link) => {
     link.addEventListener('click', () => {
       const productId = Number(link.dataset.productId);
-      removeFromCart(productId);
-      console.log(cart);
+      decreaseQuantity(productId);
+      
+      const container = document.querySelector(`.js-cart-item-container-${productId}`);
+      container.remove();
     });
-
-});
+  });
 
