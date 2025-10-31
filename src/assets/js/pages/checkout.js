@@ -1,4 +1,4 @@
-import {cart} from './cart.js';
+import {cart, removeFromCart} from './cart.js';
 import { products } from './data.js';
 
 // Formateador de moneda en pesos colombianos
@@ -36,12 +36,24 @@ cart.forEach((cartItem) => {
     </div>
 
     <div class="cart-item__actions">
-      <button class="btn-qty minus">-</button>
+      <span class="btn-qty minus js-delete-quantity" data-product-id="${matchingProduct.id}">-</span>
       <p class="cart-item__quantity">${cartItem.quantity}</p>
-      <button class="btn-qty plus">+</button>
+      <span class="btn-qty plus">+</span>
     </div>
   </div>
   `;
 });
 
 document.querySelector('.js-order-summary').innerHTML = cartSummaryHTML;
+
+
+document.querySelectorAll('.js-delete-quantity')
+  .forEach((link) => {
+    link.addEventListener('click', () => {
+      const productId = Number(link.dataset.productId);
+      removeFromCart(productId);
+      console.log(cart);
+    });
+
+});
+
