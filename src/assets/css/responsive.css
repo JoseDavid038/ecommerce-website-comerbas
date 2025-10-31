@@ -442,7 +442,26 @@
     font-size: 1.8rem;
   }
 
+  .detalle__producto{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+  }
 
+  .cart-item__image {
+    width: 120px;
+  }
+
+  .cart-item__details {
+    flex: 1;
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .cart-item__actions {
+    gap: 0.8rem;
+  }
 
 }
 
