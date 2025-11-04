@@ -36,14 +36,14 @@ if (product) {
 
            
             <div class="product-quantity">
-              <button class="quantity-btn">-</button>
+              <button class="quantity-btn minus">-</button>
               <input type="number" value="1" min="1">
-              <button class="quantity-btn">+</button>
+              <button class="quantity-btn plus">+</button>
             </div>
 
             
             <div class="product-actions">
-              <a href="cart.html" class="button btn-primary"><button class="btn-primary">Comprar ahora</button></a>
+              <button class="button btn-primary js-buy-now" data-product-id="${product.id}">Comprar ahora</button>
               <button class="button btn-outline js-add-to-cart" data-product-id="${product.id}">Añadir al carrito</button>
             </div>
           </section>
@@ -68,16 +68,52 @@ if (product) {
 }
 
 
+// --- Controlar botones + y - ---
+document.addEventListener('click', (event) => {
+  const quantityInput = document.querySelector('.product-quantity input');
+
+  if (event.target.classList.contains('plus')) {
+    quantityInput.value = Number(quantityInput.value) + 1;
+  }
+
+  if (event.target.classList.contains('minus')) {
+    const newValue = Number(quantityInput.value) - 1;
+    if (newValue >= 1) {
+      quantityInput.value = newValue;
+    }
+  }
+});
 
 
-document.querySelectorAll('.js-add-to-cart')
-    .forEach((button) => {
-      button.addEventListener('click', () => {
-       const productId = button.dataset.productId;
 
-       addToCart(productId);
-       updateCartQuantity();
 
-      });
-    });
+document.querySelectorAll('.js-add-to-cart').forEach((button) => {
+  button.addEventListener('click', () => {
+    const productId = button.dataset.productId;
+    const quantityInput = document.querySelector('.product-quantity input');
+    const quantity = Number(quantityInput.value) || 1;
+
+    addToCart(productId, quantity);
+
+    updateCartQuantity();
+  });
+});
+
+
+// Botón "Comprar ahora"
+document.addEventListener('click', (e) => {
+  if (e.target.closest('.btn-primary')) {
+    const productId = document.querySelector('.js-add-to-cart').dataset.productId;
+    const quantityInput = document.querySelector('.product-quantity input');
+    const quantity = Number(quantityInput.value) || 1;
+
+    addToCart(productId, quantity);
+    updateCartQuantity();
+
+    // Redirige al checkout
+    window.location.href = 'checkout.html';
+  }
+});
+
+
 

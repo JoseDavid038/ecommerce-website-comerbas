@@ -1,4 +1,4 @@
-import {cart, decreaseQuantity,addToCart, updateCartQuantity} from './cart.js';
+import {cart, decreaseQuantity,addToCart, updateCartQuantity, increaseQuantity} from './cart.js';
 import { products } from './data.js';
 
 // Formateador de moneda en pesos colombianos
@@ -12,6 +12,7 @@ const formatoCOP = new Intl.NumberFormat('es-CO', {
 let cartSummaryHTML = '';
 
 
+
 cart.forEach((cartItem) => {
 
   const productId = cartItem.productId;
@@ -20,12 +21,19 @@ cart.forEach((cartItem) => {
   products.forEach((product) => {
     if (product.id === productId){
       matchingProduct = product;
-    }
+    };
+
   })
 
 
   // Formatea el precio antes de mostrarlo
+    if (!matchingProduct) {
+    console.warn(`⚠️ Producto con ID ${productId} no encontrado en data.js`);
+    return; // salta al siguiente item del carrito
+  }
+
   const formattedPrice = formatoCOP.format(matchingProduct.price);
+
 
   cartSummaryHTML += `
   <div class="detalle__producto js-cart-item-container-${matchingProduct.id}">
@@ -80,10 +88,35 @@ document.querySelectorAll('.js-delete-quantity')
         if (container) container.remove();
       }
 
+      updateCartQuantity();
       console.log(cart);
       
     });
   });
+
+
+  document.querySelectorAll('.js-increase-to-cart')
+  .forEach((button) => {
+    button.addEventListener('click', () => {
+      const productId = button.closest('.detalle__producto').querySelector('.js-delete-quantity').dataset.productId;
+
+      // Aumenta la cantidad en el carrito
+      increaseQuantity(productId);
+
+      // Busca el producto actualizado
+      const matchingItem = cart.find(item => item.productId === productId);
+
+      // Actualiza la cantidad mostrada en pantalla
+      const quantityElement = button.parentElement.querySelector('.js-cart-item__quantity');
+      quantityElement.textContent = matchingItem.quantity;
+
+      // Actualiza el contador del ícono del carrito
+      updateCartQuantity();
+
+      console.log(cart);
+    });
+  });
+
 
 
 
