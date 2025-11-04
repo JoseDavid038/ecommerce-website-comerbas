@@ -1,4 +1,4 @@
-import {cart, decreaseQuantity} from './cart.js';
+import {cart, decreaseQuantity,addToCart, updateCartQuantity} from './cart.js';
 import { products } from './data.js';
 
 // Formateador de moneda en pesos colombianos
@@ -37,8 +37,8 @@ cart.forEach((cartItem) => {
 
     <div class="cart-item__actions">
       <span class="btn-qty minus js-delete-quantity" data-product-id="${matchingProduct.id}">-</span>
-      <p class="cart-item__quantity">${cartItem.quantity}</p>
-      <span class="btn-qty plus">+</span>
+      <p class="cart-item__quantity js-cart-item__quantity">${cartItem.quantity}</p>
+      <span class="btn-qty plus js-increase-to-cart">+</span>
     </div>
   </div>
   `;
@@ -61,11 +61,32 @@ document.querySelector('.js-order-summary').innerHTML = cartSummaryHTML;
 document.querySelectorAll('.js-delete-quantity')
   .forEach((link) => {
     link.addEventListener('click', () => {
-      const productId = Number(link.dataset.productId);
-      decreaseQuantity(productId);
+      const productId = link.dataset.productId;
+      // Buscamos el producto en el carrito
+      const matchingItem = cart.find(item => item.productId === productId);
+
+      if (matchingItem && matchingItem.quantity > 1) {
+        // Solo disminuye cantidad si hay más de una unidad
+        decreaseQuantity(productId);
+
+        // Actualiza solo el número en pantalla sin recargar
+        const quantityElement = link.parentElement.querySelector('.js-cart-item__quantity');
+        quantityElement.textContent = matchingItem.quantity - 1;
+
+      } else {
+        // Si es 1, elimina del carrito y del HTML
+        decreaseQuantity(productId);
+        const container = document.querySelector(`.js-cart-item-container-${productId}`);
+        if (container) container.remove();
+      }
+
+      console.log(cart);
       
-      const container = document.querySelector(`.js-cart-item-container-${productId}`);
-      container.remove();
     });
   });
+
+
+
+
+
 

@@ -7,7 +7,7 @@
 export const products = [
   //  TELEVISOR
   {
-    id: 101,
+    id: "101",
     category: "televisores",
     name: 'TV CHALLENGER 50" Pulgadas 126',
     image: './src/assets/images/products/TV CHALLENGER 50 Pulgadas 126.png',
@@ -24,7 +24,7 @@ export const products = [
   },
 
   {
-    id: 102,
+    id: "102",
     category: "electrodomesticos",
     name: 'Nevera No Frost CHALLENGER 231 Litros',
     image: './src/assets/images/products/Nevera No Frost CHALLENGER 231 Litros.png',
@@ -41,7 +41,7 @@ export const products = [
   },
 
   {
-    id: 103,
+    id: "103",
     category: "televisores",
     name: 'TV CHALLENGER 40" Pulgadas 101 cm',
     image: './src/assets/images/products/TV CHALLENGER 40 Pulgadas 101 cm.png',
@@ -58,7 +58,7 @@ export const products = [
   },
 
   {
-    id: 104,
+    id: "104",
     category: "electrodomesticos",
     name: 'Lavadora CHALLENGER Carga Superior 13 Kilos',
     image: './src/assets/images/products/Lavadora CHALLENGER.png',
@@ -76,7 +76,7 @@ export const products = [
 
   //  AUDIO
   {
-    id: 201,
+    id: "201",
     category: "audio",
     name: 'Minicomponente LG XBOOM RNC9 1800W Negro Torre de Sonido',
     image: './src/assets/images/products/mini componente Lg.png',
@@ -93,7 +93,7 @@ export const products = [
   },
 
   {
-    id: 202,
+    id: "202",
     category: "audio",
     name: 'Minicomponente SAMSUNG MX-T70 1500W Negro Torre de Sonido',
     image: './src/assets/images/products/mini componente samsung.png',
@@ -111,7 +111,7 @@ export const products = [
 
   //  CELULARES
   {
-    id: 301,
+    id: "301",
     category: "celulares",
     name: 'Celular MOTOROLA Edge 60 Fusion 256GB 5G Verde',
     image: './src/assets/images/products/celular motorola.png',
@@ -128,7 +128,7 @@ export const products = [
   },
 
   {
-    id: 302,
+    id: "302",
     category: "celulares",
     name: 'iPhone 13 128GB Blanco Estrella',
     image: './src/assets/images/products/iphone.png',
@@ -146,7 +146,7 @@ export const products = [
 
   //  LAVADORAS
   {
-    id: 401,
+    id: "401",
     category: "lavadoras",
     name: 'Lavadora WHIRLPOOL Carga Superior 20 Kilos Smart Action Gris',
     image: './src/assets/images/products/lavadora whirpool.png',
@@ -164,7 +164,7 @@ export const products = [
 
   //  COCINA
   {
-    id: 501,
+    id: "501",
     category: "cocina",
     name: 'Estufa HACEB 4 Puestos Con Horno Gas Natural Romero 50 Torre Negro',
     image: './src/assets/images/products/estufa haceb.png',
@@ -181,7 +181,7 @@ export const products = [
   },
 
   {
-    id: 502,
+    id: "502",
     category: "cocina",
     name: 'Estufa ABBA 4 Puestos Con Horno Gas Natural Negra',
     image: './src/assets/images/products/estufa abba.png',

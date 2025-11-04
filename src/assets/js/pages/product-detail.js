@@ -3,7 +3,7 @@ import {addToCart, updateCartQuantity} from './cart.js'; // importa datos
 
 
 const params = new URLSearchParams(window.location.search);
-const id = parseInt(params.get("id"));
+const id = params.get("id");
 
 const product = products.find(p => p.id === id);
 
