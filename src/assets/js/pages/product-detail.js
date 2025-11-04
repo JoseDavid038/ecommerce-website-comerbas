@@ -1,5 +1,5 @@
 import { products } from './data.js';
-import {addToCart, updateCartQuantity} from './cart.js'; // importa datos
+import {cart, addToCart, updateCartQuantity} from './cart.js'; // importa datos
 
 
 const params = new URLSearchParams(window.location.search);
@@ -102,13 +102,21 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
 
 // Botón "Comprar ahora"
 document.addEventListener('click', (e) => {
-  if (e.target.closest('.btn-primary')) {
-    const productId = document.querySelector('.js-add-to-cart').dataset.productId;
+  if (e.target.closest('.js-buy-now')) {
+    const productId = e.target.dataset.productId;
     const quantityInput = document.querySelector('.product-quantity input');
     const quantity = Number(quantityInput.value) || 1;
 
-    addToCart(productId, quantity);
-    updateCartQuantity();
+    // Verifica si el producto ya está en el carrito
+    const existingItem = cart.find(item => item.productId === productId);
+
+    if (existingItem) {
+      console.log(`✅ El producto ${productId} ya está en el carrito. No se agregan más unidades.`);
+    } else {
+      console.log(`🛒 El producto ${productId} no estaba en el carrito. Agregando ${quantity} unidad(es).`);
+      addToCart(productId, quantity);
+      updateCartQuantity();
+    }
 
     // Redirige al checkout
     window.location.href = 'checkout.html';

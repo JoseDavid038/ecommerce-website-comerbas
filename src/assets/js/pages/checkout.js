@@ -1,5 +1,7 @@
 import {cart, decreaseQuantity,addToCart, updateCartQuantity, increaseQuantity} from './cart.js';
-import { products } from './data.js';
+import { products, getProduct} from './data.js';
+import { renderOrderSummary } from './order-summary.js';
+
 
 // Formateador de moneda en pesos colombianos
 const formatoCOP = new Intl.NumberFormat('es-CO', {
@@ -16,14 +18,7 @@ let cartSummaryHTML = '';
 cart.forEach((cartItem) => {
 
   const productId = cartItem.productId;
-  let matchingProduct;
-
-  products.forEach((product) => {
-    if (product.id === productId){
-      matchingProduct = product;
-    };
-
-  })
+  let matchingProduct = getProduct(productId);
 
 
   // Formatea el precio antes de mostrarlo
@@ -90,6 +85,7 @@ document.querySelectorAll('.js-delete-quantity')
 
       updateCartQuantity();
       console.log(cart);
+      renderOrderSummary();
       
     });
   });
@@ -114,10 +110,13 @@ document.querySelectorAll('.js-delete-quantity')
       updateCartQuantity();
 
       console.log(cart);
+      renderOrderSummary();
     });
   });
 
 
+
+  
 
 
 

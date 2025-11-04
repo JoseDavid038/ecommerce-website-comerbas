@@ -368,6 +368,7 @@
 
 .detalle__total {
   font-weight: 700;
+  margin-top: 1rem;
 }
 
 
@@ -412,4 +413,10 @@
 
 .btn-primary:hover {
   background-color: #0d1a40;
+}
+
+
+.subtotal-line{
+  border-top: 1px solid rgb(222, 222, 222);
+  margin-top: 1rem;
 }
