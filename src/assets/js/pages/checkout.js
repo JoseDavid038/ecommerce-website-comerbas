@@ -11,6 +11,42 @@ const formatoCOP = new Intl.NumberFormat('es-CO', {
 });
 
 
+function showEmptyCartMessage() {
+  const mainContainer = document.querySelector('main');
+  if (mainContainer) {
+    mainContainer.innerHTML = `
+      <section class="empty-cart container">
+        <h2>Tu carrito está vacío 🛒</h2>
+        <p>Agrega productos desde nuestra tienda para continuar con tu compra.</p>
+        <a href="productos.html" class="button btn-primary">Ver productos</a>
+      </section>
+    `;
+  }
+
+  // Limpia también el resumen de pago
+  const summaryContainer = document.querySelector('.js-payment-summary');
+  if (summaryContainer) {
+    summaryContainer.innerHTML = `
+      <p class="detalle__subtotal">Total productos: <span>$0</span></p>
+      <p>Envío: <span>$0.00</span></p>
+      <div class="subtotal-line">
+        <p class="detalle__total">Total a financiar: <span>$0</span></p>
+      </div>
+    `;
+  }
+}
+
+
+
+// Si el carrito está vacío mostramos un mensaje y llamamos al render del resumen (vacío)
+if (!cart || cart.length === 0) {
+  showEmptyCartMessage();
+  
+  
+}else {
+
+
+
 let cartSummaryHTML = '';
 
 
@@ -48,7 +84,7 @@ cart.forEach((cartItem) => {
 });
 
 document.querySelector('.js-order-summary').innerHTML = cartSummaryHTML;
-
+renderOrderSummary();
 
 // document.querySelectorAll('.js-delete-quantity')
 //   .forEach((link) => {
@@ -81,6 +117,11 @@ document.querySelectorAll('.js-delete-quantity')
         decreaseQuantity(productId);
         const container = document.querySelector(`.js-cart-item-container-${productId}`);
         if (container) container.remove();
+
+        //  Nuevo: si el carrito queda vacío, mostramos el mensaje
+        if (cart.length === 0) {
+          showEmptyCartMessage();
+        }
       }
 
       updateCartQuantity();
@@ -113,7 +154,7 @@ document.querySelectorAll('.js-delete-quantity')
       renderOrderSummary();
     });
   });
-
+}
 
 
   
