@@ -35,3 +35,18 @@ categorias.forEach(categoria => {
   const productosFiltrados = products.filter(p => p.category === categoria);
   renderProducts(productosFiltrados, `.js-${categoria}-grid`);
 });
+
+
+
+// Esperar a que la página cargue completamente
+window.addEventListener('DOMContentLoaded', () => {
+  const hash = window.location.hash; // ejemplo: #celulares
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target) {
+      // desplazamiento suave hacia la categoría
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+});
+
