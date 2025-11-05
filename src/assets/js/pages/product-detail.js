@@ -1,4 +1,5 @@
 import { products } from './data.js';
+import { renderProducts } from './code.js';
 import {cart, addToCart, updateCartQuantity} from './cart.js'; // importa datos
 
 
@@ -122,6 +123,14 @@ document.addEventListener('click', (e) => {
     window.location.href = 'checkout.html';
   }
 });
+
+
+
+
+const tePuedenInteresar = products.filter(p => p.tags.includes("te-puede-interesar"));
+
+// --- Renderizamos en sus secciones ---
+renderProducts(tePuedenInteresar, '.js-productst-grid');
 
 
 

@@ -9,7 +9,7 @@ const formatoCOP = new Intl.NumberFormat('es-CO', {
 });
 
 
-function renderProducts(array, targetClass) {
+export function renderProducts(array, targetClass) {
   const container = document.querySelector(targetClass);
   if (!container) return;
 

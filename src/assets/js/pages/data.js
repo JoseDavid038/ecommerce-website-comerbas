@@ -51,7 +51,7 @@ export const products = [
       'Ahorro energético',
       'Diseño moderno en acero'
     ],
-    tags: ["mas-vendido"]
+    tags: ["mas-vendido", "te-puede-interesar"]
   },
 
   {
@@ -173,7 +173,7 @@ export const products = [
       'Motor silencioso y eficiente',
       'Panel digital táctil'
     ],
-    tags: ["recomendado2"]
+    tags: ["recomendado2", "te-puede-interesar"]
   },
 
   //  COCINA
@@ -191,7 +191,7 @@ export const products = [
       'Diseño moderno y resistente',
       'Ahorro de gas certificado'
     ],
-    tags: ["recomendado2"]
+    tags: ["recomendado2","te-puede-interesar"]
   },
 
   {
@@ -208,6 +208,6 @@ export const products = [
       'Diseño ergonómico',
       'Fácil limpieza'
     ],
-    tags: ["mas-vendido"]
+    tags: ["mas-vendido", "te-puede-interesar"]
   }
 ];
