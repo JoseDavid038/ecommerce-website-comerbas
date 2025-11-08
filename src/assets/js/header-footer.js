@@ -93,6 +93,7 @@ function setupMenu(){
     if (window.location.pathname.includes("index.html")){
       navMenu.classList.remove('show-menu');
     }
+    navMenu.classList.remove('show-menu');
   }
 
   navLink.forEach(n => n.addEventListener('click', linkAction));

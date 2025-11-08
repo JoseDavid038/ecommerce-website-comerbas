@@ -5,8 +5,8 @@
     top: 0;
     left: -100%;
     width: 100%;
-    height: 70%;  /*before 52*/
-    padding-top: 9rem;
+    height: 75%;  /*before 52*/
+    padding-top: 11rem;
     padding-left: 1.5rem;
     background-color: white;
     border-right: 2px solid var(--white-color);
@@ -44,12 +44,12 @@
     margin-bottom: 1rem;
   }
 
-  .nav__container {
+  /* .nav__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 1.5rem;
-  }
+  } */
 
   /* .nav__logo img {
     width: 130px;
@@ -79,7 +79,7 @@
 
   .nav__bottom {
     display: block;
-    background-color: #f7f9fb;
+    background-color: #FCFCFD;
     border-top: 1px solid #eaeaea;
   }
 
@@ -331,8 +331,8 @@
   .nav__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
+    justify-content: space-evenly;
+    max-width: 90%;
   }
 
   /* Orden deseado: Logo → Búsqueda → Carrito → Botón crédito */

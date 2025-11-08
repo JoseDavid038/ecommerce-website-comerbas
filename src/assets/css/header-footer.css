@@ -271,6 +271,10 @@ section[id] {
   .nav__search-mobile {
     display: none;
   }
+
+  .nav__menu-button{
+    margin-top: 1px;
+}
 }
 
 @media screen and (max-width: 1149px) {
