@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupMenu();  // Ensure hamburger menu works after header loads
     updateCartQuantity();
 
+
   });
 
   loadComponent("footer", "/components/footer.html", () => {
