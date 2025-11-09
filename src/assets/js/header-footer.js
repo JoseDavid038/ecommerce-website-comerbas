@@ -2,7 +2,7 @@
 import { updateCartQuantity } from './pages/cart.js';
 
 document.addEventListener('DOMContentLoaded', function() {
-  loadComponent("header", "/components/header2.html" , () => {
+  loadComponent("header", "./components/header2.html" , () => {
    
     setupMenu();  // Ensure hamburger menu works after header loads
     updateCartQuantity();
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   });
 
-  loadComponent("footer", "/components/footer.html", () => {
+  loadComponent("footer", "./components/footer.html", () => {
      setNavLinks2();
   });
     

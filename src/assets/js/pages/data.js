@@ -24,7 +24,7 @@ export const products = [
     id: "101",
     category: "televisores",
     name: 'TV CHALLENGER 50" Pulgadas 126',
-    image: './src/assets/images/products/TV CHALLENGER 50 Pulgadas 126.png',
+    image: 'images/products/TVCHALLENGER50Pulgadas126.png',
     price: 1449900,
     description:
       'El televisor CHALLENGER smart Google 50KG85 es el compañero perfecto para transformar tu sala en un cine personal. Su pantalla amplia te sumerge en colores brillantes y detalles nítidos, haciéndote sentir parte de cada escena. Conecta fácilmente con tus dispositivos favoritos gracias a su tecnología inteligente y disfruta de un mundo de entretenimiento ilimitado. Cada momento se vive con intensidad y claridad asombrosa. Descubre una nueva forma de disfrutar del tiempo en casa, donde cada imagen cuenta una historia y cada sonido te transporta. ¡No esperes más, adquiérelo ya!',
@@ -41,7 +41,7 @@ export const products = [
     id: "102",
     category: "electrodomesticos",
     name: 'Nevera No Frost CHALLENGER 231 Litros',
-    image: './src/assets/images/products/Nevera No Frost CHALLENGER 231 Litros.png',
+    image: 'images/products/NeveraNoFrostCHALLENGER231Litros.png',
     price: 1636900,
     description:
       'La Nevera CHALLENGER No Frost 231L mantiene tus alimentos frescos y organizados con eficiencia energética y un diseño moderno. Su sistema No Frost evita la formación de escarcha y ofrece un almacenamiento práctico para toda la familia.',
@@ -58,7 +58,7 @@ export const products = [
     id: "103",
     category: "televisores",
     name: 'TV CHALLENGER 40" Pulgadas 101 cm',
-    image: './src/assets/images/products/TV CHALLENGER 40 Pulgadas 101 cm.png',
+    image: 'images/products/TVCHALLENGER40Pulgadas101cm.png',
     price: 899900,
     description:
       'Disfruta tus películas y series con la máxima calidad de imagen en este televisor CHALLENGER de 40". Diseño compacto, funcional y con conectividad moderna para vivir una experiencia de entretenimiento total.',
@@ -75,7 +75,7 @@ export const products = [
     id: "104",
     category: "electrodomesticos",
     name: 'Lavadora CHALLENGER Carga Superior 13 Kilos',
-    image: './src/assets/images/products/Lavadora CHALLENGER.png',
+    image: 'images/products/LavadoraCHALLENGER.png',
     price: 1419900,
     description:
       'La Lavadora CHALLENGER Carga Superior 13 Kilos es perfecta para el hogar moderno. Con programas automáticos y ahorro de agua, garantiza un lavado eficiente con el menor consumo energético.',
@@ -93,7 +93,7 @@ export const products = [
     id: "201",
     category: "audio",
     name: 'Minicomponente LG XBOOM RNC9 1800W Negro Torre de Sonido',
-    image: './src/assets/images/products/mini componente Lg.png',
+    image: 'images/products/minicomponenteLg.png',
     price: 1349900,
     description:
       'El minicomponente LG XBOOM RNC9 te ofrece una potencia increíble para animar cualquier reunión. Con efectos de DJ, luces LED y conectividad Bluetooth, lleva la música a otro nivel.',
@@ -110,7 +110,7 @@ export const products = [
     id: "202",
     category: "audio",
     name: 'Minicomponente SAMSUNG MX-T70 1500W Negro Torre de Sonido',
-    image: './src/assets/images/products/mini componente samsung.png',
+    image: 'images/products/minicomponentesamsung.png',
     price: 1636900,
     description:
       'Vive la experiencia de sonido envolvente con el minicomponente Samsung MX-T70. Con 1500W de potencia y diseño de torre, disfrutarás tus canciones favoritas con la máxima intensidad.',
@@ -128,7 +128,7 @@ export const products = [
     id: "301",
     category: "celulares",
     name: 'Celular MOTOROLA Edge 60 Fusion 256GB 5G Verde',
-    image: './src/assets/images/products/celular motorola.png',
+    image: 'images/products/celularmotorola.png',
     price: 1349900,
     description:
       'Motorola Edge 60 Fusion combina potencia y elegancia. Su cámara de alta resolución y rendimiento 5G te permiten capturar y compartir cada momento sin límites.',
@@ -145,7 +145,7 @@ export const products = [
     id: "302",
     category: "celulares",
     name: 'iPhone 13 128GB Blanco Estrella',
-    image: './src/assets/images/products/iphone.png',
+    image: 'images/products/iphone.png',
     price: 1636900,
     description:
       'El iPhone 13 combina potencia, diseño y eficiencia. Con su chip A15 Bionic y una cámara que captura cada detalle, es la herramienta perfecta para tu día a día.',
@@ -163,7 +163,7 @@ export const products = [
     id: "401",
     category: "lavadoras",
     name: 'Lavadora WHIRLPOOL Carga Superior 20 Kilos Smart Action Gris',
-    image: './src/assets/images/products/lavadora whirpool.png',
+    image: 'images/products/lavadorawhirpool.png',
     price: 1349900,
     description:
       'Con tecnología Smart Action, esta lavadora Whirlpool de 20 kg ofrece lavado potente, ahorro de energía y máxima durabilidad para el cuidado de tus prendas.',
@@ -181,7 +181,7 @@ export const products = [
     id: "501",
     category: "cocina",
     name: 'Estufa HACEB 4 Puestos Con Horno Gas Natural Romero 50 Torre Negro',
-    image: './src/assets/images/products/estufa haceb.png',
+    image: 'images/products/estufahaceb.png',
     price: 1349900,
     description:
       'La estufa HACEB Romero 50 es ideal para tu hogar. Con 4 puestos, horno a gas y un diseño moderno que facilita la limpieza y el uso diario.',
@@ -198,7 +198,7 @@ export const products = [
     id: "502",
     category: "cocina",
     name: 'Estufa ABBA 4 Puestos Con Horno Gas Natural Negra',
-    image: './src/assets/images/products/estufa abba.png',
+    image: 'images/products/estufaabba.png',
     price: 1636900,
     description:
       'La estufa ABBA ofrece rendimiento y elegancia en tu cocina. Con materiales resistentes y horno eficiente para cocinar todo tipo de platos.',
