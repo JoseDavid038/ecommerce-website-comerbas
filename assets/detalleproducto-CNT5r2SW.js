@@ -1,4 +1,4 @@
-import{c as i,p as u,a as r,u as a}from"./main-C2efNdrI.js";import{r as v}from"./code-30ig8u3Y.js";Array.isArray(i)||localStorage.setItem("cart",JSON.stringify([]));const q=new URLSearchParams(window.location.search),$=q.get("id"),e=u.find(c=>c.id===$);if(e){const c=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0}),d=e.features.map(t=>`<li>${t}</li>`).join(""),l=`
+import{c as i,p as u,a as r,u as a}from"./main-B_eNzSGQ.js";import{r as v}from"./code-CzJPWgjN.js";Array.isArray(i)||localStorage.setItem("cart",JSON.stringify([]));const q=new URLSearchParams(window.location.search),$=q.get("id"),e=u.find(c=>c.id===$);if(e){const c=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0}),d=e.features.map(t=>`<li>${t}</li>`).join(""),l=`
     <section class="product-detail">
       <section class="product-gallery">
         <img src="${e.image}" alt="${e.name}" class="product-main-image">

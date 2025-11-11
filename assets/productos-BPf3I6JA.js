@@ -1,4 +1,4 @@
-import{p as c}from"./main-C2efNdrI.js";const i=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function t(e,r){const o=document.querySelector(r);o&&(o.innerHTML=e.map(a=>`
+import{p as c}from"./main-B_eNzSGQ.js";const i=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function t(e,r){const o=document.querySelector(r);o&&(o.innerHTML=e.map(a=>`
     <article class="swiper-slide-card swiper-slide">
       <div class="card-image-container">
         <a href="detalleproducto.html?id=${a.id}">
