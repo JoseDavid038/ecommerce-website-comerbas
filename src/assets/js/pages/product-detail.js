@@ -77,15 +77,26 @@ if (product) {
   // Añadir al carrito
   addToCartBtn.addEventListener('click', () => {
     const quantity = Number(quantityInput.value) || 1;
+    
     addToCart(product.id, quantity);
     updateCartQuantity();
   });
 
   // Comprar ahora
   buyNowBtn.addEventListener('click', () => {
+    const productId = product.id;
     const quantity = Number(quantityInput.value) || 1;
-    addToCart(product.id, quantity);
+    
+    // Verifica si el producto ya está en el carrito
+  const existingItem = cart.find(item => item.productId === productId);
+
+  if (existingItem) {
+    console.log(`✅ El producto ${productId} ya está en el carrito. No se agregan más unidades.`);
+  } else {
+    console.log(`🛒 El producto ${productId} no estaba en el carrito. Agregando ${quantity} unidad(es).`);
+    addToCart(productId, quantity);
     updateCartQuantity();
+  };
 
     // 🔗 Redirección compatible con local y producción
     const checkoutURL = `${import.meta.env.BASE_URL}checkout.html`;

@@ -29,7 +29,7 @@ function renderProducts(array, targetClass) {
 }
 
 // 🔹 Filtrar por categoría
-const categorias = ["audio", "celulares", "lavadoras", "cocina", "televisores"];
+const categorias = ["audio_video", "celulares","computadores" , "electromenores", "linea_blanca"];
 
 categorias.forEach(categoria => {
   const productosFiltrados = products.filter(p => p.category === categoria);

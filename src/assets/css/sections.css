@@ -276,7 +276,7 @@
 
 .main.cartb {
   overflow: hidden;
-  padding-block: 10rem 5rem;
+  padding-block: 10rem 2rem;
   text-align: left;
   margin-inline: .2rem;
 }
@@ -410,6 +410,17 @@
 
 .form__group input:focus {
   border-color: #162964;
+}
+
+.form-checkbox{
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  
+}
+
+.form-checkbox > input {
+  margin-top: 0.2rem;
 }
 
 

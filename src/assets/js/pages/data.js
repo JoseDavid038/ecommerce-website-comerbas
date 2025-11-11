@@ -22,7 +22,7 @@ export const products = [
   //  TELEVISOR
   {
     id: "101",
-    category: "televisores",
+    category: "audio_video",
     name: 'TV CHALLENGER 50" Pulgadas 126',
     image: 'images/products/TVCHALLENGER50Pulgadas126.png',
     price: 1449900,
@@ -39,7 +39,7 @@ export const products = [
 
   {
     id: "102",
-    category: "electrodomesticos",
+    category: "linea_blanca",
     name: 'Nevera No Frost CHALLENGER 231 Litros',
     image: 'images/products/NeveraNoFrostCHALLENGER231Litros.png',
     price: 1636900,
@@ -56,7 +56,7 @@ export const products = [
 
   {
     id: "103",
-    category: "televisores",
+    category: "audio_video",
     name: 'TV CHALLENGER 40" Pulgadas 101 cm',
     image: 'images/products/TVCHALLENGER40Pulgadas101cm.png',
     price: 899900,
@@ -73,7 +73,7 @@ export const products = [
 
   {
     id: "104",
-    category: "electrodomesticos",
+    category: "linea_blanca",
     name: 'Lavadora CHALLENGER Carga Superior 13 Kilos',
     image: 'images/products/LavadoraCHALLENGER.png',
     price: 1419900,
@@ -91,7 +91,7 @@ export const products = [
   //  AUDIO
   {
     id: "201",
-    category: "audio",
+    category: "audio_video",
     name: 'Minicomponente LG XBOOM RNC9 1800W Negro Torre de Sonido',
     image: 'images/products/minicomponenteLg.png',
     price: 1349900,
@@ -108,7 +108,7 @@ export const products = [
 
   {
     id: "202",
-    category: "audio",
+    category: "audio_video",
     name: 'Minicomponente SAMSUNG MX-T70 1500W Negro Torre de Sonido',
     image: 'images/products/minicomponentesamsung.png',
     price: 1636900,
@@ -161,7 +161,7 @@ export const products = [
   //  LAVADORAS
   {
     id: "401",
-    category: "lavadoras",
+    category: "linea_blanca",
     name: 'Lavadora WHIRLPOOL Carga Superior 20 Kilos Smart Action Gris',
     image: 'images/products/lavadorawhirpool.png',
     price: 1349900,
@@ -179,7 +179,7 @@ export const products = [
   //  COCINA
   {
     id: "501",
-    category: "cocina",
+    category: "linea_blanca",
     name: 'Estufa HACEB 4 Puestos Con Horno Gas Natural Romero 50 Torre Negro',
     image: 'images/products/estufahaceb.png',
     price: 1349900,
@@ -196,7 +196,7 @@ export const products = [
 
   {
     id: "502",
-    category: "cocina",
+    category: "linea_blanca",
     name: 'Estufa ABBA 4 Puestos Con Horno Gas Natural Negra',
     image: 'images/products/estufaabba.png',
     price: 1636900,
