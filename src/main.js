@@ -4,6 +4,8 @@ import "./assets/js/header-footer.js";
 import "./assets/js/pages/search.js";
 import "./assets/js/swiper.js";
 import "./assets/js/swiper-bundle.min.js";
+import "./assets/js/pages/contact-form.js";
+
 
 
 
