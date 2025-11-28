@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Texto del correo
     const productListText = cartDetails.map((item, index) =>
-      `${index + 1}. Código: ${item.id} — ${item.name} — Cant: ${item.quantity} — Precio: $${item.price.toLocaleString()} — Total: $${item.total.toLocaleString()}`
+      `${index + 1}. Código: ${item.id} — ${item.name} — Cant: ${item.quantity} — Precio: $${item.price.toLocaleString()} — Subtotal: $${item.total.toLocaleString()}`
     ).join('\n');
 
     // Total a financiar

@@ -26,12 +26,13 @@ if (product) {
     <section class="product-detail">
       <section class="product-gallery">
         <img src="${product.image}" alt="${product.name}" class="product-main-image">
+        <p class="product-note">*Imágen solo con fines ilustrativos y puede no ser una representación exacta del producto.</p>
       </section>
 
       <section class="product-info">
         <h1 class="product-title">${product.name}</h1>
         <p class="product-price">${formatoCOP.format(product.price)}</p>
-        <p class="product-short-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus tellus eget fringilla sagittis.</p>
+        <p class="product-short-desc">${product.shortdescription}</p>
 
         <div class="product-quantity">
           <button class="quantity-btn minus">-</button>
