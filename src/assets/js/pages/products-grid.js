@@ -14,13 +14,14 @@ function renderProducts(array, targetClass) {
   if (!container) return;
 
   container.innerHTML = array.map(product => `
-    <article class="swiper-slide-card swiper-slide">
+    <article class="product-card">
       <div class="card-image-container">
         <a href="detalleproducto.html?id=${product.id}">
           <img src="${product.image}" alt="${product.name}" class="card-image">
         </a>
       </div>
-      <div class="card-info-container card-personas">
+
+      <div class="card-info-container">
         <h2 class="name__product-card">${product.name}</h2>
         <p class="price">${formatoCOP.format(product.price)}</p>
       </div>

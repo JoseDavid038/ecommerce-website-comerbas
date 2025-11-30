@@ -618,3 +618,59 @@
     height: 26px;
   }
 }
+
+
+/* ============================
+   GRID DE TODOS LOS PRODUCTOS  
+   (MOBILE FIRST)
+============================ */
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* MOBILE: 1 por fila */
+  gap: 1.5rem;
+  padding-inline: 1rem;
+}
+
+/* Cada tarjeta de producto */
+.product-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: transform .2s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+/* ============================
+   TABLET ≥ 600px  
+============================ */
+@media (min-width: 600px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 2rem;
+    padding-inline: 2rem;
+  }
+}
+
+/* ============================
+   DESKTOP ≥ 992px  
+============================ */
+@media (min-width: 992px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 2.5rem;
+  }
+}
+
+/* ============================
+   DESKTOP WIDE ≥ 1280px  
+============================ */
+@media (min-width: 1280px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  }
+}
+
