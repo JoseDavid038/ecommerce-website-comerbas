@@ -86,13 +86,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Enviar con EmailJS
     emailjs.send('service_l6nlo69', 'template_x8j0m3i', templateParams)
       .then(() => {
-        alert("✅ Solicitud enviada con éxito.\n" +
-              "👉 Continúa para completar el último paso.");
+        // alert("✅ Solicitud enviada con éxito.\n" +
+        //       "👉 Continúa para completar el último paso.");
         form.reset();
 
-        setTimeout(() => {
+        // setTimeout(() => {
           document.getElementById("procesoModal").style.display = "flex";
-          }, 200);
+          // }, 200);
       })
       .catch(error => {
         console.error('Error al enviar:', error);
