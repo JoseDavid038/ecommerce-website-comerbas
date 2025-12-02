@@ -1,15 +1,16 @@
 import { defineConfig } from 'vite';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 import { resolve } from 'path';
 
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/ecommerce-website-comerbas/' : '/',
-  server: {
-    port: 5175,
-    host: true, // permite acceso externo (útil para ngrok)
-    allowedHosts: [
-      '4157eef2612c.ngrok-free.app' // tu dominio ngrok
-    ]
-  },
+const deployTarget = process.env.DEPLOY_TARGET || 'local'; // local | github | hosting
+
+export default defineConfig({ 
+
+  base:
+    deployTarget === 'github'
+      ? '/ecommerce-website-comerbas/'
+      : '/', // para hosting o local
+
   build: {
     rollupOptions: {
       input: {
@@ -22,4 +23,20 @@ export default defineConfig(({ mode }) => ({
       },
     },
   },
-}));
+
+  plugins: [
+    viteStaticCopy({
+      targets: [
+        { src: 'public/*', dest: '' },
+      ]
+    })
+  ],
+
+  server: {
+    port: 5173,
+    host: true,
+    allowedHosts: ['3ac8d3797679.ngrok-free.app']
+  }
+
+
+});
