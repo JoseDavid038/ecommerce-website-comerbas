@@ -183,7 +183,7 @@ export const products = [
     "category": "audio_video",
     "name": "Torre de Sonido SONY 200 Watts",
     "image": "images/products/111.webp",
-    "price": 1043977,
+    "price": 1087874,
     "shortdescription": "Medidas del Equipo de Audio (Ancho x Alto x Fondo) En Cm\n26,9 x 56,4 x 29,4 Centímetros",
     "description": "El parlante con función de batería SRS-XV500 en color negro es el ideal para disfrutar de la música bien sea dentro o fuera de casa gracias a que tiene batería integrada y se puede usar por varias horas sin necesidad de conectar a la energía. Permite divertirse con familia y amigos usando las entradas de micrófono para hacer karaoke o incluso conectar una guitarra. Tiene un tamaño y peso que lo hacen fácil de mover, adquiere el tuyo ahora!",
     "features": [
@@ -215,7 +215,7 @@ export const products = [
     "category": "celulares",
     "name": "Celular SAMSUNG Galaxy A17 256GB 4G",
     "image": "images/products/113.webp",
-    "price": 878955,
+    "price": 955955,
     "shortdescription": "Tamaño Pantalla: 6.7 Pulgadas, Memoria Interna: 256 GB, Memoria RAM: 8 GB, Color: Azul. ",
     "description": "Disfruta el SAMSUNG Galaxy A17 LTE con un diseño moderno y delgado con cámaras que capturan cada detalle con brillo y nitidez. Su potente procesador y pantalla fluida te permiten sumergirte en juegos y contenido sin pausas. Cuenta con protección contra rayones, polvo y salpicaduras. ¡Lleva ahora mismo un equipo diseñado para durar, rendir y acompañarte a donde vayas!",
     "features": [
@@ -246,7 +246,7 @@ export const products = [
     "category": "celulares",
     "name": "Celular SAMSUNG Galaxy A36 256GB 5G",
     "image": "images/products/115.webp",
-    "price": 1203455,
+    "price": 1648955,
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "El Galaxy A36 5G, está diseñado para que te conectes donde estés. Captura fotos increíbles con su cámara principal de 50 MP y frontal de 12 MP, potenciadas por Inteligencia Artificial. Además, prueba una manera diferente y eficiente de buscar en un smartphone y encuéntralo ¡solo dibujando un círculo! Disfruta de una experiencia AMOLED DE 6.7\" FHD+ y un potente procesador Snapdragon 6 Gen3 para un rendimiento superior. Con batería de 5000 mAh y carga rápida de 45W, nunca te quedarás sin energía. ¡Compra el Tuyo Ahora!",
     "features": [
@@ -262,7 +262,7 @@ export const products = [
     "category": "celulares",
     "name": "Celular MOTOROLA Edge 50 Fusion 5G",
     "image": "images/products/116.webp",
-    "price": 1203455,
+    "price": 1538955,
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n512 GB\nMemoria RAM\n12 GB\nColor: Rosado.",
     "description": "Presentamos MOTOROLA Edge 50 Fusion. Con un diseño bellamente elaborado con protección al agua, está diseñado para durar. Prepárate con la increíble velocidad de carga TurboPower, ademas, captura fotos y videos nítidos y brillantes, con 32 veces más píxeles de enfoque. Disfruta de una pantalla cinematográfica con sonido Dolby Atmos® y potencia tu día con un procesador Snapdragon® , RAM Boost y toneladas de almacenamiento. Motorola Edge 50 Fusion es tu teléfono inteligente hecho arte. Adquiere el tuyo aqui!",
     "features": [
@@ -389,7 +389,7 @@ export const products = [
     "category": "celulares",
     "name": "Celular SAMSUNG Galaxy A17 256GB 5G",
     "image": "images/products/124.webp",
-    "price": 911955,
+    "price": 955955,
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "Descubre el SAMSUNG Galaxy A17 5G con diseño refinado y mayor nitidez en las cámaras para resaltar cada detalle mientras disfrutas de un smarpthone con un cuerpo delgado y chip potente. ¡Hecho para el futuro! Su pantalla fluida te sumerge en juegos y videos sin interrupciones. Gracias al vidrio templado y cuerpo metalico protege con mayor eficacia salpicaduras, polvo y rayones. Un smartphone diseñado para durar y destacar ¡Lleva el tuyo ahora mismo!",
     "features": [
@@ -453,7 +453,7 @@ export const products = [
     "category": "computadores",
     "name": "Computador Portátil ACER ASPIRE 14\"",
     "image": "images/products/128.webp",
-    "price": 1747933,
+    "price": 1758933,
     "shortdescription": "30LC - Intel Core 3 - RAM 8GB - Disco SSD 512GB - Plateado",
     "description": "Acer trae para ti su línea de portátiles Aspire, diseñados con tecnología innovadora para la multitarea y la productividad. Gracias a su facilidad de uso, el Aspire es ideal para toda la familia, está enfocado en el rendimiento y en tu día a día. Perfecto para sacar más partido al trabajo y estudio. Con su elegante cubierta metálica, el Aspire es más ligero y delgado que nunca. Además, la batería de larga duración permite que la familia pueda hacer más entre carga y carga.¡Haz click ahora y llévate el tuyo!",
     "features": [
@@ -469,7 +469,7 @@ export const products = [
     "category": "computadores",
     "name": "Computador Portátil ASUS 15.6\"",
     "image": "images/products/129.webp",
-    "price": 1758977,
+    "price": 1868977,
     "shortdescription": "E1504FA - AMD Ryzen 5 - RAM 8GB - Disco SSD 512 GB - Negro",
     "description": "La ASUS Vivobook Go 15 es liviana, es compacta, diseñada para que seas productivo y te mantengas entretenido donde quiera que vayas. Con su bisagra plana de 180°, el protector físico de la cámara web y un montón de características de diseño bien pensadas, incluida una hermosa pantalla con bordes ultradelgados, ¡Vivobook Go 15 es un portátil que te permite hacer todo! ¡Llévala ya!",
     "features": [
@@ -646,22 +646,6 @@ export const products = [
     "tags": []
   },
   {
-    "id": "140",
-    "category": "linea_blanca",
-    "name": "Nevera HACEB No Frost 294 Litros",
-    "image": "images/products/140.webp",
-    "price": 1945955,
-    "shortdescription": "N311 Manija Interna Inox Negro",
-    "description": "Nevera HACEB N311SEMIINR2, diseñada para alargar la vida de tus alimentos, única con sistema de conservación Himalaya de 5 componentes: frío sectorizado según las necesidades de tus alimentos, temperatura estable en cada zona evitando la propagación de bacterias, corrientes de frio óptimas, que recorren cada rincón de la nevera, separador de frutas y verduras con control de humedad para conservarlas mejor, y compartimiento extra-frío: zona para descongelar con menos cambios de temperatura. No esperes más y ¡Compra la tuya!",
-    "features": [
-      "Amplio espacio interior, para que ordenar sea un placer",
-      "Iluminación LED de gran alcance, mayor visual, menos sombras",
-      "Fabricador de hielo: hielos más grandes y fáciles de sacar",
-      "Dispensador de agua de fácil llenado, capacidad máxima 3 Lts"
-    ],
-    "tags": ["te-puede-interesar"]
-  },
-  {
     "id": "141",
     "category": "linea_blanca",
     "name": "Lavadora KALLEY 12 Kilos K-LD12GE Gris",
@@ -693,22 +677,6 @@ export const products = [
     "tags": []
   },
   {
-    "id": "143",
-    "category": "linea_blanca",
-    "name": "Lavadora CHALLENGER 18 KilosCW5718 Gray",
-    "image": "images/products/143.webp",
-    "price": 1648955,
-    "shortdescription": "Con la Lavadora 18 kg Carga Superior CHALLENGER cada lavado es sinónimo de cuidado, potencia y comodidad.",
-    "description": "Su gran capacidad te permite lavar más en menos tiempo, mientras sus múltiples programas se adaptan a cada tipo de prenda para obtener resultados impecables. Su sistema inteligente optimiza el consumo y su diseño pensado para tu día a día hace que lavar sea más simple y eficiente. ¡Llévala ahora y transforma tu forma de lavar!",
-    "features": [
-      "Sistema One Touch para un lavado más fácil",
-      "8 programas para todo tipo de prendas",
-      "Tambor de acero inoxidable que protege tu ropa",
-      "Entradas de agua fría y caliente para mejor limpieza "
-    ],
-    "tags": []
-  },
-  {
     "id": "144",
     "category": "linea_blanca",
     "name": "Lavadora WHIRLPOOL 20 Kilos WW20NNAHLA",
@@ -721,38 +689,6 @@ export const products = [
       "Smart Action: 3 tecnologías para lavado potente y suave.",
       "Ciclo Mascotas: Elimina hasta 68% más pelo.",
       "Xpert Cycles: Máxima limpieza y cuidado de prendas."
-    ],
-    "tags": []
-  },
-  {
-    "id": "145",
-    "category": "linea_blanca",
-    "name": "Estufa de Piso ABBA 4 Puestos",
-    "image": "images/products/145.webp",
-    "price": 549890,
-    "shortdescription": " Con Gabinete Gas Natural AT 20GEN N Negro",
-    "description": "En la estufa con Gabinete ABBA AT 20GEN N a gas natural encuentra todo lo necesario para cocinar con comodidad, tales como 3 quemadores rápidos y 1 quemador ultra rápido para ahorrar tiempo en cocción, mesón en esmalte porcelanizado con niveles antiderrame para facilitar la limpieza y en su estructura cuenta un práctico gabinete multiusos para almacenar mercado o para guardar los utensilios con los que cocina. ¡Lleva la tuya ahora!",
-    "features": [
-      "Mesa en Esmalte Porcelanizado Negro de alta resistencia",
-      "Quemadores en Aluminio",
-      "2 parrillas dobles en alambrón porcelanizado mate",
-      "Mesa con niveles antiderrame para fácil limpieza"
-    ],
-    "tags": []
-  },
-  {
-    "id": "146",
-    "category": "linea_blanca",
-    "name": "Estufa de Piso SUPERIOR 4 Puestos",
-    "image": "images/products/146.jpg",
-    "price": 676555,
-    "shortdescription": "Gas Natural 7016-1 Gris",
-    "description": "La Línea de estufas Superior no solo te brinda calidad si no todo lo necesario para cocinar con tranquilidad, seguridad y comodidad. Su Diseño con vidrio templado que cubre la Estufa de empotrar en acero inoxidable, brinda mayor durabilidad y protección. Cuenta con tres quemadores rápidos y uno super rápido permitirá ahorrar tiempo en la preparación de alimentos, sus parrillas en platina porcelanizada que garantiza una mayor vida útil. El gabinete es un espacio multiusos que permite almacenar alimentos o utensilios de cocina, doble lamina en la puerta que le da mayor estabilidad y durabilidad al gabinete.",
-    "features": [
-      "Estufa de empotrar en acero inoxidable",
-      "Válvula de seguridad",
-      "Doble lamina en la puerta",
-      "Tres quemadores semi rapidos y un quemador rapido"
     ],
     "tags": []
   },
