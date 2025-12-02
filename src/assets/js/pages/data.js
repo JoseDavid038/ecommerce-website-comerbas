@@ -643,7 +643,7 @@ export const products = [
       "Mayor capacidad de almacentamiento + Smart Pocket",
       "Modos: Congelamiento rápido y ahorro de energía"
     ],
-    "tags": []
+    "tags": ["te-puede-interesar"]
   },
   {
     "id": "141",
