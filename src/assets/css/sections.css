@@ -676,3 +676,60 @@
   }
 }
 
+
+/* --- Botón Seguir Comprando --- */
+
+.continue-shopping-container {
+  margin-top: 1.5rem;
+  /* En Móvil: Centrado para que sea fácil de tocar con el pulgar */
+  text-align: center; 
+  padding-bottom: 1rem; /* Un poco de aire antes del formulario en móvil */
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #555; /* Gris oscuro para no distraer demasiado */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid transparent; /* Reserva espacio para el borde hover */
+}
+
+.btn-secondary i {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto Hover */
+.btn-secondary:hover {
+  color: var(--background-dark-blue); /* Tu color corporativo */
+  background-color: #fff;
+  border-color: #e0e4ec; /* Borde sutil al pasar el mouse */
+  transform: translateX(-3px); /* Pequeño movimiento a la izquierda */
+}
+
+.btn-secondary:hover i {
+  transform: translateX(-3px); /* La flecha se mueve un poco más */
+}
+
+/* --- Ajuste para Desktop (Alineación a la izquierda) --- */
+@media screen and (min-width: 1024px) {
+  .continue-shopping-container {
+    text-align: left; /* En escritorio se alinea a la izquierda de la columna */
+    margin-top: 1rem;
+    padding-bottom: 0;
+  }
+  
+  .btn-secondary {
+    padding-left: 0; /* Quitamos padding izquierdo para alinear con el texto de arriba */
+  }
+  
+  .btn-secondary:hover {
+     padding-left: 1rem; /* Recuperamos padding al hacer hover para efecto botón */
+  }
+}
