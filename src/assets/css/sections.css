@@ -25,6 +25,10 @@
   display: flex;
 }
 
+.swiper-wrapper {
+  align-items: stretch; /* Obliga a todos los slides a tener el mismo alto */
+}
+
 .swiper-slide-card {
   background: #fff;
   border-radius: 10px;
@@ -33,6 +37,11 @@
   text-align: center;
   min-width: 220px;
   margin-top: 2rem;
+
+  height: auto; /* Permite que Swiper estire la tarjeta */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Empuja el contenido a los extremos */
 }
 
 .swiper-slide-card img {
@@ -54,19 +63,6 @@
 }
 
 
-/* .swiper-slide-card{
-  border-radius: 25px;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  padding-inline: 1rem;
-  margin-top: 1rem;
-  height: auto;
-  border-color: #E4E5E7;
-  border-style: solid;
-  border-width: 2px;
-} */
-
-
 .name__product-card {
   font-size: var(--font-large);
   color: var(--background-dark-blue);
@@ -85,19 +81,20 @@
 .card-info-container {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 0.5rem;
+  flex-grow: 1; /* Esto hace que el texto ocupe el espacio disponible */
+  justify-content: space-between;
 }
 
 .card-image-container {
   margin-bottom: 1.1rem;
   width: 100%;
-  min-height: 220px;
-  /* altura fija para uniformar */
+  height: 250px; /* CAMBIO CLAVE: Usamos height fijo, no min-height */
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  /* evita desbordes */
+  background-color: #fff; /* Asegura fondo blanco si la imagen es png transparente */
 }
 
 .card-image-container img,
@@ -638,6 +635,11 @@
   padding: 1rem;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
   transition: transform .2s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%; /* Obliga a la tarjeta a llenar la celda del grid */
 }
 
 .product-card:hover {

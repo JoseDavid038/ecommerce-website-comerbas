@@ -22,10 +22,10 @@ export const products = [
   {
     "id": "101",
     "category": "audio_video",
-    "name": "TV KALLEY 32\" ",
+    "name": "TV KALLEY 32\" K-RTV32HD. ",
     "image": "images/products/101.jpg",
     "price": 550000,
-    "shortdescription": "Kalley te trae el sistema operativo #1 de EEUU a Colombia. K-RTV32HD.",
+    "shortdescription": "Kalley te trae el sistema operativo #1 de EEUU a Colombia.",
     "description": "Kalley Roku TV de 32\" tiene una excelente calidad de imagen gracias a su pantalla HD y con su sonido Dolby Audio, está diseñado para que vivas una experiencia inmersiva. Con su sistema operativo Roku TV, navega sin esfuerzo. Disfruta de +5.000 apps y +100.000 películas y series para elegir, actualizaciones de software dos veces por año y desde el menú principal busca tu contenido favorito, puedes buscar por nombre de actor, director, título o género favorito. Menos vueltas, más contenido. ¡Cómpra tu Kalley Roku TV ahora!",
     "features": [
       "Comandos de voz para mayor rapidez",
@@ -49,7 +49,7 @@ export const products = [
       "Chromecast & Airplay:Transmite desde otros dispositivos al Tv",
       "Bluetooth AudioLink: amplifica fácilmente el sonido de tu Tv"
     ],
-    "tags": ["te-puede-interesar","recomendado1"]
+    "tags": ["te-puede-interesar"]
   },
   {
     "id": "103",
@@ -86,7 +86,7 @@ export const products = [
   {
     "id": "105",
     "category": "audio_video",
-    "name": "TV HYUNDAI 43\"",
+    "name": "TV HYUNDAI 43\" Sistema Operativo Roku",
     "image": "images/products/105.webp",
     "price": 933977,
     "shortdescription": "Referencia: HYLED4325RiM",
@@ -499,7 +499,7 @@ export const products = [
   {
     "id": "131",
     "category": "electromenores",
-    "name": "Freidora de Aire KALLEY 6.3 Litros K-MAF6 Negro",
+    "name": "Freidora de Aire KALLEY 6.3 Litros K-MAF6",
     "image": "images/products/131.webp",
     "price": 285890,
     "shortdescription": "La Freidora KALLEY K-MAF6 es el aliado ideal para tu cocina. ",
@@ -515,10 +515,10 @@ export const products = [
   {
     "id": "132",
     "category": "electromenores",
-    "name": "Freidora de Aire BLACK+DECKER 4.5 Litros HF4004B Negro",
+    "name": "Freidora de Aire BLACK+DECKER 4.5L",
     "image": "images/products/132.webp",
     "price": 270490,
-    "shortdescription": "Cocina sin culpa y más rápido con La Freidora de Aire Saludable de BLACK+DECKER®.",
+    "shortdescription": "Cocina sin culpa y más rápido con La Freidora de Aire Saludable de BLACK+DECKER® HF4004B Negro.",
     "description": "Con capacidad de 4.5 litros, es perfecta para freír y hornear porciones más grandes de tus comidas favoritas en poco tiempo. Con esta revolucionaria manera de cocinar, puedes disfrutar deliciosos alimentos fritos sin grasa y con el mismo sabor.",
     "features": [
       "Capacidad extra grande de 4.5 Litros",
@@ -548,7 +548,7 @@ export const products = [
   {
     "id": "134",
     "category": "electromenores",
-    "name": "Horno Microondas KALLEY 0.7 Pies K-MW07N Negro",
+    "name": "Horno Microondas KALLEY 0.7 Pies",
     "image": "images/products/134.webp",
     "price": 280390,
     "shortdescription": "El Horno Microondas Kalley K-MW07N cuenta con una potencia de 700W que permite cocinar tus alimentos en menor tiempo. ",
@@ -723,5 +723,100 @@ export const products = [
       "Dorador en el horno"
     ],
     "tags": []
-  }
+  },
+  {
+  "id": "201",
+  "category": "bicicletas",
+  "name": "KTM Ultra Ride Talla M/43",
+  "image": "images/products/201.webp",
+  "price": 4460679,
+  
+  "shortdescription": "Bicicleta ideal para recorridos largos con comodidad y eficiencia.",
+  
+  "description": "La KTM Ultra Ride Talla M/43 está diseñada para ofrecer un rendimiento superior en recorridos largos, gracias a su ergonomía avanzada y componentes de alta calidad. Su cuadro en aluminio 6061 proporciona ligereza y resistencia, mientras que su transmisión SRAM Eagle SX 1x12 asegura suavidad y precisión en cada cambio. Equipada con frenos hidráulicos Shimano y llantas Schwalbe Rapid Rob 29'', esta bicicleta es perfecta para usuarios que buscan un producto confiable, cómodo y eficiente.",
+  
+  "features": [
+    "Cuadro: Aluminio 6061 con diseño ergonómico",
+    "Transmisión: SRAM Eagle SX 1x12 velocidades",
+    "Suspensión: Horquilla Suntour XCM",
+    "Frenos: Shimano MT200 hidráulicos",
+    "Llantas: Schwalbe Rapid Rob 29''",
+    "Color: Azul petróleo con detalles naranja"
+  ],
+
+  "tags": ["recomendado2"]
+},
+{
+  "id": "202",
+  "category": "bicicletas",
+  "name": "KTM Ultra Sport Talla M/43",
+  "image": "images/products/202.webp",
+  "price": 5185911,
+  "shortdescription": "Bicicleta montaña aluminio 6061 con geometría deportiva.",
+  "description": "Diseñada para quienes desean avanzar al siguiente nivel con una horquilla RockShox y geometría deportiva, ideal para rutas exigentes y ciclistas que buscan mejor rendimiento.",
+  "features": [
+    "Cuadro: Aluminio 6061 con geometría deportiva",
+    "Transmisión: SRAM Eagle SX 1x12 velocidades",
+    "Suspensión: Horquilla RockShox Judy",
+    "Frenos: Shimano MT200 hidráulicos",
+    "Llantas: Schwalbe Rapid Rob 29\"",
+    "Color: Naranja con detalles gris oscuro"
+  ],
+  "tags": ["te-puede-interesar"]
+},
+{
+  "id": "203",
+  "category": "bicicletas",
+  "name": "KTM Ultra Fun 29  Tallas M/43, L/48, XL/53",
+  "image": "images/products/203.webp",
+  "price": 4216140,
+  "shortdescription": "Bicicleta de montaña ideal para equilibrio entre rendimiento y confort.",
+  "description": "Pensada para ciclistas que buscan un equilibrio entre rendimiento, confort y eficiencia en rutas de montaña. Su cuadro ligero y componentes confiables la hacen ideal para entrenamientos y travesías.",
+  "features": [
+    "Cuadro: Aluminio ligero 6061",
+    "Transmisión: SRAM Eagle SX 1x12 velocidades",
+    "Suspensión: Horquilla Suntour XCR 32",
+    "Frenos: Discos hidráulicos Shimano MT200",
+    "Ruedas: 29\" con llantas MAXXIS RECON RACE",
+    "Color: Negro con detalles naranja"
+  ],
+  "tags": ["recomendado1"]
+},
+{
+  "id": "204",
+    "category": "bicicletas",
+    "name": "KTM Ultra Fun Talla M/43 (Azul)",
+    "image": "images/products/204.webp",
+    "price": 3367862,
+    "shortdescription": "Una bicicleta accesible y confiable para disfrutar del ciclismo en senderos y rutas urbanas.",
+    "description": "La KTM Ultra Fun está diseñada para ciclistas que buscan versatilidad. Su combinación de un cuadro resistente de aluminio 6061 con una geometría cómoda la convierte en la opción ideal tanto para iniciarse en senderos de montaña como para recorridos urbanos diarios.",
+    "features": [
+      "Cuadro: Aluminio 6061",
+      "Transmisión: Shimano Deore 2x9 velocidades",
+      "Suspensión: Horquilla Suntour XCR",
+      "Frenos: Shimano MT200 hidráulicos",
+      "Llantas: Schwalbe Rapid Rob 29\"",
+      "Color: Azul con detalles en negro"
+    ],
+    "tags": [""]
+},
+{
+  "id": "205",
+    "category": "bicicletas",
+    "name": "KTM Ultra Fun Talla M/43 (Negro)",
+    "image": "images/products/205.webp",
+    "price": 3367862,
+    "shortdescription": "Una bicicleta accesible y confiable para disfrutar del ciclismo en senderos y rutas urbanas.",
+    "description": "La KTM Ultra Fun en su versión negra ofrece elegancia y rendimiento. Diseñada para ciclistas que buscan versatilidad, su cuadro de aluminio 6061 y componentes Shimano garantizan durabilidad y confort en cualquier terreno.",
+    "features": [
+      "Cuadro: Aluminio 6061",
+      "Transmisión: Shimano Deore 2x9 velocidades",
+      "Suspensión: Horquilla Suntour XCR",
+      "Frenos: Shimano MT200 hidráulicos",
+      "Llantas: Schwalbe Rapid Rob 29\"",
+      "Color: Negro con detalles en gris"
+    ],
+    "tags": [""]
+}
+
 ];

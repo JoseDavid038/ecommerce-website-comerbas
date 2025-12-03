@@ -41,10 +41,22 @@ function renderSuggestions(container, matches) {
 }
 
 // Filtrado simple por nombre (insensible a mayúsculas)
+// Filtrado por nombre O categoría (insensible a mayúsculas)
 function findMatches(q) {
   const term = q.trim().toLowerCase();
   if (!term) return [];
-  return products.filter(p => p.name.toLowerCase().includes(term));
+  
+  return products.filter(p => {
+    // 1. Buscamos coincidencia en el nombre
+    const nameMatch = p.name.toLowerCase().includes(term);
+    
+    // 2. Buscamos coincidencia en la categoría 
+    // (usamos p.category && ... para evitar error si algún producto no tuviera categoría)
+    const categoryMatch = p.category && p.category.toLowerCase().includes(term);
+
+    // 3. Retornamos true si cumple CUALQUIERA de las dos
+    return nameMatch || categoryMatch;
+  });
 }
 
 // Crea el contenedor de sugerencias y lo inserta después del input
