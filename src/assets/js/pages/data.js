@@ -22,37 +22,22 @@ export const products = [
   {
     "id": "101",
     "category": "audio_video",
-    "name": "TV KALLEY 32\" K-RTV32HD. ",
-    "image": "images/products/101.jpg",
-    "price": 550000,
-    "shortdescription": "Kalley te trae el sistema operativo #1 de EEUU a Colombia.",
-    "description": "Kalley Roku TV de 32\" tiene una excelente calidad de imagen gracias a su pantalla HD y con su sonido Dolby Audio, está diseñado para que vivas una experiencia inmersiva. Con su sistema operativo Roku TV, navega sin esfuerzo. Disfruta de +5.000 apps y +100.000 películas y series para elegir, actualizaciones de software dos veces por año y desde el menú principal busca tu contenido favorito, puedes buscar por nombre de actor, director, título o género favorito. Menos vueltas, más contenido. ¡Cómpra tu Kalley Roku TV ahora!",
+    "name": "TV TCL 32\" ",
+    "image": "images/products/101.webp",
+    "price": 669977,
+    "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 32S5K Smart TV Google",
+    "description": "Su avanzada pantalla QLED optimiza en tiempo real la precisión de colores y brillos. Disfruta de Dolby Audio para obtener la mejor calidad de sonido, el cual sumado con los diferentes modos de visualización como Video Juego, Deportes o Películas te brindara una experiencia sin igual. ¿Quieres reproducir el contenido de tu celular en tu TV? Con Google Cast lo puedes hacer, reproduce el contenido de tu celular en tu TV para un sonido y visión mas amplios. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
     "features": [
-      "Comandos de voz para mayor rapidez",
-      "Búsqueda eficiente desde el menú principal",
-      "Actualizaciones de software dos veces por año",
-      "LED: proyecta imágenes con mayor contraste y de gran calidad"
+      "Dolby Audio: Mejor calidad y claridad de sonido",
+      "Google Cast: Refleja el contenido del celular en la TV",
+      "Color, brillo y contraste mejorado con HDR10",
+      "Modo de visualización múltiple: Video juegos, películas y deportes",
+      "Excelente calidad: 2 años de garantia"
     ],
     "tags": ["mas-vendido"]
   },
   {
     "id": "102",
-    "category": "audio_video",
-    "name": "TV PANASONIC 43\"",
-    "image": "images/products/102.webp",
-    "price": 1153977,
-    "shortdescription": "La serie de TV NS600 de PANASONIC te brinda una imagen de alta calidad.43NS600.",
-    "description": "Su tecnología Vivid Digital Pro, está diseñada para mejorar tu experiencia visual brindando tonos de piel naturales, mejorando el brillo y agudizando los detalles de las imágenes. Agrega esto con la capacidad de disfrutar todo tu contenido favorito gracias al sistema operativo Google TV, y ¡Tendrás un televisor de alta tecnología japonesa que se adapta a las preferencias de toda la familia! ¡Compra el tuyo ya!",
-    "features": [
-      "Google TV: Streaming, música y mas Organizado para tu hogar",
-      "Vivid Digital Pro tonos naturales, brillo y detalles agudos",
-      "Chromecast & Airplay:Transmite desde otros dispositivos al Tv",
-      "Bluetooth AudioLink: amplifica fácilmente el sonido de tu Tv"
-    ],
-    "tags": ["te-puede-interesar"]
-  },
-  {
-    "id": "103",
     "category": "audio_video",
     "name": "TV KALLEY 40\"",
     "image": "images/products/103.webp",
@@ -66,6 +51,22 @@ export const products = [
       "Puedes crear perfiles dedicados para niños personalizables"
     ],
     "tags": []
+  },
+  {
+    "id": "103",
+    "category": "audio_video",
+    "name": "TV PANASONIC 43\"",
+    "image": "images/products/102.webp",
+    "price": 1153977,
+    "shortdescription": "La serie de TV NS600 de PANASONIC te brinda una imagen de alta calidad.43NS600.",
+    "description": "Su tecnología Vivid Digital Pro, está diseñada para mejorar tu experiencia visual brindando tonos de piel naturales, mejorando el brillo y agudizando los detalles de las imágenes. Agrega esto con la capacidad de disfrutar todo tu contenido favorito gracias al sistema operativo Google TV, y ¡Tendrás un televisor de alta tecnología japonesa que se adapta a las preferencias de toda la familia! ¡Compra el tuyo ya!",
+    "features": [
+      "Google TV: Streaming, música y mas Organizado para tu hogar",
+      "Vivid Digital Pro tonos naturales, brillo y detalles agudos",
+      "Chromecast & Airplay:Transmite desde otros dispositivos al Tv",
+      "Bluetooth AudioLink: amplifica fácilmente el sonido de tu Tv"
+    ],
+    "tags": ["te-puede-interesar"]
   },
   {
     "id": "104",
@@ -114,6 +115,57 @@ export const products = [
       "Tú experiencia y datos protegidos por Samsung Knox Security"
     ],
     "tags": []
+  },
+  {
+    "id": "150",
+    "category": "audio_video",
+    "name": "TV TCL 43\"",
+    "image": "images/products/150.webp",
+    "price": 1043977,
+    "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 43S5K Smart TV Google",
+    "description": "Su avanzada pantalla QLED optimiza en tiempo real la precisión de colores y brillos. Disfruta de Dolby Audio para obtener la mejor calidad de sonido, el cual sumado con los diferentes modos de visualización como Video Juego, Deportes o Películas te brindara una experiencia sin igual. ¿Quieres reproducir el contenido de tu celular en tu TV? Con Google Cast lo puedes hacer, reproduce el contenido de tu celular en tu TV para un sonido y visión mas amplios. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
+    "features": [
+      "Dolby Audio: Mejor calidad y claridad de sonido",
+      "Google Cast: Refleja el contenido del celular en la TV",
+      "Color, brillo y contraste mejorado con HDR10",
+      "Modo de visualización múltiple: Video juegos, películas y deportes",
+      "Excelente calidad: 2 años de garantia"
+    ],
+    "tags": [""]
+  },
+  {
+    "id": "151",
+    "category": "audio_video",
+    "name": "TV TCL 50\"",
+    "image": "images/products/151.webp",
+    "price": 1483977,
+    "shortdescription": "El TV ideal para tu hogar es de TCL serie V6C. 50V6C 4K-UHD Smart TV Google.",
+    "description": "Su tecnología HDR10+ y el procesador AiPQ con inteligencia artificial, te ofrece colores vibrantes con la mejor resolución y brillo en tiempo real, lo cual sumado a la certificación de sonido Dolby Audio te dará una excelente fidelidad de sonido, diálogos más claros y sonidos más reales para una experiencia audio visual sin igual. ¿Amante de la acción y los deportes? Su tecnología MEMC siempre te dará imágenes fluidas y sin desenfoques para que disfrutes al máximo. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
+    "features": [
+      "Inteligencia artificial ajustes automático en tiempo real",
+      "Fidelidad de sonido con Dolby Audio",
+      "MEMC: Imágenes sin desenfoque",
+      "Color, brillo y contraste superior con HDR10+",
+      "Excelente calidad: 2 años de garantia"
+    ],
+    "tags": [""]
+  },
+  {
+    "id": "152",
+    "category": "audio_video",
+    "name": "TV TCL 55\"",
+    "image": "images/products/152.webp",
+    "price": 1593977,
+    "shortdescription": "El TV ideal para tu hogar es de TCL serie V6C. 55V6C 4K-UHD Smart TV Google",
+    "description": "Su tecnología HDR10+ y el procesador AiPQ con inteligencia artificial, te ofrece colores vibrantes con la mejor resolución y brillo en tiempo real, lo cual sumado a la certificación de sonido Dolby Audio te dará una excelente fidelidad de sonido, diálogos más claros y sonidos más reales para una experiencia audio visual sin igual. ¿Amante de la acción y los deportes? Su tecnología MEMC siempre te dará imágenes fluidas y sin desenfoques para que disfrutes al máximo. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
+    "features": [
+      "Inteligencia artificial ajustes automático en tiempo real",
+      "Fidelidad de sonido con Dolby Audio",
+      "MEMC: Imágenes sin desenfoque",
+      "Color, brillo y contraste superior con HDR10+",
+      "Excelente calidad: 2 años de garantia"
+    ],
+    "tags": [""]
   },
   {
     "id": "107",
@@ -817,74 +869,6 @@ export const products = [
       "Color: Negro con detalles en gris"
     ],
     "tags": [""]
-},
-{
-    "id": "149",
-    "category": "audio_video",
-    "name": "TV TCL 32\" ",
-    "image": "images/products/149.webp",
-    "price": 669977,
-    "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 32S5K Smart TV Google",
-    "description": "Su avanzada pantalla QLED optimiza en tiempo real la precisión de colores y brillos. Disfruta de Dolby Audio para obtener la mejor calidad de sonido, el cual sumado con los diferentes modos de visualización como Video Juego, Deportes o Películas te brindara una experiencia sin igual. ¿Quieres reproducir el contenido de tu celular en tu TV? Con Google Cast lo puedes hacer, reproduce el contenido de tu celular en tu TV para un sonido y visión mas amplios. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
-    "features": [
-      "Dolby Audio: Mejor calidad y claridad de sonido",
-      "Google Cast: Refleja el contenido del celular en la TV",
-      "Color, brillo y contraste mejorado con HDR10",
-      "Modo de visualización múltiple: Video juegos, películas y deportes",
-      "Excelente calidad: 2 años de garantia"
-    ],
-    "tags": ["mas-vendido"]
-  },
-  {
-    "id": "150",
-    "category": "audio_video",
-    "name": "TV TCL 43\"",
-    "image": "images/products/150.webp",
-    "price": 1043977,
-    "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 43S5K Smart TV Google",
-    "description": "Su avanzada pantalla QLED optimiza en tiempo real la precisión de colores y brillos. Disfruta de Dolby Audio para obtener la mejor calidad de sonido, el cual sumado con los diferentes modos de visualización como Video Juego, Deportes o Películas te brindara una experiencia sin igual. ¿Quieres reproducir el contenido de tu celular en tu TV? Con Google Cast lo puedes hacer, reproduce el contenido de tu celular en tu TV para un sonido y visión mas amplios. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
-    "features": [
-      "Dolby Audio: Mejor calidad y claridad de sonido",
-      "Google Cast: Refleja el contenido del celular en la TV",
-      "Color, brillo y contraste mejorado con HDR10",
-      "Modo de visualización múltiple: Video juegos, películas y deportes",
-      "Excelente calidad: 2 años de garantia"
-    ],
-    "tags": [""]
-  },
-  {
-    "id": "151",
-    "category": "audio_video",
-    "name": "TV TCL 50\"",
-    "image": "images/products/151.webp",
-    "price": 1483977,
-    "shortdescription": "El TV ideal para tu hogar es de TCL serie V6C. 50V6C 4K-UHD Smart TV Google.",
-    "description": "Su tecnología HDR10+ y el procesador AiPQ con inteligencia artificial, te ofrece colores vibrantes con la mejor resolución y brillo en tiempo real, lo cual sumado a la certificación de sonido Dolby Audio te dará una excelente fidelidad de sonido, diálogos más claros y sonidos más reales para una experiencia audio visual sin igual. ¿Amante de la acción y los deportes? Su tecnología MEMC siempre te dará imágenes fluidas y sin desenfoques para que disfrutes al máximo. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
-    "features": [
-      "Inteligencia artificial ajustes automático en tiempo real",
-      "Fidelidad de sonido con Dolby Audio",
-      "MEMC: Imágenes sin desenfoque",
-      "Color, brillo y contraste superior con HDR10+",
-      "Excelente calidad: 2 años de garantia"
-    ],
-    "tags": [""]
-  },
-  {
-    "id": "152",
-    "category": "audio_video",
-    "name": "TV TCL 55\"",
-    "image": "images/products/152.webp",
-    "price": 1593977,
-    "shortdescription": "El TV ideal para tu hogar es de TCL serie V6C. 55V6C 4K-UHD Smart TV Google",
-    "description": "Su tecnología HDR10+ y el procesador AiPQ con inteligencia artificial, te ofrece colores vibrantes con la mejor resolución y brillo en tiempo real, lo cual sumado a la certificación de sonido Dolby Audio te dará una excelente fidelidad de sonido, diálogos más claros y sonidos más reales para una experiencia audio visual sin igual. ¿Amante de la acción y los deportes? Su tecnología MEMC siempre te dará imágenes fluidas y sin desenfoques para que disfrutes al máximo. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
-    "features": [
-      "Inteligencia artificial ajustes automático en tiempo real",
-      "Fidelidad de sonido con Dolby Audio",
-      "MEMC: Imágenes sin desenfoque",
-      "Color, brillo y contraste superior con HDR10+",
-      "Excelente calidad: 2 años de garantia"
-    ],
-    "tags": [""]
-  }
+}
 
 ];
