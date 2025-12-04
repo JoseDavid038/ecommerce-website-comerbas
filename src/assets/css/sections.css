@@ -722,8 +722,9 @@
   .continue-shopping-container {
     text-align: left; /* En escritorio se alinea a la izquierda de la columna */
     margin-top: 1rem;
-    padding-bottom: 0;
+    padding-bottom: 1rem;
   }
+  
   
   .btn-secondary {
     padding-left: 0; /* Quitamos padding izquierdo para alinear con el texto de arriba */
