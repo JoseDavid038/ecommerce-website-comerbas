@@ -5,11 +5,8 @@ import "./assets/js/pages/search.js";
 import "./assets/js/swiper.js";
 import "./assets/js/swiper-bundle.min.js";
 import "./assets/js/pages/contact-form.js";
-import "./assets/js/pages/modal.js";
-
-
-
-
+import "./assets/js/pages/modal-form.js";
+import "./assets/js/pages/modal-promo.js";
 
 
 import "./assets/css/variables.css";

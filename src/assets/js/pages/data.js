@@ -22,10 +22,10 @@ export const products = [
   {
     "id": "101",
     "category": "audio_video",
-    "name": "TV TCL 32\" ",
+    "name": "TV TCL 32\" Smart TV Google",
     "image": "images/products/101.webp",
     "price": 669977,
-    "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 32S5K Smart TV Google",
+    "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 32S5K.",
     "description": "Su avanzada pantalla QLED optimiza en tiempo real la precisión de colores y brillos. Disfruta de Dolby Audio para obtener la mejor calidad de sonido, el cual sumado con los diferentes modos de visualización como Video Juego, Deportes o Películas te brindara una experiencia sin igual. ¿Quieres reproducir el contenido de tu celular en tu TV? Con Google Cast lo puedes hacer, reproduce el contenido de tu celular en tu TV para un sonido y visión mas amplios. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
     "features": [
       "Dolby Audio: Mejor calidad y claridad de sonido",

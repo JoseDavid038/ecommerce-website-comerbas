@@ -1,5 +1,5 @@
 // Cargar modal desde /components/modal.html
-fetch("./components/modal.html")
+fetch("./components/modal-form.html")
   .then(res => res.text())
   .then(html => {
     document.body.insertAdjacentHTML("beforeend", html);
