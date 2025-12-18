@@ -1,4 +1,4 @@
-import{p as o}from"./main-U3XpfLZT.js";const t=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function i(e,a){const c=document.querySelector(a);c&&(c.innerHTML=e.map(r=>`
+import{p as o}from"./main-rIXKCsdn.js";const t=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function i(e,a){const c=document.querySelector(a);c&&(c.innerHTML=e.map(r=>`
     <article class="product-card">
       <div class="card-image-container">
         <a href="detalleproducto.html?id=${r.id}">

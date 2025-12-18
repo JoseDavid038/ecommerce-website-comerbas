@@ -1,4 +1,4 @@
-import{c as r,g as u,d as i,u as l,i as m}from"./main-U3XpfLZT.js";const s=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function c(){if(!r||r.length===0){const t=`
+import{c as r,g as u,d as i,u as l,i as m}from"./main-rIXKCsdn.js";const s=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function c(){if(!r||r.length===0){const t=`
       <p class="detalle__subtotal">Total productos: <span>${s.format(0)}</span></p>
       <p>Envío: <span>$0.00</span></p>
       <div class="subtotal-line">
@@ -6,7 +6,7 @@ import{c as r,g as u,d as i,u as l,i as m}from"./main-U3XpfLZT.js";const s=new I
       </div>
     `,e=document.querySelector(".js-payment-summary");e&&(e.innerHTML=t);return}let o=0;r.forEach(t=>{const e=u(t.productId);if(!e){console.warn(`Producto con id ${t.productId} no encontrado en data.js — se omite.`);return}o+=e.price*t.quantity});const a=`
     <p class="detalle__subtotal">Total productos: <span>${s.format(o)}</span></p>
-    <p>Envío: <span>$0.00</span></p>
+    
     <div class="subtotal-line">
       <p class="detalle__total">Total a financiar: <span>${s.format(o)}</span></p>
     </div>
