@@ -44,7 +44,7 @@ export function renderOrderSummary(){
 
   const paymentSummaryHTML = `
     <p class="detalle__subtotal">Total productos: <span>${formatoCOP.format(productPrice)}</span></p>
-    <p>Envío: <span>$0.00</span></p>
+    
     <div class="subtotal-line">
       <p class="detalle__total">Total a financiar: <span>${formatoCOP.format(productPrice)}</span></p>
     </div>
@@ -54,4 +54,5 @@ export function renderOrderSummary(){
   if (target) target.innerHTML = paymentSummaryHTML;
 }
 
+// <p>Envío: <span>$0.00</span></p>
 // **NO** llamar renderOrderSummary() aquí — lo llamamos desde checkout.js
