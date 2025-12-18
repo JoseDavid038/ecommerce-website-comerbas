@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Datos del formulario
     const name = document.getElementById('name').value.trim();
     const cedula = document.getElementById('cedula').value.trim();
+    const ciudad = document.getElementById('ciudad').value.trim();
     const email = document.getElementById('email').value.trim();
     const phone = document.getElementById('phone').value.trim();
 
@@ -77,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const templateParams = {
       name,
       cedula,
+      ciudad,
       email,
       phone,
       cart_items: productListText,
