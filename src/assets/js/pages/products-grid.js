@@ -1,4 +1,3 @@
-
 import { products } from './data.js';
 
 // Formateador de moneda
@@ -29,15 +28,20 @@ function renderProducts(array, targetClass) {
   `).join('');
 }
 
-// 🔹 Filtrar por categoría
-const categorias = ["audio_video", "celulares","computadores" , "electromenores", "linea_blanca", "bicicletas"];
+// 🔹 1. FILTRO DE SEGURIDAD: Solo productos habilitados
+// Esto asegura que si isEnabled es false, el producto no exista para el resto del script
+const activeProducts = products.filter(p => p.isEnabled !== false);
+
+// 🔹 2. Filtrar por categoría (usando ahora activeProducts)
+const categorias = ["audio_video", "celulares", "computadores", "electromenores", "linea_blanca", "bicicletas"];
 
 categorias.forEach(categoria => {
-  const productosFiltrados = products.filter(p => p.category === categoria);
+  // Filtramos sobre la lista de productos ya validados como activos
+  const productosFiltrados = activeProducts.filter(p => p.category === categoria);
   renderProducts(productosFiltrados, `.js-${categoria}-grid`);
 });
 
-
+// 
 
 // Esperar a que la página cargue completamente
 window.addEventListener('DOMContentLoaded', () => {
@@ -50,4 +54,3 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
-
