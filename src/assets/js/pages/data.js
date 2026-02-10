@@ -65,7 +65,7 @@ export const products = [
       "Chromecast & Airplay:Transmite desde otros dispositivos al Tv",
       "Bluetooth AudioLink: amplifica fácilmente el sonido de tu Tv"
     ],
-    "tags": ["te-puede-interesar"]
+    "tags": ["te-puede-interesar", "recomendado1"]
   },
   {
     "id": "104",
