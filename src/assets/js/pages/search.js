@@ -1,5 +1,4 @@
-
-import { products} from './data.js';
+import { products } from './data.js';
 
 // Debounce simple
 function debounce(fn, wait = 300) {
@@ -40,18 +39,19 @@ function renderSuggestions(container, matches) {
   container.innerHTML = html;
 }
 
-// Filtrado simple por nombre (insensible a mayúsculas)
-// Filtrado por nombre O categoría (insensible a mayúsculas)
+// 🔹 Función de filtrado actualizada con validación de disponibilidad
 function findMatches(q) {
   const term = q.trim().toLowerCase();
   if (!term) return [];
   
-  return products.filter(p => {
+  // Primero filtramos solo los productos activos para que la búsqueda sea segura
+  const activeProducts = products.filter(p => p.isEnabled !== false);
+
+  return activeProducts.filter(p => {
     // 1. Buscamos coincidencia en el nombre
     const nameMatch = p.name.toLowerCase().includes(term);
     
     // 2. Buscamos coincidencia en la categoría 
-    // (usamos p.category && ... para evitar error si algún producto no tuviera categoría)
     const categoryMatch = p.category && p.category.toLowerCase().includes(term);
 
     // 3. Retornamos true si cumple CUALQUIERA de las dos
@@ -59,15 +59,15 @@ function findMatches(q) {
   });
 }
 
+// 
+
 // Crea el contenedor de sugerencias y lo inserta después del input
 function ensureSuggestionsContainer(input) {
-  // buscar contenedor ya existente en torno al input
   let container = input.parentElement.querySelector('.js-search-suggestions');
   if (container) return container;
 
   container = document.createElement('div');
   container.className = 'js-search-suggestions search-suggestions';
-  // insertar después del input para que esté posicionado relativo a éste
   input.parentElement.appendChild(container);
   return container;
 }
@@ -75,7 +75,6 @@ function ensureSuggestionsContainer(input) {
 // Inicializa la búsqueda en un input concreto
 function initInputSearch(input) {
   if (!input) return;
-  // Evitar múltiples inicializaciones
   if (input.dataset.searchInit === '1') return;
   input.dataset.searchInit = '1';
 
@@ -84,7 +83,7 @@ function initInputSearch(input) {
   const onInput = debounce((e) => {
     const q = e.target.value || '';
     if (!q.trim()) {
-      suggestions.innerHTML = ''; // limpia si no hay texto
+      suggestions.innerHTML = ''; 
       suggestions.classList.remove('visible');
       return;
     }
@@ -95,29 +94,23 @@ function initInputSearch(input) {
 
   input.addEventListener('input', onInput);
 
-  // cerrar sugerencias al hacer click fuera
   document.addEventListener('click', (ev) => {
     if (!input.contains(ev.target) && !suggestions.contains(ev.target)) {
       suggestions.classList.remove('visible');
     }
   });
 
-  // manejar tecla Enter: si hay sugerencias y primera tiene link, seguirla:
   input.addEventListener('keydown', (ev) => {
     if (ev.key === 'Enter') {
       const first = suggestions.querySelector('a.search-suggestion');
       if (first) {
         ev.preventDefault();
         window.location.href = first.href;
-      } else {
-        // si no hay sugerencia, opcional: ir a productos.html?q=...
-        // window.location.href = `productos.html?q=${encodeURIComponent(input.value)}`;
       }
     }
   });
 }
 
-// Inicializa búsqueda para los inputs que existan
 function initSearchOnExisting() {
   const desktop = document.querySelector('.nav__search-desktop input') || document.querySelector('.nav__search-desktop .search__input');
   const mobile = document.querySelector('.nav__search-mobile input') || document.querySelector('.nav__search-mobile .search__input');
@@ -126,11 +119,8 @@ function initSearchOnExisting() {
   if (mobile) initInputSearch(mobile);
 }
 
-// Observador: el header se carga dinámicamente por fetch; detectamos cuando los inputs aparecen
 function watchForSearchInputs() {
   initSearchOnExisting();
-
-  // observa el nodo header por cambios (header se inserta con loadComponent)
   const headerNode = document.getElementById('header') || document.body;
   const observer = new MutationObserver(() => {
     initSearchOnExisting();
@@ -138,10 +128,8 @@ function watchForSearchInputs() {
   observer.observe(headerNode, { childList: true, subtree: true });
 }
 
-// Auto-init al cargar el módulo
 watchForSearchInputs();
 
-// export por si quieres inicializar manualmente
 export function initSearch() {
   watchForSearchInputs();
 }
