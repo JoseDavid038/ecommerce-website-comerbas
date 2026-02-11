@@ -20,8 +20,9 @@ export const products = [
     "category": "audio_video",
     "name": "TV TCL 32\" Smart TV Google",
     "image": "images/products/101.webp",
-    "price": 768977,
+    "price": 803931,
     "isEnabled": true,
+    "specs": { "size_value": 32, "unit": "pulgadas" },
     "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 32S5K.",
     "description": "Su avanzada pantalla QLED optimiza en tiempo real la precisión de colores y brillos. Disfruta de Dolby Audio para obtener la mejor calidad de sonido, el cual sumado con los diferentes modos de visualización como Video Juego, Deportes o Películas te brindara una experiencia sin igual. ¿Quieres reproducir el contenido de tu celular en tu TV? Con Google Cast lo puedes hacer, reproduce el contenido de tu celular en tu TV para un sonido y visión mas amplios. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
     "features": [
@@ -38,8 +39,9 @@ export const products = [
     "category": "audio_video",
     "name": "TV KALLEY 40\"",
     "image": "images/products/103.webp",
-    "price": 878977,
+    "price": 918931,
     "isEnabled": true,
+    "specs": { "size_value": 40, "unit": "pulgadas" },
     "shortdescription": "Kalley te ofrece una mezcla única de tecnología, entretenimiento y calidad a un precio increíble.40G200.",
     "description": "El Google TV de 40\" cuenta con una increíble pantalla Full HD con compatibilidad HDR 10 para disfrutar de tu contenido favorito con muchos más colores. Vive una experiencia envolvente e inmersiva con su tecnología de Dolby Audio y activa el asistente de voz desde tu control remoto. Su sistema operativo Google TV cuenta con +10.000 apps, con recomendados para cada perfil de usuario según sus preferencias y con perfil recomendado para niños.¡Cómpralo ya y vive la evolución en tu Kalley TV!",
     "features": [
@@ -55,8 +57,9 @@ export const products = [
     "category": "audio_video",
     "name": "TV PANASONIC 43\"",
     "image": "images/products/102.webp",
-    "price": 1153977,
+    "price": 1206431,
     "isEnabled": true,
+    "specs": { "size_value": 43, "unit": "pulgadas" },
     "shortdescription": "La serie de TV NS600 de PANASONIC te brinda una imagen de alta calidad.43NS600.",
     "description": "Su tecnología Vivid Digital Pro, está diseñada para mejorar tu experiencia visual brindando tonos de piel naturales, mejorando el brillo y agudizando los detalles de las imágenes. Agrega esto con la capacidad de disfrutar todo tu contenido favorito gracias al sistema operativo Google TV, y ¡Tendrás un televisor de alta tecnología japonesa que se adapta a las preferencias de toda la familia! ¡Compra el tuyo ya!",
     "features": [
@@ -72,8 +75,9 @@ export const products = [
     "category": "audio_video",
     "name": "TV CHALLENGER 43\"",
     "image": "images/products/104.webp",
-    "price": 988977,
+    "price": 1137324,
     "isEnabled": false,
+    "specs": { "size_value": 43, "unit": "pulgadas" },
     "shortdescription": "Equipado con tecnologia LED, garantiza colores vibrantes y mayor eficiencia energética.",
     "description": "El televisor CHALLENGER de 43 pulgadas Google, el 43KG84, ofrece una excelente calidad de imagen con resolución Full HD, ideal para disfrutas contenidos en alta definición. Equipado con tecnologia LED, garantiza colores vibrantes y mayor eficiencia energética. Su diseño delgado y moderno se adapta a cualquier espacio. Además, cuenta con puertos HDMI y USB, permitiendo una conectividad sencilla con dispositivos externos. No esperes más y !AQUIERELO AHORA MISMO!",
     "features": [
@@ -89,8 +93,9 @@ export const products = [
     "category": "audio_video",
     "name": "TV HYUNDAI 43\" Sistema Operativo Roku",
     "image": "images/products/105.webp",
-    "price": 933977,
+    "price": 976431,
     "isEnabled": false,
+    "specs": { "size_value": 43, "unit": "pulgadas" },
     "shortdescription": "Referencia: HYLED4325RiM",
     "description": "Hyundai Electronics trae para ti un sistema operativo que pone a tu alcance más de 5,000 apps, ademas inteligencia artifical integrada para una busqueda más personalizada y acertada. Resolucion HD,conectividad WIFI.Usa tu celular como control, activa la escucha privada- transmite el audio del tv a tu celular sin generar molestias y activa la busqueda inteligente ¡Compra el tuyo ahora!",
     "features": [
@@ -106,8 +111,9 @@ export const products = [
     "category": "audio_video",
     "name": "TV SAMSUNG 43\"",
     "image": "images/products/106.webp",
-    "price": 1648977,
+    "price": 1723931,
     "isEnabled": true,
+    "specs": { "size_value": 43, "unit": "pulgadas" },
     "shortdescription": "Disfruta de tu contenido en una asombrosa resolución hasta en 4K mejorada gracias a su procesador con inteligencia artificial.43Q7F.",
     "description": "Junto a la tecnología de punto cuántico real recibes un volumen de color al 100% que entrega más de mil millones de colores que se mantienen fieles (Colores certificados por Pantone), incluso en las escenas más brillantes que permiten apreciar cada hermoso matiz de color con increíble precisión. Siéntete en medio de cada película con sonido virtual envolvente 3D que sigue la acción. ¡Compra tu TV QLED con IA ahora!",
     "features": [
@@ -119,12 +125,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "150",
+    "id": "107",
     "category": "audio_video",
     "name": "TV TCL 43\"",
     "image": "images/products/150.webp",
-    "price": 1098977,
+    "price": 1148931,
     "isEnabled": true,
+    "specs": { "size_value": 43, "unit": "pulgadas" },
     "shortdescription": "TV TCL serie S5K: Este TV combina la tecnología de imagen QLED con FHD. 43S5K Smart TV Google",
     "description": "Su avanzada pantalla QLED optimiza en tiempo real la precisión de colores y brillos. Disfruta de Dolby Audio para obtener la mejor calidad de sonido, el cual sumado con los diferentes modos de visualización como Video Juego, Deportes o Películas te brindara una experiencia sin igual. ¿Quieres reproducir el contenido de tu celular en tu TV? Con Google Cast lo puedes hacer, reproduce el contenido de tu celular en tu TV para un sonido y visión mas amplios. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
     "features": [
@@ -137,12 +144,13 @@ export const products = [
     "tags": [""]
   },
   {
-    "id": "151",
+    "id": "108",
     "category": "audio_video",
     "name": "TV TCL 50\"",
     "image": "images/products/151.webp",
-    "price": 1538977,
+    "price": 1608931,
     "isEnabled": true,
+    "specs": { "size_value": 50, "unit": "pulgadas" },
     "shortdescription": "El TV ideal para tu hogar es de TCL serie V6C. 50V6C 4K-UHD Smart TV Google.",
     "description": "Su tecnología HDR10+ y el procesador AiPQ con inteligencia artificial, te ofrece colores vibrantes con la mejor resolución y brillo en tiempo real, lo cual sumado a la certificación de sonido Dolby Audio te dará una excelente fidelidad de sonido, diálogos más claros y sonidos más reales para una experiencia audio visual sin igual. ¿Amante de la acción y los deportes? Su tecnología MEMC siempre te dará imágenes fluidas y sin desenfoques para que disfrutes al máximo. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
     "features": [
@@ -155,12 +163,13 @@ export const products = [
     "tags": [""]
   },
   {
-    "id": "152",
+    "id": "109",
     "category": "audio_video",
     "name": "TV TCL 55\"",
     "image": "images/products/152.webp",
-    "price": 1593977,
+    "price": 1666431,
     "isEnabled": true,
+    "specs": { "size_value": 55, "unit": "pulgadas" },
     "shortdescription": "El TV ideal para tu hogar es de TCL serie V6C. 55V6C 4K-UHD Smart TV Google",
     "description": "Su tecnología HDR10+ y el procesador AiPQ con inteligencia artificial, te ofrece colores vibrantes con la mejor resolución y brillo en tiempo real, lo cual sumado a la certificación de sonido Dolby Audio te dará una excelente fidelidad de sonido, diálogos más claros y sonidos más reales para una experiencia audio visual sin igual. ¿Amante de la acción y los deportes? Su tecnología MEMC siempre te dará imágenes fluidas y sin desenfoques para que disfrutes al máximo. Recuerda son 2 años de garantía. ¡Compra el tuyo ya!",
     "features": [
@@ -173,12 +182,13 @@ export const products = [
     "tags": [""]
   },
   {
-    "id": "107",
+    "id": "201",
     "category": "audio_video",
     "name": "Torre de Sonido PANASONIC 300 Watts.",
     "image": "images/products/107.jfif",
-    "price": 757977,
+    "price": 792431,
     "isEnabled": true,
+    "specs": { "size_value": 300, "unit": "watts" },
     "shortdescription": "Medidas del Equipo de Audio (Ancho x Alto x Fondo) En Cm 26,5 x 60,6 x 27,2 Centímetros.",
     "description": "Al heredar el concepto de audio urbano, el SC-UA30 tiene un tamaño más compacto y permite una mayor libertad de transporte. A pesar de su tamaño, el UA30 cuenta con un sonido potente y claro más allá de su imaginación. La conexión a través de un teléfono inteligente mejora aún más la experiencia musical avanzada del SC-UA30. Conectar dos micrófonos permite a los usuarios disfrutar de Karaoke en casa.",
     "features": [
@@ -189,12 +199,13 @@ export const products = [
     "tags": ["mas-vendido", "recomendado1"]
   },
   {
-    "id": "108",
+    "id": "202",
     "category": "audio_video",
     "name": "Torre de Sonido SAMSUNG 500 Watts",
     "image": "images/products/108.webp",
-    "price": 933977,
+    "price": 976431,
     "isEnabled": true,
+    "specs": { "size_value": 500, "unit": "watts" },
     "shortdescription": "Medidas del Equipo de Audio (Ancho x Alto x Fondo) En Cm 35,1 x 65,1 x 32,3 Centímetros.",
     "description": "Destaca el ritmo de tu fiesta con el exclusivo SAMSUNG Giga Party Audio MX-T50. Un minicomponente que amplía el área de sonido en forma bidireccional para que disfrutes una experiencia de sonido envolvente y más potente. Sé una estrella gracias al modo karaoke, conviértete en un DJ gracias a nuestra App exclusiva y conecta varios dispositivos para disfrutar tus canciones y playlists favoritas sin preocuparte si es por medio de cable o no. Que empiece la fiesta, ¡lleva el tuyo ahora!",
     "features": [
@@ -206,12 +217,13 @@ export const products = [
     "tags": ["te-puede-interesar"]
   },
   {
-    "id": "109",
+    "id": "203",
     "category": "audio_video",
     "name": "Minicomponente PANASONIC 650 Watts",
     "image": "images/products/109.jfif",
-    "price": 801977,
+    "price": 838431,
     "isEnabled": true,
+    "specs": { "size_value": 650, "unit": "watts" },
     "shortdescription": "Medidas del Equipo de Audio (Ancho x Alto x Fondo) En Cm\n91,4 x 42,2 x 25 Centímetros",
     "description": "Disfruta tu música con el increíble sonido del minicomponente PANASONIC SC-AKX520.| Este sistema de audio te ofrece un sonido claro y dinámico gracias a su Wilfred de 20 cm y su amplificador de 2 canales. Se vincula fácilmente a tu Smartphone a para poder compartir tus canciones favoritas. Tiene un diseño compacto y elegante, la unidad principal fue rediseñada recientemente bajando su altura para permitir una fácil colocación en cualquier lugar de la habitación, cuenta con iluminación a 3 colores para que brille en sincronía con la música. Crea el mejor ambiente con Panasonic ¡lleva el tuyo ahora!",
     "features": [
@@ -223,12 +235,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "110",
+    "id": "204",
     "category": "audio_video",
     "name": "Torre de Sonido LG 500 Watts",
     "image": "images/products/110.webp",
-    "price": 933977,
+    "price": 976431,
     "isEnabled": true,
+    "specs": { "size_value": 500, "unit": "watts" },
     "shortdescription": "Medidas del Equipo de Audio (Ancho x Alto x Fondo) En Cm\n33 x 68,5 x 34,4 Centímetros",
     "description": "La torre de sonido LG XBOOM RNC5 cuenta con un potente sonido que da vida a todas tus reuniones y sus luces multicolores cambian al ritmo de la música aumentando las emociones de la fiesta. Adicional, podrás disfrutar de la función Karaoke Star la cual ajusta el volumen de la música y del micrófono por separado, y ahora que todo está listo cantarás con todas tus fuerzas las canciones favoritas. Tambien podrás conectar el RNC5 a tu TV LG a través de Bluetooth para experimentar un sonido más potente. ¡Lleva el tuyo ahora!",
     "features": [
@@ -240,12 +253,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "111",
+    "id": "205",
     "category": "audio_video",
     "name": "Torre de Sonido SONY 200 Watts",
     "image": "images/products/111.webp",
-    "price": 1087874,
+    "price": 1091431,
     "isEnabled": false,
+    "specs": { "size_value": 200, "unit": "watts" },
     "shortdescription": "Medidas del Equipo de Audio (Ancho x Alto x Fondo) En Cm\n26,9 x 56,4 x 29,4 Centímetros",
     "description": "El parlante con función de batería SRS-XV500 en color negro es el ideal para disfrutar de la música bien sea dentro o fuera de casa gracias a que tiene batería integrada y se puede usar por varias horas sin necesidad de conectar a la energía. Permite divertirse con familia y amigos usando las entradas de micrófono para hacer karaoke o incluso conectar una guitarra. Tiene un tamaño y peso que lo hacen fácil de mover, adquiere el tuyo ahora!",
     "features": [
@@ -257,12 +271,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "112",
+    "id": "206",
     "category": "audio_video",
     "name": "Torre de Sonido LG 1000 Watts",
     "image": "images/products/112.webp",
-    "price": 1241977,
+    "price": 1298431,
     "isEnabled": true,
+    "specs": { "size_value": 1000, "unit": "watts" },
     "shortdescription": "Medidas del Equipo de Audio (Ancho x Alto x Fondo) En Cm\n33 x 78,5 x 34,4 Centímetros",
     "description": "La torre de sonido LG XBOOM RNC7 cuenta con un potente sonido que da vida a todas tus reuniones y sus luces multicolores cambian al ritmo de la música aumentando las emociones de la fiesta. Adicional, podrás disfrutar de la función Karaoke Star la cual ajusta el volumen de la música y del micrófono por separado, y ahora que todo está listo cantarás con todas tus fuerzas las canciones favoritas. Tambien podrás conectar el RNC7 a tu TV LG a través de Bluetooth para experimentar un sonido más potente. ¡Lleva el tuyo ahora!",
     "features": [
@@ -274,12 +289,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "113",
+    "id": "301",
     "category": "celulares",
     "name": "Celular SAMSUNG Galaxy A17 256GB 4G",
     "image": "images/products/113.webp",
-    "price": 955955,
+    "price": 1148908,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla: 6.7 Pulgadas, Memoria Interna: 256 GB, Memoria RAM: 8 GB, Color: Azul. ",
     "description": "Disfruta el SAMSUNG Galaxy A17 LTE con un diseño moderno y delgado con cámaras que capturan cada detalle con brillo y nitidez. Su potente procesador y pantalla fluida te permiten sumergirte en juegos y contenido sin pausas. Cuenta con protección contra rayones, polvo y salpicaduras. ¡Lleva ahora mismo un equipo diseñado para durar, rendir y acompañarte a donde vayas!",
     "features": [
@@ -290,12 +306,13 @@ export const products = [
     "tags": ["mas-vendido"]
   },
   {
-    "id": "114",
+    "id": "302",
     "category": "celulares",
     "name": "Celular REDMI 15 256GB 4G Negro",
     "image": "images/products/114.webp",
-    "price": 878955,
+    "price": 918908,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.9 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "REDMI 15 está pensado para quienes necesitan confianza y estilo en cada momento. Su batería de 7.000 mAh te da la libertad de pasar el día sin preocuparte por el enchufe, mientras su cámara dual con IA convierte cada foto en un recuerdo lleno de vida. Con resistencia IP64 contra polvo y salpicaduras y una pantalla amplia que mejora tu entretenimiento, este equipo se adapta a tu ritmo diario. Llévalo hoy y vive con tranquilidad y estilo.",
     "features": [
@@ -307,12 +324,13 @@ export const products = [
     "tags": ["recomendado1"]
   },
   {
-    "id": "115",
+    "id": "303",
     "category": "celulares",
     "name": "Celular SAMSUNG Galaxy A36 256GB 5G",
     "image": "images/products/115.webp",
-    "price": 1648955,
+    "price": 1723908,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "El Galaxy A36 5G, está diseñado para que te conectes donde estés. Captura fotos increíbles con su cámara principal de 50 MP y frontal de 12 MP, potenciadas por Inteligencia Artificial. Además, prueba una manera diferente y eficiente de buscar en un smartphone y encuéntralo ¡solo dibujando un círculo! Disfruta de una experiencia AMOLED DE 6.7\" FHD+ y un potente procesador Snapdragon 6 Gen3 para un rendimiento superior. Con batería de 5000 mAh y carga rápida de 45W, nunca te quedarás sin energía. ¡Compra el Tuyo Ahora!",
     "features": [
@@ -324,12 +342,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "116",
+    "id": "304",
     "category": "celulares",
     "name": "Celular MOTOROLA Edge 50 Fusion 5G",
     "image": "images/products/116.webp",
-    "price": 1538955,
+    "price": 1608908,
     "isEnabled": false,
+    "specs": { "size_value": 512, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n512 GB\nMemoria RAM\n12 GB\nColor: Rosado.",
     "description": "Presentamos MOTOROLA Edge 50 Fusion. Con un diseño bellamente elaborado con protección al agua, está diseñado para durar. Prepárate con la increíble velocidad de carga TurboPower, ademas, captura fotos y videos nítidos y brillantes, con 32 veces más píxeles de enfoque. Disfruta de una pantalla cinematográfica con sonido Dolby Atmos® y potencia tu día con un procesador Snapdragon® , RAM Boost y toneladas de almacenamiento. Motorola Edge 50 Fusion es tu teléfono inteligente hecho arte. Adquiere el tuyo aqui!",
     "features": [
@@ -341,12 +360,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "117",
+    "id": "305",
     "category": "celulares",
     "name": "Celular POCO X7 256GB 5G Plateado",
     "image": "images/products/117.webp",
-    "price": 1204390,
+    "price": 1259135,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.67 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "POCO X7 está pensado para quienes exigen más en cada uso. Su batería de 5110 mAh resiste las sesiones más largas, mientras la pantalla AMOLED 120Hz realza imágenes y juegos con fluidez total. Su cámara triple con IA captura escenas con calidad profesional y su diseño premium refleja tu estilo. Un smartphone gamer y versátil que no conoce límites. Hazlo tuyo y sube de nivel.",
     "features": [
@@ -358,12 +378,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "118",
+    "id": "306",
     "category": "celulares",
     "name": "Celular REALME 12+ 256GB 5G Verde",
     "image": "images/products/118.webp",
-    "price": 1538955,
+    "price": 1608908,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.67 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "El realme 12+ Maestro en retrato es un verdadero + en el segmento. Ofrece un + en fotografía gracias a su modulo alimentado por el sensor SONY LYT 600, categorizado por ser de gama alta. Además, su diseño con bordes en PVD encaja perfectamente con su cubierta trasera en cuero vegano y su inspiración en relojería de lujo dan un toque de exclusividad. El recalentamiento no será problema gracias a su sistema de refrigeración a vapor y su potente procesador MTK Dimensity 7050 soportado por 256 GB de ROM y hasta 16 Gb de RAM disfrutarás la mejor experiencia de fluidez. Adquiere el Tuyo Ahora!",
     "features": [
@@ -375,12 +396,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "119",
+    "id": "307",
     "category": "celulares",
     "name": "Celular HONOR X8c 256GB 5G Gris",
     "image": "images/products/119.webp",
-    "price": 1648955,
+    "price": 1723908,
     "isEnabled": false,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "El HONOR X8c 5G combina tecnología avanzada con inteligencia artificial para una experiencia optimizada. Su pantalla AMOLED ofrece una visualización fluida y colores vibrantes. La cámara principal de 108MP, equipada con HONOR AI, permite capturas precisas y estabilización óptica para fotos nocturnas nítidas. Además, el Borrador IA elimina elementos no deseados de las imágenes. Su batería de 5230 mAh garantiza autonomía prolongada, mientras que su procesador optimiza el rendimiento y durabilidad. Adquiere el Tuyo Ahora!",
     "features": [
@@ -392,12 +414,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "120",
+    "id": "308",
     "category": "celulares",
     "name": "Celular VIVO Y21D 256GB 4G Morado",
     "image": "images/products/120.webp",
-    "price": 989890,
+    "price": 1034885,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.68 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n6 GB",
     "description": "Con el VIVO Y21D lila todo se ve y se siente mejor. Disfruta una pantalla amplia y nítida para maratonear series, jugar y scrollear sin parar. Sus cámaras con IA capturan retratos y fotos nocturnas con detalle, listas para subir sin edición. La batería aguanta el día completo y con carga rápida vuelves al 100% en poco tiempo. Rendimiento fluido para tus apps y espacio de sobra para fotos, música y clases. Ligero, moderno y confiable el Y21D te acompaña a tu ritmo. ¡Llévalo ahora con audífonos incluidos y vive la música a tu ritmo!",
     "features": [
@@ -408,12 +431,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "121",
+    "id": "309",
     "category": "celulares",
     "name": "Celular TECNO Spark 40Pro+ 256GB 4G",
     "image": "images/products/121.webp",
-    "price": 989890,
+    "price": 1034885,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.78 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB\nColor: Blanco.",
     "description": "Tan delgado como un lápiz, este smartphone se adapta a tu día con un diseño que llama la atención por su elegancia. Su pantalla curva hace que todo se vea más fluido y envolvente, ideal para disfrutar tus series, redes o juegos como nunca antes. Se carga rápido y sin cables, para que no pierdas tiempo y sigas con lo que más te gusta. Además, es resistente a salpicaduras y al polvo, perfecto para acompañarte en cualquier momento. Un celular que se siente tan bien como se ve. ¡Compra el Tuyo Ahora!",
     "features": [
@@ -425,12 +449,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "122",
+    "id": "310",
     "category": "celulares",
     "name": "Celular TECNO Spark 40Pro+ 256GB 4G",
     "image": "images/products/122.webp",
-    "price": 989890,
+    "price": 1034885,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.78 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "Tan delgado como un lápiz, este smartphone se adapta a tu día con un diseño que llama la atención por su elegancia. Su pantalla curva hace que todo se vea más fluido y envolvente, ideal para disfrutar tus series, redes o juegos como nunca antes. Se carga rápido y sin cables, para que no pierdas tiempo y sigas con lo que más te gusta. Además, es resistente a salpicaduras y al polvo, perfecto para acompañarte en cualquier momento. Un celular que se siente tan bien como se ve. ¡Compra el Tuyo Ahora!",
     "features": [
@@ -442,12 +467,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "123",
+    "id": "311",
     "category": "celulares",
     "name": "Celular MOTOROLA G86 5G 256GB AZUL",
     "image": "images/products/123.webp",
-    "price": 1065955,
+    "price": 1114408,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "Descubre el MOTOROLA G86 Con diseño sofisticado, materiales premium y resistencia que te acompaña en cada aventura. Disfruta una pantalla Super HD con Dolby Atmos®, cámara Sony LYTIA™ con moto AI y una poderosa batería con carga TurboPower™. Vive cada día con estilo, potencia y libertad. Haz de cada momento una experiencia única con el moto G86. Compra el tuyo ahora!",
     "features": [
@@ -459,12 +485,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "124",
+    "id": "312",
     "category": "celulares",
     "name": "Celular SAMSUNG Galaxy A17 256GB 5G",
     "image": "images/products/124.webp",
-    "price": 1164955,
+    "price": 1217908,
     "isEnabled": true,
+    "specs": { "size_value": 256, "unit": "GB" },
     "shortdescription": "Tamaño Pantalla\n6.7 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
     "description": "Descubre el SAMSUNG Galaxy A17 5G con diseño refinado y mayor nitidez en las cámaras para resaltar cada detalle mientras disfrutas de un smarpthone con un cuerpo delgado y chip potente. ¡Hecho para el futuro! Su pantalla fluida te sumerge en juegos y videos sin interrupciones. Gracias al vidrio templado y cuerpo metalico protege con mayor eficacia salpicaduras, polvo y rayones. Un smartphone diseñado para durar y destacar ¡Lleva el tuyo ahora mismo!",
     "features": [
@@ -476,11 +503,11 @@ export const products = [
     "tags": []
   },
   {
-    "id": "125",
+    "id": "401",
     "category": "computadores",
     "name": "Computador Portátil HP 14\"",
     "image": "images/products/125.webp",
-    "price": 1483977,
+    "price": 1551431,
     "isEnabled": true,
     "shortdescription": "dq6002la - Intel N100 - RAM 4GB - Disco SSD 128GB - Plateado",
     "description": "¡Descubre el portátil 14-dq6002la, tu mejor aliado para trabajar y disfrutar! Con su pantalla de 14\" pulgadas, es súper portátil y fácil de llevar a donde quieras. Incluye la tecla Copilot con asistencia de IA para facilitar tus tareas y aumentar tu productividad. Además, su batería de larga duración te acompaña todo el día sin preocuparte por recargar. Su diseño delgado y elegante te permite mantenerte conectado y entretenido en cualquier lugar. ¡Consigue el tuyo aquí!",
@@ -493,11 +520,11 @@ export const products = [
     "tags": ["recomendado2"]
   },
   {
-    "id": "126",
+    "id": "402",
     "category": "computadores",
     "name": "Computador Portátil ASUS 15.6\"",
     "image": "images/products/126.webp",
-    "price": 1758977,
+    "price": 1838931,
     "isEnabled": true,
     "shortdescription": "E1504GA - Intel Core i3 - RAM 8GB - Disco SSD 512 GB - Negro",
     "description": "Con ASUS Vivobook 15 cubre tus necesidades y convierte las tareas cotidianas en algo especial, tu herramienta esencial para hacer las cosas más fácilmente, en cualquier lugar. Es completamente fácil de usar que se adapta a tu estilo de vida. Te sentirás seguro gracias a ASUS Antimicrobial Guard Plus que protege las superficies que se tocan con frecuencia de bacterias dañinas, salvaguardando tu salud. ¡Haz que todos tus días sean más agradables con Vivobook 15! ¡Llévalo ahora!.",
@@ -510,11 +537,11 @@ export const products = [
     "tags": []
   },
   {
-    "id": "127",
+    "id": "403",
     "category": "computadores",
     "name": "Computador Portátil LENOVO 15.6\"",
     "image": "images/products/127.webp",
-    "price": 1648977,
+    "price": 1723931,
     "isEnabled": false,
     "shortdescription": "AMD Ryzen 3 - RAM 8GB - Disco SSD 512GB - Azul",
     "description": "En el portátil LENOVO IdeaPad Slim 3 color Azul, encuentra todo el rendimiento que necesitas, un portátil accesible que cubre tus necesidades, su combinación generosa de memoria RAM y almacenamiento en estado solido, es perfecto para tus tareas diarias, con un diseño extraordinario, este equipo superará tus expectativas. Así mismo, te brindará un entretenimiento superior gracias a su sonido Dolby Audio, y te sentirás seguro gracias a su obturador de privacidad en su cámara, cuando termines tus reuniones o videollamadas solo tienes que cerrarlo. Aprovecha ¡lleva el tuyo ahora!",
@@ -527,11 +554,11 @@ export const products = [
     "tags": []
   },
   {
-    "id": "128",
+    "id": "404",
     "category": "computadores",
     "name": "Computador Portátil ACER ASPIRE 14\"",
     "image": "images/products/128.webp",
-    "price": 1868933,
+    "price": 1953885,
     "isEnabled": true,
     "shortdescription": "30LC - Intel Core 3 - RAM 8GB - Disco SSD 512GB - Plateado",
     "description": "Acer trae para ti su línea de portátiles Aspire, diseñados con tecnología innovadora para la multitarea y la productividad. Gracias a su facilidad de uso, el Aspire es ideal para toda la familia, está enfocado en el rendimiento y en tu día a día. Perfecto para sacar más partido al trabajo y estudio. Con su elegante cubierta metálica, el Aspire es más ligero y delgado que nunca. Además, la batería de larga duración permite que la familia pueda hacer más entre carga y carga.¡Haz click ahora y llévate el tuyo!",
@@ -544,11 +571,11 @@ export const products = [
     "tags": []
   },
   {
-    "id": "129",
+    "id": "405",
     "category": "computadores",
     "name": "Computador Portátil ASUS 15.6\"",
     "image": "images/products/129.webp",
-    "price": 1868977,
+    "price":  1953931,
     "isEnabled": false,
     "shortdescription": "E1504FA - AMD Ryzen 5 - RAM 8GB - Disco SSD 512 GB - Negro",
     "description": "La ASUS Vivobook Go 15 es liviana, es compacta, diseñada para que seas productivo y te mantengas entretenido donde quiera que vayas. Con su bisagra plana de 180°, el protector físico de la cámara web y un montón de características de diseño bien pensadas, incluida una hermosa pantalla con bordes ultradelgados, ¡Vivobook Go 15 es un portátil que te permite hacer todo! ¡Llévala ya!",
@@ -561,11 +588,11 @@ export const products = [
     "tags": []
   },
   {
-    "id": "130",
+    "id": "406",
     "category": "computadores",
     "name": "Computador Portátil MSI Modern 13.3\"",
     "image": "images/products/130.webp",
-    "price": 2299000,
+    "price": 2403500,
     "isEnabled": true,
     "shortdescription": "F13MG - Intel Core i3 - RAM 16GB - Disco SSD 512GB - Negro",
     "description": "Enfrenta los desafíos diarios con el Portátil MSI Modern 13 F13MG. Su diseño delgado y liviano se adapta fácilmente a cualquier espacio, acompañándote a donde quiera que vayas. Potenciada con un procesador Intel Core que ofrece un rendimiento excepcional para superar cualquier desafío. Trabaja a cualquier hora gracias a su teclado retroiluminado, que proporciona una experiencia cómoda y eficiente. Imagina, crea y visualiza en su pantalla Full HD de 13\" pulgadas. Todo esto en un portátil con resistencia certificada. ¿Qué esperas para tener el tuyo? ¡Consíguelo ahora mismo!",
@@ -578,12 +605,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "131",
+    "id": "501",
     "category": "electromenores",
     "name": "Freidora de Aire KALLEY 6.3 Litros K-MAF6",
     "image": "images/products/131.webp",
-    "price": 313390,
+    "price": 327635,
     "isEnabled": true,
+    "specs": { "size_value": 6.3, "unit": "litros" },
     "shortdescription": "La Freidora KALLEY K-MAF6 es el aliado ideal para tu cocina. ",
     "description": "Ahora cocinar sano no es difícil y está al alcance de todos. Puedes cocinar, asar, freír o tostar sin necesidad de aceite y en un tiempo más corto que lo tradicional. Tus alimentos quedarán crujientes por fuera y suaves en el interior gracias a su cocción con aire caliente. Tiene capacidad máxima de 6.3 litros lo que te permite cocinar grandes porciones y una potencia de 1700W para mayor eficiencia. Cuenta con temporizador de 60min y apagado automático, además de temperatura ajustable hasta 200°C. ¡Compra la tuya acá!",
     "features": [
@@ -595,12 +623,13 @@ export const products = [
     "tags": ["mas-vendido"]
   },
   {
-    "id": "132",
+    "id": "502",
     "category": "electromenores",
     "name": "Freidora de Aire BLACK+DECKER 4.5L",
     "image": "images/products/132.webp",
-    "price": 270490,
+    "price": 282785,
     "isEnabled": true,
+     "specs": { "size_value": 4.5, "unit": "litros" },
     "shortdescription": "Cocina sin culpa y más rápido con La Freidora de Aire Saludable de BLACK+DECKER® HF4004B Negro.",
     "description": "Con capacidad de 4.5 litros, es perfecta para freír y hornear porciones más grandes de tus comidas favoritas en poco tiempo. Con esta revolucionaria manera de cocinar, puedes disfrutar deliciosos alimentos fritos sin grasa y con el mismo sabor.",
     "features": [
@@ -612,12 +641,13 @@ export const products = [
     "tags": ["recomendado2"]
   },
   {
-    "id": "133",
+    "id": "503",
     "category": "electromenores",
     "name": "Freidora de aire IMUSA Mega Mecánica 7.5L Negra",
     "image": "images/products/133.webp",
-    "price": 439890,
+    "price": 459885,
     "isEnabled": true,
+     "specs": { "size_value": 7.5, "unit": "litros" },
     "shortdescription": "EASY FRY MEGA MECÁNICA de 7.5 litros.",
     "description": "Su capacidad XXL permite preparar porciones generosas de manera rápida y eficiente. Con un control preciso del flujo de aire caliente, garantiza resultados dorados y perfectos en cada receta, usando menos aceite para comidas más saludables. Fácil de usar y limpiar, es ideal para quienes buscan combinar practicidad y sabor en un solo equipo. Perfecta para sorprender a todos con platos deliciosos. ¡Adquiere el tuyo aquí! ",
     "features": [
@@ -630,12 +660,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "134",
+    "id": "601",
     "category": "electromenores",
     "name": "Horno Microondas KALLEY 0.7 Pies",
     "image": "images/products/134.webp",
-    "price": 285890,
+    "price": 298885,
     "isEnabled": true,
+    "specs": { "size_value": 20, "unit": "litros" },
     "shortdescription": "El Horno Microondas Kalley K-MW07N cuenta con una potencia de 700W que permite cocinar tus alimentos en menor tiempo. ",
     "description": "Sus niveles de potencia son de 0 a 10, ajustable y 6 opciones preprogramadas para que elijas de acuerdo con lo que quieras cocinar\nSu capacidad es de 20L, practico y con el tamaño ideal para que prepares, cocines o calientes tus preparaciones favoritas.\nSu material interno es refractario para facilitar la limpieza y la puerta en acabado de microperforado dan elegancia a tu cocina.",
     "features": [
@@ -648,12 +679,13 @@ export const products = [
     "tags": ["recomendado2"]
   },
   {
-    "id": "135",
+    "id": "602",
     "category": "electromenores",
     "name": "Horno Microondas ELECTROLUX 0.7 Pies EMDO20 Gris",
     "image": "images/products/135.webp",
-    "price": 318890,
+    "price": 333385,
     "isEnabled": false,
+    "specs": { "size_value": 20, "unit": "litros" },
     "shortdescription": "Con el Horno Microondas de 20 Litros Gris Electrolux calienta y descongela tus recetas favoritas.",
     "description": "La circulación del aire que te entrega la Función Elimina Olor, te permite dejar tu microondas listo para preparar o calentar la siguiente receta. Integrado con opciones funcionales como el Menú para Niños, que viene con tres funciones preprogramadas que favorecen la preparación de sus recetas favoritas como palomitas y quesadillas. Los platos preparados regularmente, como arroz, papas y pastas ahora están preprogramados gracias al Menú Diario. ¡No lo pienses más, adquiere el tuyo ahora!",
     "features": [
@@ -665,12 +697,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "136",
+    "id": "603",
     "category": "electromenores",
     "name": "Horno Microondas WHIRLPOOL 0.7 Pies WM1807B Negro",
     "image": "images/products/136.webp",
-    "price": 340890,
+    "price": 356385,
     "isEnabled": true,
+    "specs": { "size_value": 20, "unit": "litros" },
     "shortdescription": "Disfruta practicidad y precisión con el microondas WHIRLPOOL WM1807B, diseñado para facilitar tu cocina diaria.",
     "description": "Con 5 niveles de potencia y 12 opciones de auto cocción, adapta el calor a tus platillos favoritos. Cuenta con 4 funciones de descongelado, pantalla con control digital LED y la opción Mantener Caliente, ideal para servir en el momento justo. Su plato giratorio empotrable garantiza un calentado uniforme. Cocina, calienta y descongela con facilidad. ¡Llévalo a casa hoy mismo!",
     "features": [
@@ -685,12 +718,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "137",
+    "id": "701",
     "category": "linea_blanca",
     "name": "Nevera KALLEY Frost Una Puerta 187 Litros",
     "image": "images/products/137.webp",
-    "price": 1098955,
+    "price": 2298908,
     "isEnabled": true,
+    "specs": { "size_value": 187, "unit": "litros" },
     "shortdescription": "K-N187L2GO Gris Oscuro",
     "description": "La nevera KALLEY K-N187L2GO de 187 Litros gris cuenta con dispensador de agua manual, removible y fácil de limpiar con capacidad de 1.8 Litros, temperatura ajustable según tus necesidades, compartimiento extra frio para preservar adecuadamente tus alimentos. Además incluye bandeja inferior para vegetales, rejillas de vidrio removibles para adecuarlas como prefieras y compartimientos para botellas. Su garantía es de 1 año en la unidad y 5 años en el compresor ¡No esperes más y lleva la tuya!",
     "features": [
@@ -702,12 +736,13 @@ export const products = [
     "tags": ["mas-vendido"]
   },
   {
-    "id": "138",
+    "id": "702",
     "category": "linea_blanca",
     "name": "Nevera HACEB Frost Una Puerta 213 Litros",
     "image": "images/products/138.webp",
-    "price": 1318955,
+    "price": 1378908,
     "isEnabled": true,
+    "specs": { "size_value": 213, "unit": "litros" },
     "shortdescription": "N220 Dispensador de agua Titanio",
     "description": "Nevera Frost HACEB N220CETIR2, diseñada para alargar la vida de tus alimentos: frío sectorizado y estable en cada zona, corrientes de frío óptimas, y compartimiento extra-frío para descongelar. Cuenta con bandeja de vegetales con control de humedad para que tus alimentos permanezcan frescos por más tiempo. ¡Lleva la tuya ahora!",
     "features": [
@@ -719,12 +754,13 @@ export const products = [
     "tags": ["recomendado2"]
   },
   {
-    "id": "139",
+    "id": "703",
     "category": "linea_blanca",
     "name": "Nevera CHALLENGER No Frost 231 Litros",
     "image": "images/products/139.webp",
-    "price": 1759890,
+    "price": 1839885,
     "isEnabled": true,
+    "specs": { "size_value": 231, "unit": "litros" },
     "shortdescription": "CR249 Titanium",
     "description": "El mundo necesita que seamos responsables, necesita que evolucionemos, por eso la nueva serie de refrigeración Lúmina de Challenger lo hizo igual que tú. Su diseño moderno, elegante y sobrio proporciona una atractiva apariencia y mayor espacio interno. Lúmina se adapta a todas las necesidades, con la nevera CR249 tienes una nevera No Frost de 231 litros especial para pequeños espacios aprovechando al máximo todas las carácterísticas destacadas de una nevera pensada para ti. Compra ya la tuya!!",
     "features": [
@@ -736,12 +772,13 @@ export const products = [
     "tags": ["te-puede-interesar"]
   },
   {
-    "id": "141",
+    "id": "801",
     "category": "linea_blanca",
     "name": "Lavadora KALLEY 12 Kilos K-LD12GE Gris",
     "image": "images/products/141.webp",
-    "price": 1351955,
+    "price": 1413408,
     "isEnabled": true,
+    "specs": { "size_value": 12, "unit": "kg" },
     "shortdescription": "Con 12 kilos de capacidad y un diseño compacto, es perfecta para espacios reducidos. ",
     "description": "Su panel digital y 8 ciclos de lavado garantizan un rendimiento personalizado y eficiente. La tapa con control de caída evita accidentes, y su manejo es intuitivo para tu comodidad. Aprovecha esta combinación de gran capacidad y tamaño reducido. ¡Lleva la tecnología y conveniencia a tu casa hoy mismo!",
     "features": [
@@ -752,12 +789,13 @@ export const products = [
     "tags": ["te-puede-interesar"]
   },
   {
-    "id": "142",
+    "id": "802",
     "category": "linea_blanca",
     "name": "Lavadora KALLEY 18 Kilos K-LD18GB2 Blanca",
     "image": "images/products/142.webp",
-    "price": 1648955,
+    "price": 1723908,
     "isEnabled": true,
+    "specs": { "size_value": 18, "unit": "kg" },
     "shortdescription": "La Lavadora Digital K-LD18B2 KALLEY de 18 kg combina capacidad y eficiencia. ",
     "description": "Con su panel LED con 10 programas preestablecidos, ajustes de temperatura, nivel de agua y suciedad, y funciones como bloqueo para niños y enjuague extra. Cuenta con tina de acero inoxidable y puerta de vidrio, garantizando durabilidad. Es práctica y resistente, con una capacidad capacidad de 18 kg es perfecta para cuidar todas tus prendas, desde las más delicadas hasta las toallas más grandes. ideal para cualquier hogar. Lo mejor de todo: ¡la tienes al mejor precio del mercado!",
     "features": [
@@ -769,12 +807,13 @@ export const products = [
     "tags": []
   },
   {
-    "id": "144",
+    "id": "803",
     "category": "linea_blanca",
     "name": "Lavadora WHIRLPOOL 20 Kilos WW20NNAHLA",
     "image": "images/products/144.webp",
-    "price": 2176955,
+    "price": 2275908,
     "isEnabled": true,
+    "specs": { "size_value": 20, "unit": "kg" },
     "shortdescription": "Ahorra agua y energía con Xpert Eco, reduciendo hasta 125L y 30% de consumo por carga. ",
     "description": "Su sistema Smart Action combina 3 tecnologías para un lavado potente y delicado, mientras que el Ciclo Ropa de Mascotas elimina hasta 68% más pelo. Con 3 Xpert Cycles, remueve las manchas más difíciles y elimina 4 veces más residuos de jabón, ideal para pieles sensibles. Lava edredones King sin esfuerzo, optimiza el uso de detergente con su multidispensador automático y evita manchas con su llenado inteligente. ¡Potencia y cuidado en cada lavado!",
     "features": [
@@ -786,11 +825,11 @@ export const products = [
     "tags": []
   },
   {
-    "id": "147",
+    "id": "901",
     "category": "linea_blanca",
     "name": "Estufa de Piso HACEB 4 Puestos Con Horno",
     "image": "images/products/147.webp",
-    "price": 811855,
+    "price": 848758,
     "isEnabled": true,
     "shortdescription": "Gas Natural Romero 50-Torre Gris",
     "description": "La estufa Romero HACEB Torre plata gas natural, logra recetas más rápidas con su fogón 35% más potente y de manera segura con sus parrillas antideslizantes. Cocinar en el horno ahora será mejor gracias a su visor 65% más amplio y hazlo de forma segura evitando la fuga de gas. ¡Elígela!",
@@ -803,11 +842,11 @@ export const products = [
     "tags": []
   },
   {
-    "id": "148",
+    "id": "902",
     "category": "linea_blanca",
     "name": "Estufa de Piso SUPERIOR 4 Puestos",
     "image": "images/products/148.jfif",
-    "price": 918555,
+    "price": 960308,
     "isEnabled": true,
     "shortdescription": "Gas Natural Con Horno AXXIS Gris",
     "description": "Esta línea de estufa superior te brinda comodidad y practicidad a la hora de preparar los alimentos. Cuenta con tres quemadores semi- rápidos y uno rápido, amplio horno con aislamiento en fibra de vidrio interno, que genera una cocción uniforme, válvula de seguridad y muchos más beneficios que aportan seguridad y tranquilidad.",
@@ -820,7 +859,7 @@ export const products = [
     "tags": []
   },
   {
-    "id": "201",
+    "id": "1001",
     "category": "bicicletas",
     "name": "KTM Ultra Ride Talla M/43",
     "image": "images/products/201.webp",
@@ -839,7 +878,7 @@ export const products = [
     "tags": ["recomendado2"]
   },
   {
-    "id": "202",
+    "id": "1002",
     "category": "bicicletas",
     "name": "KTM Ultra Sport Talla M/43",
     "image": "images/products/202.webp",
@@ -858,7 +897,7 @@ export const products = [
     "tags": ["te-puede-interesar"]
   },
   {
-    "id": "203",
+    "id": "1003",
     "category": "bicicletas",
     "name": "KTM Ultra Fun 29  Tallas M/43, L/48, XL/53",
     "image": "images/products/203.webp",
@@ -877,7 +916,7 @@ export const products = [
     "tags": ["recomendado1"]
   },
   {
-    "id": "204",
+    "id": "1004",
     "category": "bicicletas",
     "name": "KTM Ultra Fun Talla M/43 (Azul)",
     "image": "images/products/204.webp",
@@ -896,7 +935,7 @@ export const products = [
     "tags": [""]
   },
   {
-    "id": "205",
+    "id": "1005",
     "category": "bicicletas",
     "name": "KTM Ultra Fun Talla M/43 (Negro)",
     "image": "images/products/205.webp",
