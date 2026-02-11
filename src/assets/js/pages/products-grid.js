@@ -7,6 +7,13 @@ const formatoCOP = new Intl.NumberFormat('es-CO', {
   minimumFractionDigits: 0
 });
 
+// Función de ordenamiento
+const sortBySize = (a, b) => {
+  const valA = a.specs?.size_value || 0;
+  const valB = b.specs?.size_value || 0;
+  return valA - valB;
+};
+
 // Función genérica para renderizar productos
 function renderProducts(array, targetClass) {
   const container = document.querySelector(targetClass);
@@ -28,28 +35,27 @@ function renderProducts(array, targetClass) {
   `).join('');
 }
 
-// 🔹 1. FILTRO DE SEGURIDAD: Solo productos habilitados
-// Esto asegura que si isEnabled es false, el producto no exista para el resto del script
+// 🔹 1. FILTRO DE SEGURIDAD
 const activeProducts = products.filter(p => p.isEnabled !== false);
 
-// 🔹 2. Filtrar por categoría (usando ahora activeProducts)
+// 🔹 2. Filtrar por categoría y ORDENAR
 const categorias = ["audio_video", "celulares", "computadores", "electromenores", "linea_blanca", "bicicletas"];
 
 categorias.forEach(categoria => {
-  // Filtramos sobre la lista de productos ya validados como activos
-  const productosFiltrados = activeProducts.filter(p => p.category === categoria);
+  // Filtramos y aplicamos el ordenamiento antes de renderizar
+  const productosFiltrados = activeProducts
+    .filter(p => p.category === categoria)
+    .sort(sortBySize);
+    
   renderProducts(productosFiltrados, `.js-${categoria}-grid`);
 });
 
-// 
-
-// Esperar a que la página cargue completamente
+// Esperar a que la página cargue completamente para el scroll
 window.addEventListener('DOMContentLoaded', () => {
-  const hash = window.location.hash; // ejemplo: #celulares
+  const hash = window.location.hash;
   if (hash) {
     const target = document.querySelector(hash);
     if (target) {
-      // desplazamiento suave hacia la categoría
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }

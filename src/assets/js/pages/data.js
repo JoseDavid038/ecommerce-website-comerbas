@@ -196,7 +196,7 @@ export const products = [
       "La aplicación MAX Juke Solicite canciones desde teléfono inteligente",
       "Sistema de audio compacto de alta potencia con sonido expansivo"
     ],
-    "tags": ["mas-vendido", "recomendado1"]
+    "tags": ["", "recomendado1"]
   },
   {
     "id": "202",
@@ -303,7 +303,7 @@ export const products = [
       "Cámaras 50MP con mayor brillo y nitidez",
       "Proteccion IP54 y vidrio templado duradero"
     ],
-    "tags": ["mas-vendido"]
+    "tags": [""]
   },
   {
     "id": "302",
@@ -786,7 +786,7 @@ export const products = [
       "Más ahorro, menos consumo y excelente rendimiento.",
       "Gran variedad de funciones que se ajustan a tus necesidades"
     ],
-    "tags": ["te-puede-interesar"]
+    "tags": ["te-puede-interesar","mas-vendido"]
   },
   {
     "id": "802",
@@ -804,7 +804,7 @@ export const products = [
       "10 Ciclos que se ajustan a tus necesidades",
       "Garantía de 3 años en el motor"
     ],
-    "tags": []
+    "tags": [""]
   },
   {
     "id": "803",
