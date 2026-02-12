@@ -1,4 +1,4 @@
-import{c as s,g as f,a as I,d as $,i as q,e as g,p as T}from"./main-DHRHiSsT.js";const d=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function y(){if(!s||s.length===0){const e=`
+import{c as s,g as f,a as I,d as $,i as q,e as g,p as T}from"./main-BUhonsnN.js";const d=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0});function y(){if(!s||s.length===0){const e=`
       <p class="detalle__subtotal">Total productos: <span>${d.format(0)}</span></p>
       <p>Envío: <span>$0.00</span></p>
       <div class="subtotal-line">
