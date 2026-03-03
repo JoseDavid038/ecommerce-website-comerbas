@@ -658,7 +658,7 @@ export const products = [
     "name": "Computador Portátil HP 14\"",
     "image": "images/products/401.webp",
     "price": 1551431,
-    "isEnabled": true,
+    "isEnabled": false,
     "shortdescription": "dq6002la - Intel N100 - RAM 4GB - Disco SSD 128GB - Plateado",
     "description": "¡Descubre el portátil 14-dq6002la, tu mejor aliado para trabajar y disfrutar! Con su pantalla de 14\" pulgadas, es súper portátil y fácil de llevar a donde quieras. Incluye la tecla Copilot con asistencia de IA para facilitar tus tareas y aumentar tu productividad. Además, su batería de larga duración te acompaña todo el día sin preocuparte por recargar. Su diseño delgado y elegante te permite mantenerte conectado y entretenido en cualquier lugar. ¡Consigue el tuyo aquí!",
     "features": [
@@ -709,7 +709,7 @@ export const products = [
     "name": "Computador Portátil ACER ASPIRE 14\"",
     "image": "images/products/404.webp",
     "price": 1953885,
-    "isEnabled": true,
+    "isEnabled": false,
     "shortdescription": "30LC - Intel Core 3 - RAM 8GB - Disco SSD 512GB - Plateado",
     "description": "Acer trae para ti su línea de portátiles Aspire, diseñados con tecnología innovadora para la multitarea y la productividad. Gracias a su facilidad de uso, el Aspire es ideal para toda la familia, está enfocado en el rendimiento y en tu día a día. Perfecto para sacar más partido al trabajo y estudio. Con su elegante cubierta metálica, el Aspire es más ligero y delgado que nunca. Además, la batería de larga duración permite que la familia pueda hacer más entre carga y carga.¡Haz click ahora y llévate el tuyo!",
     "features": [
@@ -743,13 +743,85 @@ export const products = [
     "name": "Computador Portátil MSI Modern 13.3\"",
     "image": "images/products/406.webp",
     "price": 2403500,
-    "isEnabled": true,
+    "isEnabled": false,
     "shortdescription": "F13MG - Intel Core i3 - RAM 16GB - Disco SSD 512GB - Negro",
     "description": "Enfrenta los desafíos diarios con el Portátil MSI Modern 13 F13MG. Su diseño delgado y liviano se adapta fácilmente a cualquier espacio, acompañándote a donde quiera que vayas. Potenciada con un procesador Intel Core que ofrece un rendimiento excepcional para superar cualquier desafío. Trabaja a cualquier hora gracias a su teclado retroiluminado, que proporciona una experiencia cómoda y eficiente. Imagina, crea y visualiza en su pantalla Full HD de 13\" pulgadas. Todo esto en un portátil con resistencia certificada. ¿Qué esperas para tener el tuyo? ¡Consíguelo ahora mismo!",
     "features": [
       "Incluye Maletin MSI",
       "Teclado retroiluminado para trabajar a cualquier hora",
       "Incluye tecla Copilot mejora tu productividad y experiencia",
+      "Prueba militar MIL-STD-810H aprobada, mayor durabilidad"
+    ],
+    "tags": []
+  },
+  {
+    "id": "407",
+    "category": "computadores",
+    "name": "Computador Portátil LENOVO 15.6\"",
+    "image": "images/products/407.webp",
+    "price": 1896431,
+    "isEnabled": true,
+    "shortdescription": "IIdeaPad Slim 3 - Intel Core i3 - RAM 8GB - Disco SSD 512GB - Gris",
+    "description": "En el portátil LENOVO IdeaPad Slim 3 color Gris, encuentra todo el rendimiento que necesitas, un portátil accesible que cubre tus necesidades, su combinación generosa de memoria Ram y almacenamiento en estado solido, es perfecto para tus tareas diarias, con un diseño extraordinario, este equipo superará tus expectativas. Así mismo, te brindará un entretenimiento superior gracias a su sonido Dolby Audio, y te sentirás seguro gracias a su obturador de privacidad en su cámara, cuando termines tus reuniones o videollamadas solo tienes que cerrarlo. Aprovecha ¡lleva el tuyo ahora!",
+    "features": [
+      "Resolución Full HD, imágenes mas nítidas.",
+      "Dolby Audio, mayor calidad en sonido.",
+      "TrueBlock privacidad para tu cámara",
+      "Webcam Full HD, videollamadas mas claras",
+      "Prueba militar MIL-STD-810H aprobada, mayor durabilidad"
+    ],
+    "tags": []
+  },
+  {
+    "id": "408",
+    "category": "computadores",
+    "name": "Computador Portátil HP 15.6\"",
+    "image": "images/products/408.webp",
+    "price": 1953931,
+    "isEnabled": true,
+    "shortdescription": "AMD Ryzen 3 - RAM 8GB - Disco SSD 512GB - Plateado",
+    "description": "La potencia que necesitas día a día, el Portátil HP 15-fc0234la está diseñado para cuando la vida se vuelve real. Con un potente procesador puede manejarlo todo, desde juegos hasta estudios. Tiene mucho espacio de almacenamiento y puertos para que siempre estés preparado, donde quiera que vayas. ¿Que esperas para comprar el tuyo? ¡adquierelo aqui!.",
+    "features": [
+      "Imágenes deslumbrantes con los Gráficos integrados AMD Radeon",
+      "Nitidez y calidad en imágenes con pantalla Full HD",
+      "Conexiones fluidas. Combinación Wi-Fi 6 y Bluetooth 5.3.",
+      "Eleva su batería de 0 al 50 % en aproximadamente 45 minutos.",
+      "Ahorro de energía, gracias a su Certificación ENERGY STAR."
+    ],
+    "tags": []
+  },
+  {
+    "id": "409",
+    "category": "computadores",
+    "name": "Computador Portátil LENOVO 15.6\"",
+    "image": "images/products/409.webp",
+    "price": 2068931,
+    "isEnabled": true,
+    "shortdescription": "IdeaPad Slim 3 - AMD Ryzen 5 - RAM 8GB - Disco SSD 512GB - Azul",
+    "description": "En el portátil LENOVO IdeaPad Slim 3 color Azul, encuentra todo el rendimiento que necesitas, un portátil accesible que cubre tus necesidades, su combinación generosa de memoria Ram y almacenamiento en estado solido, es perfecto para tus tareas diarias, con un diseño extraordinario, este equipo superará tus expectativas. Así mismo, te brindará un entretenimiento superior gracias a su sonido Dolby Audio, y te sentirás seguro gracias a su obturador de privacidad en su cámara, cuando termines tus reuniones o videollamadas solo tienes que cerrarlo. Aprovecha ¡lleva el tuyo ahora!",
+    "features": [
+      "Resolución Full HD, imágenes mas nítidas.",
+      "Película antirreflejo trabaja en cualquier condición de luz.",
+      "Dolby Audio, mayor calidad en sonido.",
+      "TrueBlock privacidad para tu cámara",
+      "Webcam Full HD, videollamadas mas claras"
+    ],
+    "tags": []
+  },
+  {
+    "id": "410",
+    "category": "computadores",
+    "name": "Computador Portátil LENOVO - 15.6\"",
+    "image": "images/products/410.webp",
+    "price": 2068850,
+    "isEnabled": true,
+    "shortdescription": "IdeaPad Slim 3 - AMD R3 - RAM 16GB - Disco SSD 512GB - Gris",
+    "description": "El IdeaPad Slim 3 no es solo un portátil: es tu compañero confiable para cada reto diario. Su diseño ligero y elegante te invita a llevarlo a todas partes, mientras su potencia AMD y su almacenamiento SSD veloz te permiten avanzar sin pausas. La pantalla FHD de 15.6” Antireflejo convierte tus clases, proyectos y momentos de ocio en experiencias claras y envolventes. Con cámara segura y batería duradera, este equipo está hecho para quienes buscan equilibrio entre rendimiento, portabilidad y estilo. ¡lleva el tuyo ahora!",
+    "features": [
+      "Incluye Mouse Bluetooth Lenovo WL310",
+      "Resolución Full HD, imágenes mas nítidas.",
+      "Dolby Audio, mayor calidad en sonido.",
+      "TrueBlock privacidad para tu cámara",
       "Prueba militar MIL-STD-810H aprobada, mayor durabilidad"
     ],
     "tags": []
