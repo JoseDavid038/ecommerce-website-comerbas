@@ -2,7 +2,8 @@ import { products } from './data.js';
 import emailjs from '@emailjs/browser';
 
 // ✅ Inicializar EmailJS con tu clave pública
-emailjs.init('C6e2e5m5CWLeFl1hy');
+// emailjs.init('C6e2e5m5CWLeFl1hy');
+emailjs.init('AFzBD9_P32cSvOgdt');
 
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('contact-form');
@@ -87,7 +88,8 @@ document.addEventListener('DOMContentLoaded', function () {
       total: `$${totalFinanciar.toLocaleString()}`
     };
 
-    emailjs.send('service_l6nlo69', 'template_x8j0m3i', templateParams)
+    // emailjs.send('service_l6nlo69', 'template_x8j0m3i', templateParams)
+    emailjs.send('service_gatov8h', 'template_td6iz09', templateParams)
       .then(() => {
         
         // Limpiar formulario y carrito
