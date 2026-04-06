@@ -1,4 +1,4 @@
-import{p as s}from"./main-Bl-Xkwtr.js";const i=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0}),n=(e,a)=>{var r,o;const c=((r=e.specs)==null?void 0:r.size_value)||0,t=((o=a.specs)==null?void 0:o.size_value)||0;return c-t};function l(e,a){const c=document.querySelector(a);c&&(c.innerHTML=e.map(t=>`
+import{p as s}from"./main-sul6CIIo.js";const i=new Intl.NumberFormat("es-CO",{style:"currency",currency:"COP",minimumFractionDigits:0}),n=(e,a)=>{var r,o;const c=((r=e.specs)==null?void 0:r.size_value)||0,t=((o=a.specs)==null?void 0:o.size_value)||0;return c-t};function l(e,a){const c=document.querySelector(a);c&&(c.innerHTML=e.map(t=>`
     <article class="product-card">
       <div class="card-image-container">
         <a href="detalleproducto.html?id=${t.id}">
