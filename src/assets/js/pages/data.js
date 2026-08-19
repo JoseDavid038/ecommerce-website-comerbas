@@ -276,6 +276,178 @@ export const products = [
     "tags": ["Nuevo"]
   },
   {
+    "id": "115",
+    "category": "audio_video",
+    "name": "TV CHALLENGER 40\"",
+    "image": "images/products/115.avif",
+    "price": 804885,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 40,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "CHALLENGER 40KR14 T2 FHD LED Smart TV Roku.",
+    "description": "Su sistema inteligente te permite acceder rápidamente a aplicaciones, mientras su diseño compacto se adapta a tu hogar sin complicaciones. Vive una experiencia fluida, con imagen clara y sonido envolvente para cada momento. Disfrútalo hoy y cómpralo ahora.",
+    "features": [
+      "Pantalla FHD 40” con imagen clara y nítida",
+      "Sistema Roku con apps y contenido fácil",
+      "Sonido Dolby para mejor experiencia",
+      "WiFi y AirPlay para conexión sin cables",
+      "3 HDMI y 2 USB para conectar dispositivos"
+    ],
+    "tags": []
+  },
+  {
+    "id": "116",
+    "category": "audio_video",
+    "name": "TV CHALLENGER 32\"",
+    "image": "images/products/116.avif",
+    "price": 586385,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 32,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "CHALLENGER 32KR14 T2 HD LED Smart TV Roku.",
+    "description": "Su sistema inteligente te permite acceder rápidamente a aplicaciones, mientras su diseño compacto se adapta a tu hogar sin complicaciones. Vive una experiencia fluida, con imagen clara y sonido envolvente para cada momento. Disfrútalo hoy y cómpralo ahora.",
+    "features": [
+      "Pantalla HD 32” con imagen clara y nítida",
+      "Sistema Roku con apps y contenido fácil",
+      "Sonido Dolby para mejor experiencia",
+      "WiFi y AirPlay para conexión sin cables",
+      "3 HDMI y 2 USB para conectar dispositivos"
+    ],
+    "tags": []
+  },
+  {
+    "id": "117",
+    "category": "audio_video",
+    "name": "TV HYUNDAI 32\"",
+    "image": "images/products/117.avif",
+    "price": 620885,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 32,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "HYLED3258QR HD QLED Smart TV Roku.",
+    "description": "Disfruta de un sistema operativo intuitivo que te da acceso a más de 5.000 aplicaciones y a un mundo de entretenimiento ilimitado con solo un clic. Controla tu TV fácilmente desde tu smartphone y aprovecha la inteligencia artificial integrada, que te ofrece búsquedas más rápidas y personalizadas según tus gustos. Vive cada detalle y conéctate sin límites gracias a WiFi.",
+    "features": [
+      "Sistema Roku TV: Acceso rápido a sus aplicaciones favoritas",
+      "Tencología QLED que mejora brillo y gama de colores",
+      "Con la APP Roku controla todo desde tu smartphone"
+    ],
+    "tags": []
+  },
+  {
+    "id": "118",
+    "category": "audio_video",
+    "name": "TV KALLEY 40\"",
+    "image": "images/products/118.avif",
+    "price": 919885,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 40,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "40GQ200 FHD QLED Smart TV Google",
+    "description": "TV Kalley Full HD QLED cuenta con una increíble pantalla que, gracias a su tecnología de puntos cuánticos, te ofrece colores vibrantes y realistas. Con compatibilidad HDR 10, disfrutarás de tu contenido favorito con mayor detalle y contraste. Sumérgete en una experiencia envolvente con Dolby Audio y activa el asistente de voz desde tu control. Su sistema operativo Google TV tiene más de 10.000 apps, recomendaciones personalizadas y te permite controlar todos tus dispositivos inteligentes del hogar.",
+    "features": [
+      "QLED: Tecnología con colores más vibrantes y mayor brillo",
+      "Dolby Audio: Sonido Envolvente",
+      "Tecnología HDR10",
+      "+10.000 apps y recomendaciones personalizadas",
+      "Gran Respaldo con 2 años de Garantía"
+    ],
+    "tags": []
+  },
+  {
+    "id": "119",
+    "category": "audio_video",
+    "name": "TV SAMSUNG 43\"",
+    "image": "images/products/119.avif",
+    "price": 1552385,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 43,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "43U8000H 4K-UHD LED Crystal Smart TV con IA",
+    "description": "¡No es sólo ver televisión, es dejarte llevar por cada escena y disfrutar de verdad lo que estas viendo! Imágenes claras, colores que resaltan y un brillo que hace que todo se vea más vivo y natural. Con el televisor Crystal de Samsung cada detalle se siente mejor, cada momento se vuelve más especial y al final, lo que ves se convierte en algo que realmente disfrutas.",
+    "features": [
+      "Calidad 4k para ver lo que quieras",
+      "Estilo, diseño delgado y resistente",
+      "Sonido envolvente para una experiencia inmersiva",
+      "Tus datos están protegidos con Knox Security"
+    ],
+    "tags": []
+  },
+  {
+    "id": "120",
+    "category": "audio_video",
+    "name": "TV KALLEY 43\"",
+    "image": "images/products/120.avif",
+    "price": 1069385,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 43,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "43GQ200 FHD QLED Smart TV Google",
+    "description": "¡Kalley te ofrece una mezcla de tecnología, entretenimiento y calidad a un precio increíble! TV Kalley Full HD QLED cuenta con una increíble pantalla que, gracias a su tecnología de puntos cuánticos, te ofrece colores vibrantes y realistas. Con compatibilidad HDR 10, disfrutarás de tu contenido favorito con mayor detalle y contraste. Sumérgete en una experiencia envolvente con Dolby Audio y activa el asistente de voz desde tu control. Su sistema operativo Google TV tiene más de 10.000 apps, recomendaciones personalizadas y te permite controlar todos tus dispositivos inteligentes del hogar.",
+    "features": [
+      "QLED: Tecnología con colores más vibrantes y mayor brillo",
+      "Dolby Audio: Sonido Envolvente",
+      "Tecnología HDR10",
+      "+10.000 apps y recomendaciones personalizadas",
+      "Gran Respaldo con 2 años de Garantía"
+    ],
+    "tags": []
+  },
+  {
+    "id": "121",
+    "category": "audio_video",
+    "name": "TV HYUNDAI 55\"",
+    "image": "images/products/121.avif",
+    "price": 1743285,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 55,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "HYLED5528G 4K-UHD LED Smart TV Google",
+    "description": "Convierte cada momento en una experiencia única con una calidad de imagen 4K UHD y un sonido que te envuelve. Accede a miles de aplicaciones con Google TV, controla el televisor con tu voz gracias al Asistente de Google y comparte contenido desde tu celular mediante Chromecast integrado. Su diseño sin bordes y la tecnología MEMC ofrecen una experiencia de visualización más moderna y fluida.",
+    "features": [
+      "Resolución 4K UHD con HDR10 y HLG.",
+      "Google TV con tus apps favoritas.",
+      "Control por voz con Asistente de Google.",
+      "Dolby Audio para un sonido envolvente.",
+      "Diseño sin bordes con tecnología MEMC."
+    ],
+    "tags": []
+  },
+  {
+    "id": "122",
+    "category": "audio_video",
+    "name": "TV SAMSUNG 50\"",
+    "image": "images/products/122.avif",
+    "price": 1839885,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 50,
+      "unit": "pulgadas"
+    },
+    "shortdescription": "50U8000H 4K-UHD LED Crystal Smart TV con IA",
+    "description": "¡No es sólo ver televisión, es dejarte llevar por cada escena y disfrutar de verdad lo que estas viendo! Imágenes claras, colores que resaltan y un brillo que hace que todo se vea más vivo y natural. Con el televisor Crystal de Samsung cada detalle se siente mejor, cada momento se vuelve más especial y al final, lo que ves se convierte en algo que realmente disfrutas.",
+    "features": [
+      "Calidad 4k para ver lo que quieras",
+      "Estilo, diseño delgado y resistente",
+      "Sonido envolvente para una experiencia inmersiva",
+      "Tus datos están protegidos con Knox Security"
+    ],
+    "tags": []
+  },
+  {
     "id": "201",
     "category": "audio_video",
     "name": "Torre de Sonido PANASONIC 300 Watts.",
@@ -379,6 +551,67 @@ export const products = [
       "Iluminación Multicolor que cambia al ritmo de la música",
       "DJ App & DJ Pad: Contrólalo desde la pista de baile",
       "Karaoke Star: Para que puedas cantar fuerte y claro"
+    ],
+    "tags": []
+  },
+  {
+    "id": "207",
+    "category": "audio_video",
+    "name": "Parlante PANASONIC 320W",
+    "image": "images/products/207.avif",
+    "price": 1149885,
+    "isEnabled": true,
+    "specs": {"size_value": 320, "unit": "watts"},
+    "shortdescription": "SC-BMAX30PPK Negro IPX4 320W",
+    "description": "¡La fiesta va contigo con el SC-BMAX30PPK de PANASONIC! Disfruta un sonido potente con bajos increíbles, luces tipo discoteca y hasta 14 horas de batería. Con Bluetooth 5.3, USB, entradas para micrófono y guitarra, arma karaoke o conviértete en el DJ de la reunión. Su diseño portátil con ruedas y resistencia a salpicaduras IPX4 lo hacen perfecto para playa, patio o cualquier aventura.",
+    "features": [
+      "Bass Reflex Bajos potentes y nítidos",
+      "IPX4 Resistencia a salpicaduras",
+      "Batería incorporada de gran capacidad",
+      "Iluminación para todos los gustos"
+    ],
+    "tags": []
+  },
+  {
+    "id": "208",
+    "category": "audio_video",
+    "name": "Minicomponente PANASONIC 2000 Watts",
+    "image": "images/products/208.avif",
+    "price": 1034885,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 2000,
+      "unit": "watts"
+    },
+    "shortdescription": "AKX730 2000 Watts Negro Equipo de Sonido",
+    "description": "Sonido Claro y Potente, Además el AKX730 cuenta con un diseño compacto y elegante. Un súper woofer de 20 cm y un biamplificador digital de 2 canales producen un sonido claro y dinámico. Con el teléfono inteligente permite compartir fácilmente sus canciones favoritas y los altavoces de nuevo diseño y MAX Dance Iluminación con efectos de luz versátiles aumentarán aún más la escena de tu fiesta.",
+    "features": [
+      "Super Woofer de 20 cm: Bajos potentes y sonido claro",
+      "Amplificador digital de 2 canales: sonido claro y dinámico",
+      "2 entradas para micrófono: Disfruta del Karaoke en familia",
+      "Ecualizador latino preestablecido:disfrite del mejor sonido",
+      "Tecnología Bluetooth: reproduce tus playlists fácilmente"
+    ],
+    "tags": []
+  },
+  {
+    "id": "209",
+    "category": "audio_video",
+    "name": "Minicomponente SONY 200Watts",
+    "image": "images/products/209.avif",
+    "price": 1034885,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 200,
+      "unit": "watts"
+    },
+    "shortdescription": "SRS-XV500 200Watts Negro Torre de Sonido",
+    "description": "El parlante con función de batería SRS-XV500 en color negro es el ideal para disfrutar de la música bien sea dentro o fuera de casa gracias a que tiene batería integrada y se puede usar por varias horas sin necesidad de conectar a la energía. Permite divertirse con familia y amigos usando las entradas de micrófono para hacer karaoke o incluso conectar una guitarra. Tiene un tamaño y peso que lo hacen fácil de mover.",
+    "features": [
+      "X-Balanced Speaker Unit para un sonido potente",
+      "Resistencia a salpicaduras de agua IPX4",
+      "Facil uso gracias a su panel táctil iluminado",
+      "Control mediante la aplicación Music Center"
     ],
     "tags": []
   },
@@ -653,6 +886,129 @@ export const products = [
     "tags": ["Nuevo"]
   },
   {
+    "id": "316",
+    "category": "celulares",
+    "name": "Celular VIVO Y31D 4+256GB Blanco",
+    "image": "images/products/316.avif",
+    "price": 1323708,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 256, "unit": "GB"
+    },
+    "shortdescription": "Tamaño Pantalla\n6.75  Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n4 GB",
+    "description": "VIVO Y31D 8 GB + 256 GB te acompaña durante todo el día con la energía que necesitas para trabajar, estudiar, comunicarte y disfrutar de tu contenido favorito sin interrupciones. Su batería de larga duración te brinda mayor tranquilidad para que te enfoques en lo que realmente importa. Vive una experiencia confiable y práctica en cada momento.",
+    "features": [
+      "Batería de 7.200 mAh para una autonomía de larga duración.",
+      "IP68 e IP69 para máxima resistencia al agua y al polvo.",
+      "Volumen al 400% para disfrutar un audio más potente.",
+      "Certificación SGS 5 Estrellas para mayor resistencia y durabilidad."
+    ],
+    "tags": []
+  },
+  {
+    "id": "317",
+    "category": "celulares",
+    "name": "Celular MOTOROLA G67 256GB 5G Gris",
+    "image": "images/products/317.avif",
+    "price": 1033908,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 256, "unit": "GB"
+    },
+    "shortdescription": "Tamaño Pantalla\n6.8  Pulgadas\nMemoria Interna\n256 GB \nMemoria RAM\n4 GB",
+    "description": "Vive aventuras sin límites con el MOTOROLA G67 5G, donde el diseño sofisticado y materiales premium te envuelven en estilo único y protección contra agua y caídas. Brilla en cada escena con su pantalla pOLED que hace vibrar tus sentidos. Captura la magia de tus momentos con la cámara Sony LYTIA™ para fotos profesionales que emocionan. Disfruta todo el dia sin preocuparte por la carga, potencia imbatible y experiencias Moto. El moto g67 5G es tu compañero para una vida plena y aventurera.",
+    "features": [
+      "Pantalla 1.5K súper brillante para ver todo nítido",
+      "Cámaras completas que capturan cada momento perfecto.",
+      "Batería que te acompaña todo el día sin parar.",
+      "5G que acelera tu mundo sin esperas ni límites.",
+      "Diseño elegante que refleja tu estilo sofisticado."
+    ],
+    "tags": []
+  },
+  {
+    "id": "318",
+    "category": "celulares",
+    "name": "Celular HUAWEI Nova Y73 256GB 4G Negro + Audifonos",
+    "image": "images/products/318.avif",
+    "price": 977385,
+    "isEnabled": true,
+    "specs": {
+     "size_value": 256, "unit": "GB"
+    },
+    "shortdescription": "Tamaño Pantalla\n6.67  Pulgadas\nMemoria Interna\n256 GB \nMemoria RAM\n8 GB",
+    "description": "Llego el Huawei nova Y73 con audifonos Freebuds Se3, cuenta con una potente cámara trasera de 50 MP cada foto cobra vida con una claridad impresionante, captura personas y paisajes con detalles vibrantes. La cámara frontal de 8MP con apertura F2.0 garantiza selfies increíbles. Disfruta de su batería de 6,620 mAh que te da más horas de uso, combinada con la carga rápida de 40W Turbo para que siempre estés listo. La clasificación IP64 garantiza que puede soportar lluvia, salpicaduras y polvo.",
+    "features": [
+      "40W Turbo recarga rápida para un día completo de uso",
+      "Diseño de texturas a cuadros elegante y original",
+      "Practico botón X con atajos a tus aplicaciones favoritas",
+      "Resistente a polvo y salpicaduras IP64"
+    ],
+    "tags": []
+  },
+  {
+    "id": "319",
+    "category": "celulares",
+    "name": "Celular SAMSUNG Galaxy A16 256GB LTE 4G Negro",
+    "image": "images/products/319.avif",
+    "price": 1125908,
+    "isEnabled": true,
+    "specs": {
+     "size_value": 256, "unit": "GB"
+    },
+    "shortdescription": "Tamaño Pantalla\n6.7  Pulgadas\nMemoria Interna\n256 GB \nMemoria RAM\n8 GB",
+    "description": "El SAMSUNG Galaxy A16 LTE 256GB combina diseño elegante y potencia excepcional. Con su amplia pantalla inmersiva, podrás disfrutar de tus videos y juegos favoritos con una calidad sorprendente. Su almacenamiento de 256GB te permite guardar todos tus recuerdo, apps y archivos sin preocuparte por el espacio. Además, su batería de larga duración te acompaña todo el día, mientras que su cámara captura cada momento con detalle y nitidez.",
+    "features": [
+      "Cámara principal de 50MP,angular de 5MP y macro de 2MP",
+      "Procesador: Mediatek Helio G99",
+      "Protección contra el polvo y salpicaduras IP54",
+      "Plataforma de Seguridad Knox Vault para proteger tus datos"
+    ],
+    "tags": []
+  },
+  {
+    "id": "320",
+    "category": "celulares",
+    "name": "Celular REDMI Note 15 Pro 256GB 4G Titanium",
+    "image": "images/products/320.avif",
+    "price": 1148908,
+    "isEnabled": true,
+    "specs": {
+     "size_value": 256, "unit": "GB"
+    },
+    "shortdescription": "Tamaño Pantalla\n6.77  Pulgadas\nMemoria Interna\n256 GB \nMemoria RAM\n8 GB",
+    "description": "El REDMI Note 15 Pro está diseñado para ofrecer solidez y confianza todos los días. Su pantalla FHD+ de 6.77” brinda visualización clara y cómoda, mientras la inteligencia artificial de HyperAI optimiza rendimiento y consumo. La tecnología de toque húmedo permite usar la pantalla incluso con lluvia ligera o manos mojadas. La batería de 6500mAh acompaña jornadas completas y la cámara de 200MP con OIS y AI mejora cada captura automáticamente.",
+    "features": [
+      "Toque húmedo: pantalla usable con manos mojadas",
+      "Batería 6500mAh para jornadas completas",
+      "Cámara 200MP + OIS asistida por AI",
+      "Certificación IP65 contra agua y polvo",
+      "Helio G200-Ultra para uso diario fluido"
+    ],
+    "tags": []
+  },
+  {
+    "id": "321",
+    "category": "celulares",
+    "name": "Celular REALME 15T 256GB 5G Titanio",
+    "image": "images/products/321.avif",
+    "price": 1258158,
+    "isEnabled": true,
+    "specs": {
+      "size_value": 256, "unit": "GB"
+    },
+    "shortdescription": "Tamaño Pantalla\n6.7  Pulgadas\nMemoria Interna\n256 GB \nMemoria RAM\n8 GB",
+    "description": "El REALME 15T es pura energía. Con su doble cámara de 50 MP frontal y trasera siempre sales bien, y la IA “Dilo y edítalo” arregla tus fotos con solo decirlo. Su pantalla AMOLED de 4000 nits y 144 Hz es tan brillante y fluida que todo se siente real, mientras el procesador 6400 MAX te da la velocidad para apps, streams y momentos intensos de diversión. La batería de 6550 mAh con carga 45W nunca te deja tirado, y su resistencia cuádruple (Armor Shell, certificación militar e IP68/69) lo hace invencible.",
+    "features": [
+      "Cámaras frontal y trasera 50MP Sony, fotos ultra nítidas",
+      "Batería 6500 mAh, energía que dura todo el día (y más)",
+      "Editor de IA por comando de voz",
+      "Resistencia total: golpes, agua, polvo y presión",
+      "MediaTek Dimensity 6400 MAX, velocidad sin interrupciones"
+    ],
+    "tags": []
+  },
+  {
     "id": "401",
     "category": "computadores",
     "name": "Computador Portátil HP 14\"",
@@ -768,7 +1124,8 @@ export const products = [
       "Dolby Audio, mayor calidad en sonido.",
       "TrueBlock privacidad para tu cámara",
       "Webcam Full HD, videollamadas mas claras",
-      "Prueba militar MIL-STD-810H aprobada, mayor durabilidad"
+      "Prueba militar MIL-STD-810H aprobada, mayor durabilidad",
+      "No incluye paquete office"
     ],
     "tags": []
   },
@@ -804,7 +1161,8 @@ export const products = [
       "Película antirreflejo trabaja en cualquier condición de luz.",
       "Dolby Audio, mayor calidad en sonido.",
       "TrueBlock privacidad para tu cámara",
-      "Webcam Full HD, videollamadas mas claras"
+      "Webcam Full HD, videollamadas mas claras",
+      "No incluye paquete office"
     ],
     "tags": []
   },
@@ -823,6 +1181,159 @@ export const products = [
       "Dolby Audio, mayor calidad en sonido.",
       "TrueBlock privacidad para tu cámara",
       "Prueba militar MIL-STD-810H aprobada, mayor durabilidad"
+    ],
+    "tags": []
+  },
+  {
+    "id": "411",
+    "category": "computadores",
+    "name": "Computador All In One LENOVO 23.8\"",
+    "image": "images/products/411.avif",
+    "price": 2068930,
+    "isEnabled": true,
+    "shortdescription": "A100 - Intel N100 - RAM 8GB - Disco SSD 512GB - Gris",
+    "description": "El Lenovo A100 AIO es mucho más que un ordenador de sobremesa, es un compañero que transforma tu espacio y tu día a día. Su procesador Intel N100 te permite abordar cada tarea con fluidez, mientras su impresionante pantalla de 23,8″ casi sin bordes convierte recuerdos y momentos en verdaderas obras de arte. Este ordenador no solo embellece cualquier rincón, sino que también se adapta a ti, ofreciéndote comodidad con su soporte ajustable. Perfecto para videollamadas, conexiones sin esfuerzo y multitareas sin límites, el Lenovo A100 AIO une estilo, rendimiento y emoción.",
+    "features": [
+      "Pantalla 23.8\", ideal para consumo multimedia",
+      "Múltiples puertos para mejorar tu conectividad.",
+      "Cámara HD para videollamadas mas claras.",
+      "Velocidad y capacidad de almacenamiento estado sólido",
+      "Wifi 6 Mayor velocidad y menor consumo de energía",
+      "No incluye paquete office",
+      "Version Sistema Operativo: Windows 11 Home"
+    ],
+    "tags": []
+  },
+  {
+    "id": "412",
+    "category": "computadores",
+    "name": "Computador All in One ASUS V400 23.8\"",
+    "image": "images/products/412.avif",
+    "price": 2183908,
+    "isEnabled": true,
+    "shortdescription": "V440VAK - Intel Core 3 - RAM 8GB - Disco SSD 512GB - Negro",
+    "description": "Un computador que se convierte en el corazón de tu rutina, acompañándote en cada idea y cada proyecto. Su presencia transmite equilibrio y armonía, recordándote que la productividad también puede ser una experiencia placentera.",
+    "features": [
+      "Diseño minimalista y elegante, Mouse y Teclado inalámbrico",
+      "Pantalla FHD: Disfruta cada detalle con claridad",
+      "Intel Core 3 : Productividad sin límites en un solo equipo",
+      "Audio envolvente para tus tareas diarias",
+      "Conectividad moderna y avanzada para el dia a dia",
+      "No incluye paquete office"
+    ],
+    "tags": []
+  },
+  {
+    "id": "413",
+    "category": "computadores",
+    "name": "Computador All in One HP 23.8\"",
+    "image": "images/products/413.avif",
+    "price": 2413930,
+    "isEnabled": true,
+    "shortdescription": "cr0232la - AMD Ryzen 3 - RAM 8GB - Disco SSD 512GB - Blanco",
+    "description": "El HP All in One 24-cr0232la se convierte en el centro de inspiración ideal para tu hogar, permitiendo que cada miembro de la familia realice múltiples tareas simultáneamente, estudie y comparta momentos inolvidables. Este elegante equipo simplifica tus jornadas con un rendimiento fluido que responde a tus necesidades diarias, mientras disfrutas de videollamadas dinámicas y de tus contenidos favoritos con una claridad visual asombrosa.",
+    "features": [
+      "Pantalla de alta nitidez desde cualquier ángulo",
+      "Procesador de gran fluidez para agilizar tus tareas",
+      "Innovación eco-amigable hecho con granos de café reciclados",
+      "Cámara FHD 1080p para videollamadas nítidas",
+      "Escribe en tu PC y cambia a tu móvil fácilmente",
+      "No incluye paquete office"
+    ],
+    "tags": []
+  },
+  {
+    "id": "414",
+    "category": "computadores",
+    "name": "Computador Portátil ASUS Vivobook 15.6\"",
+    "image": "images/products/414.avif",
+    "price": 2816408,
+    "isEnabled": true,
+    "shortdescription": "X1504MA - Intel Core 5 - RAM 8GB - Disco SSD 512GB - Azul",
+    "description": "Este Portátil ASUS X1504MA-BQ919W es el aliado ideal para quienes buscan productividad y comodidad en cada jornada. Su diseño ligero y moderno te acompaña sin esfuerzo, mientras su rendimiento confiable te impulsa a superar tareas, aprender más y avanzar hacia tus metas. Con una pantalla amplia que hace brillar tus ideas Y una batería que sigue tu ritmo gracias al Nuevo Procesador Intel® Core™ 5 Serie 3 con Inteligencia Artificial integrada, este portátil convierte la rutina en una experiencia fluida e inspiradora.",
+    "features": [
+      "Nuevo Procesador Intel Core Serie 3 con motor de IA integrada de hasta 15 TOPS",
+      "Fácil de usar, con su bisagra plana de 180°",
+      "Teclado ASUS ErgoSense, con retro iluminación.",
+      "Cámara de alta claridad con protector de privacidad",
+      "Filtro de luz azul para que no se te cansen los ojos",
+      "No incluye paquete office"
+    ],
+    "tags": []
+  },
+  {
+    "id": "415",
+    "category": "computadores",
+    "name": "Computador Portátil ASUS Vivobook Go 15.6\"",
+    "image": "images/products/415.avif",
+    "price": 1781408,
+    "isEnabled": true,
+    "shortdescription": "E1504FA - AMD Ryzen 3 - RAM 8GB - Disco SSD 512GB - Negro",
+    "description": "El portátil ASUS E1504FA que combina potencia y practicidad en un diseño moderno y ligero. Ideal para estudiantes y profesionales que buscan un equipo confiable, ofrece velocidad y eficiencia para acompañar cada jornada. Su equilibrio entre rendimiento y estilo lo convierte en un aliado versátil para trabajar, estudiar o disfrutar del entretenimiento sin límites, siempre listo para responder a tus necesidades con seguridad y fluidez.",
+    "features": [
+      "Perfecto para estudio y tareas basicas",
+      "Teclado ASUS ErgoSense, cómoda experiencia de escritura",
+      "Pantalla FHD de 15.6\" para una experiencia visual nítida",
+      "Mayor vida útil con certificación de grado Militar 810H",
+      "Diseño liviano y elegante, perfecto para llevar a diario",
+      "No incluye paquete office"
+    ],
+    "tags": []
+  },
+  {
+    "id": "416",
+    "category": "computadores",
+    "name": "Computador Portátil HP Omnibook 14\"",
+    "image": "images/products/416.avif",
+    "price": 1953930,
+    "isEnabled": true,
+    "shortdescription": "14-hy0030la - AMD Ryzen 3 - RAM 8GB - Disco SSD 512GB - Plateado",
+    "description": "Disfruta sin preocupaciones con el HP Omnibook 3 que te acompaña en cada movimiento, ligero, elegante y lista para abrirse en segundos cuando llega la inspiración o la próxima reunión importante. Su pantalla amplia en formato compacto te invita a crear, estudiar y disfrutar de tu contenido con comodidad, tanto en casa como en la universidad, el trabajo o el café. Disfruta de una experiencia fluida, conectada y práctica, pensada para quienes buscan productividad sin perder movilidad ni estilo.",
+    "features": [
+      "Potencia eficiente en el procesador para todo tu día",
+      "Pantalla 2K antirreflejo con bordes ultrafinos",
+      "Diseño ultraligero: menos de 1,5 kg",
+      "Disfruta velocidades rápidas con Wi-Fi 6 y Bluetooth 5.4",
+      "Disfruta tus videollamadas con la cámara 1080p FHD",
+      "No incluye paquete office"
+    ],
+    "tags": []
+  },
+  {
+    "id": "417",
+    "category": "computadores",
+    "name": "Computador Portátil ACER ASPIRE 15.6\"",
+    "image": "images/products/417.avif",
+    "price": 2183884,
+    "isEnabled": true,
+    "shortdescription": "R251 - AMD Ryzen 3 - RAM 8GB - Disco SSD 512GB - Plateado",
+    "description": "Tu día merece fluir sin complicaciones y la ACER Aspire está aquí para hacerlo posible. Con ella estudias, trabajas y te diviertes con la potencia y la rapidez que necesitas, sin perder estilo. Su diseño ligero y moderno te acompaña a todas partes, siempre lista para seguir tu ritmo y ayudarte a alcanzar tus metas. Es la herramienta esencial que convierte cada reto en un logro y cada meta en una oportunidad.",
+    "features": [
+      "Pantalla Full HD con colores vivos y gran detalle",
+      "Con tecla Copilot integrada, la IA siempre contigo",
+      "Formato portátil y delgado: ideal para uso diario",
+      "Diseño ligero (1,45 kg): fácil de transportar",
+      "Versátil para todo tipo de trabajo: básico y avanzado",
+      "No incluye paquete office"
+    ],
+    "tags": []
+  },
+  {
+    "id": "418",
+    "category": "computadores",
+    "name": "Computador Portátil ACER ASPIRE 14\"",
+    "image": "images/products/418.avif",
+    "price": 2011384,
+    "isEnabled": true,
+    "shortdescription": "30CL - Intel Core 3 - RAM 8GB - Disco SSD 512GB - Plateado",
+    "description": "Acer trae para ti su línea de portátiles Aspire, diseñados con tecnología innovadora para la multitarea y la productividad. Gracias a su facilidad de uso, el Aspire es ideal para toda la familia, está enfocado en el rendimiento y en tu día a día. Perfecto para sacar más partido al trabajo y estudio. Con su elegante cubierta metálica, el Aspire es más ligero y delgado que nunca. Además, la batería de larga duración permite que la familia pueda hacer más entre carga y carga.",
+    "features": [
+      "Sistema térmico mejorado, para sesiones eficientes",
+      "Acer BluelightShield, filtra la luz azul y cuida tus ojos",
+      "Pantalla WUXGA que muestra imágenes nítidas y detalladas",
+      "Accede a Copilot con la tecla especial",
+      "Sus puertos proporcionan mayor conectividad y productividad",
+      "No incluye paquete office"
     ],
     "tags": []
   },
@@ -940,12 +1451,84 @@ export const products = [
     "tags": []
   },
   {
+    "id": "604",
+    "category": "electromenores",
+    "name": "Freidora de Aire BLACK+DECKER 8.0 Litros AFBD82-1BDLA Negro",
+    "image": "images/products/604.avif",
+    "price": 482885,
+    "isEnabled": true,
+    "shortdescription": "Cocina sin culpa y más rápido con La Freidora de Aire Saludable de BLACK+DECKER®.",
+    "description": "La freidora de aire Purifry de Black+Decker combina tecnología Airfry con diseño elegante en negro y champagne. Con 9 funciones preprogramadas y pantalla táctil digital, cocina 2 veces más rápido usando 50% menos de energía. Su cesta antiadherente es fácil de limpiar y apta para lavavajillas. Ideal para disfrutar comidas crujientes sin remordimientos, ahorrando tiempo y esfuerzo.",
+    "features": [
+      "9 funciones preprogramadas: hornear y deshidratar",
+      "Notificación para agitar los alimentos",
+      "Temporizador de 60 minutos con apagado automático",
+      "Alta Potencia de 1,700 watts",
+      "Cocción a temperatura hasta 200°C"
+    ],
+    "tags": []
+  },
+  {
+    "id": "605",
+    "category": "electromenores",
+    "name": "Freidora de aire OSTER 3.8 Litros Manual recubrimiento antiadherente Negra",
+    "image": "images/products/605.avif",
+    "price": 269134,
+    "isEnabled": false,
+    "shortdescription": "Este es tu aliado en la cocina, para comer saludable, ahorrar tiempo y realizar recetas como profesional sin ser uno.",
+    "description": "La freidora de Aire OSTER de 3.8 litros manual con recubrimiento antiadherente, es perfecta para cocinas con poco espacios y familias pequeñas. Cocina alimentos utilizando aire caliente en lugar de aceite, ya que no requiere de este o muy poco. No gastes más, cuida tu bolsillo y a tu familia con alimentos saludables y aparte luce como todo un profesional.",
+    "features": [
+      "La bandeja de cocción tiene un capacidad de 3.8 lts",
+      "Perillas independientes, control de tiempo y temperatura",
+      "Controla el tiempo de cocción con el temporizador 60 min",
+      "Alcanza una temperatura de 200° C",
+      "Canasta con recubrimiento antiadherente"
+    ],
+    "tags": []
+  },
+  {
+    "id": "606",
+    "category": "electromenores",
+    "name": "Horno Microondas ELECTROLUX 1.0 Pies EMDO30 Grill Gris",
+    "image": "images/products/606.avif",
+    "price": 609385,
+    "isEnabled": true,
+    "shortdescription": "Con el Horno Microondas de 30 Litros Gris Electrolux calienta y descongela tus recetas favoritas.",
+    "description": "La circulación del aire que te entrega la Función Elimina Olor, te permite dejar tu microondas listo para preparar o calentar la siguiente receta. Integrado con opciones funcionales como el Menú para Niños, que viene con tres funciones preprogramadas que favorecen la preparación de sus recetas favoritas como palomitas y quesadillas. Con su Función Grill puedes gratinar y dorar los alimentos en su espacioso interior.",
+    "features": [
+      "Grill: Gratina y dora los alimentos",
+      "Descongela tus alimentos fácilmente",
+      "Menú Favorito: Programa las recetas más utilizadas",
+      "Capacidad de 30 litros para recipientes más grandes",
+      "Función mantener caliente. Temperatura ideal para servir"
+    ],
+    "tags": []
+  },
+  {
+    "id": "607",
+    "category": "electromenores",
+    "name": "Horno Microondas HACEB 1.1 Pies AzafránGrill Negro",
+    "image": "images/products/607.avif",
+    "price": 574885,
+    "isEnabled": true,
+    "shortdescription": "Nada mejor que darles un toque dorado a nuestras preparaciones favoritas, con el Horno Microondas HACEB HM AZAFRÁN 1.1 GRILL, podrás lograrlo.",
+    "description": "Su dorador es uno de los muchos atributos que ofrece. Cuenta con 6 programas predeterminados: palomitas, papas cocidas, pizza congelada, bebidas y carnes. Disminuye olores gracias al desodorizado, te brinda la función ECO para ahorrar energía. Además, su función multi cocción te permite cocinar tus alimentos combinados con la acción Grill y la del microondas.",
+    "features": [
+      "10 niveles de potencia para cocinar en menos tiempo",
+      "Disminuye olores gracias al desodorizado integrado del horno",
+      "Permite mayor ahorro de energía con su función especial ECO",
+      "Dorador, función que permite darle el dorado a tus recetas",
+      "Descongela según el peso de tus alimentos"
+    ],
+    "tags": []
+  },
+  {
     "id": "701",
     "category": "linea_blanca",
     "name": "Nevera KALLEY Frost Una Puerta 187 Litros",
     "image": "images/products/701.webp",
     "price": 2298908,
-    "isEnabled": true,
+    "isEnabled": false,
     "specs": { "size_value": 187, "unit": "litros" },
     "shortdescription": "K-N187L2GO Gris Oscuro",
     "description": "La nevera KALLEY K-N187L2GO de 187 Litros gris cuenta con dispensador de agua manual, removible y fácil de limpiar con capacidad de 1.8 Litros, temperatura ajustable según tus necesidades, compartimiento extra frio para preservar adecuadamente tus alimentos. Además incluye bandeja inferior para vegetales, rejillas de vidrio removibles para adecuarlas como prefieras y compartimientos para botellas. Su garantía es de 1 año en la unidad y 5 años en el compresor ¡No esperes más y lleva la tuya!",
@@ -1046,7 +1629,7 @@ export const products = [
       "Más ahorro, menos consumo y excelente rendimiento.",
       "Gran variedad de funciones que se ajustan a tus necesidades"
     ],
-    "tags": ["te-puede-interesar","mas-vendido"]
+    "tags": ["mas-vendido"]
   },
   {
     "id": "802",
@@ -1120,7 +1703,7 @@ export const products = [
       "Adelanta la programación con un solo botón",
       "Función reutilizar agua"
     ],
-    "tags": ["Nuevo","te-puede-interesar"]
+    "tags": ["te-puede-interesar"]
   },
   {
     "id": "901",
@@ -1154,7 +1737,7 @@ export const products = [
       "Tapa de vidrio templado, grosor 4mm",
       "Dorador en el horno"
     ],
-    "tags": []
+    "tags": [""]
   },
   {
     "id": "903",
@@ -1211,6 +1794,60 @@ export const products = [
       "Tres quemadores Rápidos y uno Ultrarrápido"
     ],
     "tags": ["Nuevo"]
+  },
+  {
+    "id": "906",
+    "category": "linea_blanca",
+    "name": "Lavadora MABE Carga Superior 24 Kilos LMC74215WDAB0 Gris",
+    "image": "images/products/906.avif",
+    "price": 2644885,
+    "isEnabled": true,
+    "shortdescription": "La lavadora MABE LMC74215WDAB0 es ideal para ayudarte a ahorrar tiempo y esfuerzo, gracias a sus 11 ciclos automáticos e inicio programado.",
+    "description": "Cuenta con tecnología aqua saver green que ahorra hasta 76% de agua y 55% de energía. Cuida tu salud y la de tu familia gracias a su ciclo de sanitizado, que elimina el 99.9% de las bacterías. Su sistema de lavado con agitador Hybrid Washing, elimina los residuos con un lavado profundo y eficiente.",
+    "features": [
+      "Ciclo Sanitizado, cuida tu salud.",
+      "Muy fácil de manejar, gracias a los ciclos automáticos",
+      "Inicio retardado, mayor independencia",
+      "Programa tu lavadora para que prenda automaticamente",
+      "Panel de control con perillas"
+    ],
+    "tags": []
+  },
+  {
+    "id": "907",
+    "category": "linea_blanca",
+    "name": "Lavadora LG Carga Superior 25 Kilos WT25MT6HK Negro",
+    "image": "images/products/907.avif",
+    "price": 3047385,
+    "isEnabled": true,
+    "shortdescription": "Selecciona un programa de lavado y la tecnología 6 Motion Direct Drive moverá la tina en varias direcciones, dándole a las telas el cuidado apropiado mientras deja la ropa ultra limpia.",
+    "description": "Lavadora LG carga superior con excelente capacidad 25 Kg, exclusiva tecnología 6 Motion que te permite tener un lavado más profundo para cada tipo de prenda, permite un proceso de lavado más potente, eliminando la suciedad más difícil gracias al sistema de lavado TurboDrum™, con los potentes chorros de agua con JetSpray obtienes un enjuague eficaz y una limpieza total, gracias al motor Direct Drive opten Mayor eficiencia energética.",
+    "features": [
+      "6 Motion DD™, Óptimo lavado de las prendas",
+      "TurboDrum, Lavado poderoso",
+      "Turbo Wash 3D, Lavado poderoso en menor tiempo",
+      "Jet Spray, enjuague rápido y eficaz",
+      "Smart Diagnosis™, Diagnostico inteligente de tu producto"
+    ],
+    "tags": []
+  },
+  {
+    "id": "908",
+    "category": "linea_blanca",
+    "name": "Lavadora CHALLENGER 11 Kilos CW 4711 Blanca",
+    "image": "images/products/908.avif",
+    "price": 735885,
+    "isEnabled": true,
+    "shortdescription": "La lavadora CHALLENGER CW4711 facilita el cuidado de tu ropa con un lavado práctico, eficiente y pensado para tu día a día.",
+    "description": "Su sistema de impulsor genera movimientos que mejoran la limpieza de las prendas, mientras su centrifugado optimiza el tiempo de secado para que tu ropa esté lista más rápido. Su diseño funcional y fácil manejo te brinda comodidad en cada uso y un desempeño confiable en tu hogar.",
+    "features": [
+      "Capacidad 11 kg ideal para el lavado diario",
+      "Sistema de lavado por impulsor más eficiente",
+      "Centrifugado Air-Flux: ropa más seca",
+      "2 ciclos de lavado: normal y pesado",
+      "Filtro atrapa pelusas para mayor limpieza"
+    ],
+    "tags": ["mas-vendido"]
   },
   {
     "id": "1001",
