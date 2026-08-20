@@ -13,7 +13,7 @@
   height: auto;
 }
 
-.swiper-slide-1,  .swiper-slide-3{
+.swiper-slide-2,  .swiper-slide-4,  .swiper-slide-0{
   background-color: var(--background-slide-main);
 }
 
@@ -42,7 +42,10 @@
   margin-bottom: 20px;
   line-height: var(--spacing-medium);
   color: var(--primary-color);
-  
+}
+
+.text-firstSlide{
+  color: black;
 }
 
 .button__slider{
@@ -99,3 +102,145 @@
 }
 
 
+/* Badge "Así de fácil" */
+.badge__slider {
+  display: inline-block;
+  background-color: #d1f8e4;
+  color: #00875a;
+  font-size: 0.8rem;
+  font-weight: var(--font-bold);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+
+/* Contenedor de Pasos (Mobile por defecto) */
+
+.title__highlight {
+  color: var(--background-dark-blue, #0d1a40); /* Utiliza tu variable de azul corporativo */
+}
+
+
+.credit-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.step-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background-color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.step-badge {
+  background-color: #00875a;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: var(--font-bold);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-icon {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.step-title {
+  font-size: 0.95rem;
+  font-weight: var(--font-bold);
+  color: var(--primary-color);
+  margin-bottom: 0.2rem;
+}
+
+.step-desc {
+  font-size: 0.8rem;
+  color: black;
+  line-height: 1.2;
+}
+
+.slide-footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.trust-text {
+  font-size: 0.8rem;
+  color: #00875a;
+  font-weight: var(--font-semibold);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* Ajuste específico para la tarjeta 3 en Mobile */
+.step-card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+/* La cabecera y el contenido se alinean horizontalmente como en los pasos 1 y 2 */
+.step-card-3 .step-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.step-card-3 .step-content {
+  width: 100%;
+}
+
+/* La imagen pasa abajo ocupando el ancho completo con márgenes ordenados */
+.step-card-3 .step-img-container {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+.slide-credit-img {
+  width: 100%;
+  max-height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e0e4ec;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+
+
+
+/* Contenedor de la miniatura dentro de la tarjeta */
+.step-img-container {
+  width: 90px;
+  min-width: 90px;
+  height: auto;
+  margin: 0;
+}
+
+/* Imagen del Screenshot */
+.swiper__img.slide-credit-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e4ec;
+  object-fit: cover;
+}

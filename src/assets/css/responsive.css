@@ -173,49 +173,7 @@
   top: 0;
 }
 
-  /* .swiper__img.index.slide1{
-    width: 41.875rem;
-    height: auto;
-    max-width: 100%;
-    position: relative;
-    object-fit: contain;
-    object-position: center;
-    top: -80px;
-    left: 60px;
-    
-  }
-
-  .swiper__img.index.slide2{
-    width: 41.875rem;
-    height: auto;
-    max-width: 100%;
-    position: relative;
-    object-fit: contain;
-    object-position: center;
-    top: -80px;
-    left: 60px;
-    
-  }
-
-  .swiper__img.index.slide3{
-    width: 41.875rem;
-    height: auto;
-    position: relative;
-    object-fit: contain;
-    object-position: center;
-    top: -80px;
-    left: 60px;
-  }
-
-   .swiper__img.index.slide4{
-    width: 600px;
-    height: auto;
-    position: relative;
-    object-fit: contain;
-    object-position: center;
-    top: -50px;
-    left: 60px;
-  } */
+  
 
   .swiper__img.index.slide1,
 .swiper__img.index.slide2,
@@ -235,12 +193,13 @@
 
   .swiper-slide-hero {
   display: grid;
-  grid-template-columns: minmax(20rem, 1.5fr) minmax(20rem, 1fr);
+  grid-template-columns: minmax(20rem, 1.3fr) minmax(20rem, 1fr);
   grid-template-rows: auto;
-  padding-inline: clamp(3rem, 8vw, 15rem);
+  /* padding-inline: clamp(3rem, 8vw, 15rem); */
   padding-top: 0.3rem;
   position: relative;
-  gap: 2rem; /* espacio entre columnas */
+  gap: 0.5rem;
+  padding-inline: clamp(2rem, 5vw, 6rem); /* Reduce el padding lateral interno */
 }
 
   .title__slider {
@@ -270,6 +229,53 @@
 
   .swiper-pagination .swiper-pagination-bullet-active {
     background: var(--background-dark-blue);
+  }
+
+  /* Distribución horizontal de los pasos en Desktop */
+  .credit-steps {
+    flex-direction: row;
+    gap: 1.2rem;
+    width: 100%;
+  }
+
+  .step-card {
+    flex: 1 1 0;
+    min-width: 180px; /* Garantiza un ancho mínimo cómodo */
+    padding: 1.25rem 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* 3. Reacomodo de la tarjeta 3 para Desktop (Imagen arriba o abajo en vertical) */
+  .step-card-3 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .step-card-3 .step-img-container {
+    width: 100%;
+    margin-top: auto; /* Empuja la imagen al fondo si la tarjeta crece */
+  }
+
+  .slide-footer-info {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .swiper-slide-hero.slider-credit-step {
+    align-items: center;
+  }
+
+  .step-img-container {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 0.8rem;
+  }
+
+  .step-desc.envia,
+  .step-desc.selecciona{
+    margin-top: 1rem;
   }
 
   
@@ -514,6 +520,14 @@
 
   .cart-item__actions {
     gap: 0.8rem;
+  }
+
+  .swiper-slide-hero.slider-credit-step {
+    /* Ajustamos el grid para darle más espacio a las 3 tarjetas */
+    grid-template-columns: 1fr 1.1fr; 
+    padding-inline: 2.5rem; /* Reducimos el padding lateral del slider */
+    gap: 1rem;
+    align-items: center;
   }
 
 }

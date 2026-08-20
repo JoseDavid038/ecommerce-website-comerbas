@@ -104,7 +104,7 @@ export const products = [
       "Buscador con inteligencia artificial",
       "Transmite el audio de tu tv directamente a tu celular"
     ],
-    "tags": ["recomendado1"]
+    "tags": ["mas-vendido"]
   },
   {
     "id": "106",
@@ -1353,7 +1353,7 @@ export const products = [
       "Cesta con rejilla antiadherente para fácil limpieza",
       "Mango frío al tacto para mayor seguridad"
     ],
-    "tags": ["mas-vendido"]
+    "tags": ["recomendado2"]
   },
   {
     "id": "502",
@@ -1409,7 +1409,7 @@ export const products = [
       "Capacidad 20 Litros",
       "Función de inicio rápido "
     ],
-    "tags": ["mas-vendido","recomendado2"]
+    "tags": ["recomendado2"]
   },
   {
     "id": "602",
@@ -1612,7 +1612,7 @@ export const products = [
       "Modos: Congelamiento rápido y ahorro de energía",
       "Empaque magético removible y alarma de puerta abierta"
     ],
-    "tags": ["Nuevo"]
+    "tags": ["mas-vendido"]
   },
   {
     "id": "801",
@@ -1720,7 +1720,7 @@ export const products = [
       "Visor del horno 65% más amplio para seguir tus recetas",
       "Encendido eléctrico de las fuentes de calor"
     ],
-    "tags": ["recomendado2","te-puede-interesar"]
+    "tags": ["mas-vendido","te-puede-interesar"]
   },
   {
     "id": "902",
@@ -1847,7 +1847,7 @@ export const products = [
       "2 ciclos de lavado: normal y pesado",
       "Filtro atrapa pelusas para mayor limpieza"
     ],
-    "tags": ["mas-vendido"]
+    "tags": ["recomendado1"]
   },
   {
     "id": "1001",
