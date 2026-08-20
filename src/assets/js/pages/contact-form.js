@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const name = document.getElementById('name').value.trim();
     const cedula = document.getElementById('cedula').value.trim();
     const ciudad = document.getElementById('ciudad') ? document.getElementById('ciudad').value.trim() : ''; 
+    const empresa = document.getElementById('empresa') ? document.getElementById('empresa').value.trim() : ''; 
     const email = document.getElementById('email').value.trim();
     const phone = document.getElementById('phone').value.trim();
 
@@ -82,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
       name,
       cedula,
       ciudad,
+      empresa,
       email,
       phone,
       cart_items: productListText,
