@@ -1,42 +1,46 @@
 import { products } from './data.js';
 import emailjs from '@emailjs/browser';
 
-// ✅ Inicializar EmailJS con tu clave pública
-// emailjs.init('C6e2e5m5CWLeFl1hy');
+// ✅ Inicializar EmailJS
 emailjs.init('AFzBD9_P32cSvOgdt');
 
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
+  // Obtener referencia al botón de envío (ajusta la clase o ID si usas otro selector)
+  const submitBtn = form.querySelector('button[type="submit"]') || form.querySelector('.btn-primary');
+
   form.addEventListener('submit', function (e) {
-    
+    e.preventDefault();
+
     // ---------------------------------------------------------
-    // 1. VALIDACIÓN: Verificar que los correos coincidan antes de nada
+    // 1. VALIDACIÓN: Verificar que los correos coincidan
     // ---------------------------------------------------------
     const emailVal = document.getElementById('email').value.trim();
-    // Asegúrate de que en tu HTML el segundo input tenga id="confirm_email"
     const confirmEmailInput = document.getElementById('confirm_email');
     const confirmEmailVal = confirmEmailInput ? confirmEmailInput.value.trim() : ''; 
     const emailError = document.getElementById('emailError'); 
 
     if (confirmEmailInput && emailVal !== confirmEmailVal) {
-       e.preventDefault(); // Detiene el envío
-       
-       // Muestra el mensaje de error rojo si existe en el HTML
        if(emailError) emailError.style.display = 'block';
-       
        alert("❌ Los correos electrónicos no coinciden. Por favor verifícalos.");
-       return; // Sale de la función, no envía nada
+       return; // Sale sin bloquear el botón
     } else {
        if(emailError) emailError.style.display = 'none';
     }
 
-    // Si pasa la validación, prevenimos el comportamiento por defecto para usar EmailJS
-    e.preventDefault();
+    // ---------------------------------------------------------
+    // 2. BLOQUEO DEL BOTÓN (Evita doble clic)
+    // ---------------------------------------------------------
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.dataset.originalText = submitBtn.innerHTML; // Guardar texto original
+      submitBtn.innerHTML = 'Procesando... <i class="ri-loader-4-line spin"></i>';
+    }
 
     // ---------------------------------------------------------
-    // 2. Recopilación de Datos
+    // 3. Recopilación de Datos
     // ---------------------------------------------------------
     const name = document.getElementById('name').value.trim();
     const cedula = document.getElementById('cedula').value.trim();
@@ -45,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const phone = document.getElementById('phone').value.trim();
 
     // ---------------------------------------------------------
-    // 3. Lógica del Carrito
+    // 4. Lógica del Carrito
     // ---------------------------------------------------------
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
@@ -59,24 +63,20 @@ document.addEventListener('DOMContentLoaded', function () {
       return { id, name: productName, quantity: item.quantity, price, total };
     });
 
-    // Texto para el cuerpo del correo
     const productListText = cartDetails.map((item, index) =>
       `${index + 1}. Código: ${item.id} — ${item.name} — Cant: ${item.quantity} — Precio: $${item.price.toLocaleString()} — Subtotal: $${item.total.toLocaleString()}`
     ).join('\n');
 
-    // Total a financiar (Número puro para la URL)
     const totalFinanciar = cartDetails.reduce((acc, item) => acc + item.total, 0);
 
     // ---------------------------------------------------------
-    // 4. Construcción de la URL de Redirección
+    // 5. Construcción de URL
     // ---------------------------------------------------------
     const baseUrl = "https://creditrequest.comerbas.com";
-
-    // URL con parámetros codificados y seguros (Sin observations, como pediste)
     const redirectUrl = `${baseUrl}?PersonalID=${encodeURIComponent(cedula)}&Email=${encodeURIComponent(email)}&PhoneNumber=${encodeURIComponent(phone)}&CreditValue=${encodeURIComponent(totalFinanciar)}`;
 
     // ---------------------------------------------------------
-    // 5. Envío con EmailJS
+    // 6. Envío con EmailJS
     // ---------------------------------------------------------
     const templateParams = {
       name,
@@ -88,10 +88,8 @@ document.addEventListener('DOMContentLoaded', function () {
       total: `$${totalFinanciar.toLocaleString()}`
     };
 
-    // emailjs.send('service_l6nlo69', 'template_x8j0m3i', templateParams)
     emailjs.send('service_gatov8h', 'template_td6iz09', templateParams)
       .then(() => {
-        
         // Limpiar formulario y carrito
         form.reset();
         localStorage.removeItem('cart'); 
@@ -102,28 +100,32 @@ document.addEventListener('DOMContentLoaded', function () {
         if (modal) {
             modal.style.display = "flex";
             
-            // A. Redirección Automática (Backup: 4 segundos)
+            // A. Redirección Automática (4 segundos)
             const autoRedirect = setTimeout(() => {
                 window.location.href = redirectUrl;
             }, 4000); 
 
-            // B. Redirección Manual (Botón Aceptar)
+            // B. Redirección Manual
             const btnAceptar = document.getElementById('modalAcceptBtn');
-            
             if(btnAceptar) {
                 btnAceptar.onclick = function() {
-                    clearTimeout(autoRedirect); // Evita doble redirección
+                    clearTimeout(autoRedirect);
                     window.location.href = redirectUrl;
                 };
             }
         } else {
-            // Si el modal falla, redirigir directo
             window.location.href = redirectUrl;
         }
       })
       .catch(error => {
         console.error('Error al enviar:', error);
         alert('❌ Hubo un error al enviar el formulario. Intenta nuevamente.');
+
+        // Reinstaurar el botón en caso de falla para que el usuario pueda reintentar
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = submitBtn.dataset.originalText;
+        }
       });
   });
 });
