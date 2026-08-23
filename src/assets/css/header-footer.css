@@ -146,7 +146,72 @@ section[id] {
 }
 
 
+/* Botón Limpio sin Borde (Mobile First: Alineado a la izquierda) */
+.button--guide-custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start; /* Alineación a la izquierda en móvil */
+  gap: 0.6rem;
+  background-color: transparent; /* Sin fondo de caja ni sombras estáticas */
+  border: none; /* Sin borde */
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: transform 0.25s ease; /* Transición exclusiva de movimiento */
+}
 
+.guide-btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.guide-icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Texto en una sola línea */
+.guide-btn-text {
+  color: var(--background-dark-blue, #0d1a40);
+  font-weight: 800;
+  font-size: 0.95rem;
+  white-space: nowrap; /* Fuerza que permanezca en una sola línea */
+  letter-spacing: -0.2px;
+}
+
+/* Hover: Únicamente desplazamiento sutil (sin cambios de fondo/borde) */
+.button--guide-custom:hover {
+  transform: translateY(-2px);
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-color:var(--background-dark-blue);
+  text-decoration-thickness: 2px;
+  border-bottom: 3px solid currentColor;
+}
+
+/* Contenedor del botón en el menú móvil para alinearlo exactamente con la lista */
+.nav__menu-button {
+  margin-top: 1.5rem;
+  text-align: left;
+  padding-left: 0; /* Asegura coincidencia con el margen de .nav__link */
+}
+
+/* Ajustes para Desktop (≥1150px) */
+@media screen and (min-width: 1150px) {
+  .button--guide-custom {
+    width: auto;
+    justify-content: center;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .nav__menu-button {
+    margin-top: 0;
+  }
+}
 
 /* footer */
 

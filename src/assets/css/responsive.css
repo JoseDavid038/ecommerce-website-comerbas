@@ -5,7 +5,7 @@
     top: 0;
     left: -100%;
     width: 100%;
-    height: 60%;  /*before 52*/
+    height: 68%;  /*before 52*/
     padding-top: 11rem;
     padding-left: 1.5rem;
     background-color: white;
@@ -395,11 +395,12 @@
     max-width: 500px; /* opcional, para limitar tamaño */
   }
 
-  .cart {
+
+  .nav__credit-desktop {
     order: 3;
   }
 
-  .nav__credit-desktop {
+  .cart {
     order: 4;
   }
 
