@@ -85,6 +85,21 @@ function setupMenu(){
   })
   }
 
+ // Cierra menú móvil y activa la apertura del modal guía
+const guideBtns = document.querySelectorAll('.js-btn-open-guide');
+guideBtns.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation(); // Evita que el evento escale inmediatamente a window
+    
+    if(navMenu) navMenu.classList.remove('show-menu');
+    
+    const guideModal = document.getElementById('guideModal');
+    if (guideModal) {
+      guideModal.style.display = 'flex';
+    }
+  });
+});
+
   
   const navLink = document.querySelectorAll('.nav__link');
 

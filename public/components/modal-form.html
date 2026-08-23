@@ -1,42 +1,44 @@
 <div id="procesoModal" class="modal-overlay">
   <div class="modal-container">
 
-    <button class="modal-close" id="closeModalBtn">&times;</button>
+    <button class="modal-close" id="closeModalBtn" aria-label="Cerrar">&times;</button>
 
-    <h2 class="modal-title">✔ Paso 1 completado</h2>
+    <h2 class="modal-title">✔ Datos registrados</h2>
+    
     <p class="modal-subtitle">
-      <strong>¡Excelente elección!</strong>Los productos que seleccionaste han sido registrados. Solo falta un paso para finalizar tu solicitud.
+      <strong>¡Excelente elección!</strong> Los productos que seleccionaste han sido registrados con éxito. Solo falta un paso para finalizar tu solicitud.
     </p>
 
     <div class="modal-steps">
+      <!-- Paso 1: Completado -->
       <div class="step-item active">
         <span class="step-number">1</span>
-        <span>Seleccionaste tu producto</span>
+        <span>Seleccionaste tu producto y registraste tus datos</span>
       </div>
 
-      <div class="step-item">
+      <!-- Paso 2: En progreso -->
+      <div class="step-item active">
         <span class="step-number">2</span>
-        <span>Completa tu solicitud de crédito</span>
+        <span>Completa tu solicitud en la plataforma de crédito</span>
       </div>
-      <p class="step-item">En un momento seras dirigido a la siguiente página.</p>
 
+      <p class="modal-redirect-info">
+        En un momento serás redirigido automáticamente a nuestra plataforma para continuar con las instrucciones.
+      </p>
+
+      <!-- Vista previa -->
       <div class="modal-image">
-        <img src="./images/credito-interfaz.webp" alt="Vista previa del siguiente paso">
+        <img src="./images/credito-interfaz.webp" alt="Vista previa de la plataforma de crédito">
       </div>
 
-
+      <!-- Paso 3: Pendiente -->
       <div class="step-item">
         <span class="step-number">3</span>
-        <span>Comerbas revisará tu solicitud</span>
+        <span>Comerbas revisará y aprobará tu solicitud</span>
       </div>
     </div>
 
-    
-    <button id="modalAcceptBtn" class="modal-accept" type="button">Aceptar</button>
+    <button id="modalAcceptBtn" class="modal-accept" type="button">Continuar al paso 3</button>
 
   </div>
-
 </div>
-
-
-

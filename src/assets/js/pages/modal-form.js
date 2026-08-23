@@ -20,6 +20,6 @@ function initModalEvents() {
   });
 
   acceptBtn.addEventListener("click", () => {
-    window.location.href = "https://creditrequest.comerbas.com"; // Cambia la ruta
+    window.location.href = "categoria.html"; // Cambia la ruta
   });
 }
