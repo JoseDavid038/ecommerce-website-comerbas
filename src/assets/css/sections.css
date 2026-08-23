@@ -524,15 +524,29 @@
    TITLES
 =========================== */
 .modal-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
-  color: #4A148C;
-  margin-bottom: 2rem;
+  color: #107c41; /* Verde de confirmación */
+  margin-bottom: 1rem;
 }
 
 .modal-subtitle {
   font-size: 15px;
-  color: #555;
+  color: #333333;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+
+.modal-redirect-info {
+  font-size: 0.9rem;
+  color: #555555;
+  background-color: #f4f7f6;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border-left: 4px solid #1A237E;
+  text-align: left;
+  line-height: 1.4;
+  margin-bottom: 1rem;
 }
 
 /* ===========================
@@ -573,22 +587,26 @@
 .modal-image img {
   width: 100%;
   border-radius: 12px;
-  margin-top: 20px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #e0e4ec;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* ===========================
    BUTTON
 =========================== */
 .modal-accept {
-  
   width: 100%;
   background: #1A237E;
-  color: #fff;
+  color: #ffffff;
   border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
-  transition: 0.2s;
+  transition: background-color 0.2s ease;
 }
-
 
 .modal-accept:hover {
   background: #0D47A1;
