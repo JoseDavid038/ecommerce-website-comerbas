@@ -21,16 +21,20 @@ function renderProducts(array, targetClass) {
 
   container.innerHTML = array.map(product => `
     <article class="product-card">
-      <div class="card-image-container">
-        <a href="detalleproducto.html?id=${product.id}">
-          <img src="${product.image}" alt="${product.name}" class="card-image">
-        </a>
-      </div>
+      <!-- Enlace superior para imagen, marca, título y precio -->
+      <a href="detalleproducto.html?id=${product.id}" class="product-card__link">
+        <div class="card-image-container">
+          <img src="${product.image}" alt="${product.name}" class="card-image" loading="lazy">
+        </div>
+        
+        <div class="card-info-container">
+          <span class="product-brand">${product.brand || ''}</span> <!-- O la propiedad de marca que tengas -->
+          <h3 class="name__product-card">${product.name}</h3>
+          <div class="price">${formatoCOP.format(product.price)}</div>
+        </div>
+      </a>
 
-      <div class="card-info-container">
-        <h2 class="name__product-card">${product.name}</h2>
-        <p class="price">${formatoCOP.format(product.price)}</p>
-      </div>
+      
     </article>
   `).join('');
 }

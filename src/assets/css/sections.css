@@ -26,8 +26,15 @@
 }
 
 .swiper-wrapper {
-  align-items: stretch; /* Obliga a todos los slides a tener el mismo alto */
+  align-items: stretch !important;
 }
+
+.swiper-slide {
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .swiper-slide-card {
   background: #fff;
@@ -49,52 +56,60 @@
   border-radius: 8px;
 }
 
-
-
-.name__product-card {
-  font-size: 1rem;
-  margin-top: 0.5rem;
-}
-
-.price {
-  color: var(--primary-color);
-  font-weight: bold;
-  margin-top: 0.25rem;
-}
-
-
-.name__product-card {
-  font-size: var(--font-large);
-  color: var(--background-dark-blue);
-  font-weight: var(--font-bold);
-  line-height: 25px;
-  width: 80%;
+/* Marca del producto */
+.product-brand {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6c757d;
+  letter-spacing: 0.5px;
   text-align: left;
 }
 
+
+/* Nombre del producto (Truncado limpio a máximo 2 líneas) */
+.name__product-card {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--background-dark-blue, #0d1a40);
+  line-height: 1.35;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+/* Precio del producto */
 .price {
-  font-size: var(--font-heading);
-  color: var(--background-dark-blue);
-  font-weight: var(--font-semibold);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--background-dark-blue, #0d1a40);
+  margin-top: auto;
+  text-align: left;
 }
 
 .card-info-container {
   display: flex;
   flex-direction: column;
-  row-gap: 0.5rem;
-  flex-grow: 1; /* Esto hace que el texto ocupe el espacio disponible */
-  justify-content: space-between;
+  gap: 0.5rem;
+  flex-grow: 1;
+  margin-bottom: 1.2rem;
 }
 
+/* Contenedor de la Imagen del Producto */
 .card-image-container {
-  margin-bottom: 1.1rem;
   width: 100%;
-  height: 250px; /* CAMBIO CLAVE: Usamos height fijo, no min-height */
+  height: 220px; /* Altura ideal y limpia para la vista en móvil */
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-color: #fff; /* Asegura fondo blanco si la imagen es png transparente */
+  background-color: #ffffff;
+  margin-bottom: 1rem;
 }
 
 .card-image-container img,
@@ -610,6 +625,14 @@
 
 .modal-accept:hover {
   background: #0D47A1;
+}
+
+.product-card__link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 /* ===========================
