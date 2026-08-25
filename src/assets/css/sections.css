@@ -120,6 +120,11 @@
   object-position: center;
 }
 
+.swiper-slide-0{
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 
 .button--services {
   background: var(--white-color);

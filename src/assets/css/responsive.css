@@ -287,6 +287,14 @@
     margin-top: 1rem;
   }
 
+  .obs-box{
+    text-align: left;
+  }
+
+  .swiper-slide-0{
+    display: none;
+  }
+
   
   /* footer */
 
