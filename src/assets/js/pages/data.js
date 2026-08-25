@@ -972,7 +972,7 @@ export const products = [
       "5G que acelera tu mundo sin esperas ni límites.",
       "Diseño elegante que refleja tu estilo sofisticado."
     ],
-    "tags": []
+    "tags": ["mas-vendido2"]
   },
   {
     "id": "318",
@@ -993,7 +993,7 @@ export const products = [
       "Practico botón X con atajos a tus aplicaciones favoritas",
       "Resistente a polvo y salpicaduras IP64"
     ],
-    "tags": []
+    "tags": ["mas-vendido2"]
   },
   {
     "id": "319",
@@ -1543,7 +1543,7 @@ export const products = [
       "Alta Potencia de 1,700 watts",
       "Cocción a temperatura hasta 200°C"
     ],
-    "tags": []
+    "tags": ["mas-vendido2"]
   },
   {
     "id": "605",
@@ -1773,7 +1773,7 @@ export const products = [
       "Puerta con Cierre Suave",
       "Filtro atrapa motas de gran tamaño"
     ],
-    "tags": ["Nuevo"]
+    "tags": [""]
   },
   {
     "id": "805",
@@ -1811,7 +1811,7 @@ export const products = [
       "Visor del horno 65% más amplio para seguir tus recetas",
       "Encendido eléctrico de las fuentes de calor"
     ],
-    "tags": ["mas-vendido","te-puede-interesar"]
+    "tags": ["mas-vendido2","te-puede-interesar"]
   },
   {
     "id": "902",

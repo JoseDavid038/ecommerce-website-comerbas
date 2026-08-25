@@ -35,10 +35,12 @@ const availableProducts = products.filter(p => p.isEnabled !== false);
 
 // 🔹 2. Filtramos usando la lista de productos DISPONIBLES
 const masVendidos = availableProducts.filter(p => p.tags.includes("mas-vendido"));
+const masVendidos2 = availableProducts.filter(p => p.tags.includes("mas-vendido2"));
 const recomendados = availableProducts.filter(p => p.tags.includes("recomendado1"));
 const recomendados2 = availableProducts.filter(p => p.tags.includes("recomendado2"));
 
 // --- Renderizamos en sus secciones ---
 renderProducts(masVendidos, '.js-productsMasV-grid');
+renderProducts(masVendidos2, '.js-productsMasV2-grid');
 renderProducts(recomendados, '.js-productsR1-grid');
 renderProducts(recomendados2, '.js-productsR2-grid');
