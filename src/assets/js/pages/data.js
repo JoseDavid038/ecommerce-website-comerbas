@@ -783,7 +783,7 @@ export const products = [
     "price": 1034885,
     "isEnabled": true,
     "specs": { "size_value": 256, "unit": "GB" },
-    "shortdescription": "Tamaño Pantalla\n6.78 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB",
+    "shortdescription": "Tamaño Pantalla\n6.78 Pulgadas\nMemoria Interna\n256 GB\nMemoria RAM\n8 GB\nColor: Negro.",
     "description": "Tan delgado como un lápiz, este smartphone se adapta a tu día con un diseño que llama la atención por su elegancia. Su pantalla curva hace que todo se vea más fluido y envolvente, ideal para disfrutar tus series, redes o juegos como nunca antes. Se carga rápido y sin cables, para que no pierdas tiempo y sigas con lo que más te gusta. Además, es resistente a salpicaduras y al polvo, perfecto para acompañarte en cualquier momento. Un celular que se siente tan bien como se ve. ¡Compra el Tuyo Ahora!",
     "features": [
       "Diseño ultra delgado de solo 6,49 mm, liviano y cómodo",
@@ -1617,12 +1617,12 @@ export const products = [
   {
     "id": "801",
     "category": "linea_blanca",
-    "name": "Lavadora KALLEY 12 Kilos K-LD12GE Gris",
+    "name": "Lavadora KALLEY 12 Kilos",
     "image": "images/products/801.webp",
-    "price": 1413408,
-    "isEnabled": false,
+    "price": 1138385,
+    "isEnabled": true,
     "specs": { "size_value": 12, "unit": "kg" },
-    "shortdescription": "Con 12 kilos de capacidad y un diseño compacto, es perfecta para espacios reducidos. ",
+    "shortdescription": "K-LD12GE Gris. Con 12 kilos de capacidad y un diseño compacto, es perfecta para espacios reducidos. ",
     "description": "Su panel digital y 8 ciclos de lavado garantizan un rendimiento personalizado y eficiente. La tapa con control de caída evita accidentes, y su manejo es intuitivo para tu comodidad. Aprovecha esta combinación de gran capacidad y tamaño reducido. ¡Lleva la tecnología y conveniencia a tu casa hoy mismo!",
     "features": [
       "Garantía 3 años en el motor,5 años en panel,1 año en la unidad",
@@ -1652,12 +1652,12 @@ export const products = [
   {
     "id": "803",
     "category": "linea_blanca",
-    "name": "Lavadora WHIRLPOOL 20 Kilos WW20NNAHLA",
+    "name": "Lavadora WHIRLPOOL 20 Kilos",
     "image": "images/products/803.webp",
     "price": 2275908,
     "isEnabled": true,
     "specs": { "size_value": 20, "unit": "kg" },
-    "shortdescription": "Ahorra agua y energía con Xpert Eco, reduciendo hasta 125L y 30% de consumo por carga. ",
+    "shortdescription": "WW20NNAHLA. Ahorra agua y energía con Xpert Eco, reduciendo hasta 125L y 30% de consumo por carga. ",
     "description": "Su sistema Smart Action combina 3 tecnologías para un lavado potente y delicado, mientras que el Ciclo Ropa de Mascotas elimina hasta 68% más pelo. Con 3 Xpert Cycles, remueve las manchas más difíciles y elimina 4 veces más residuos de jabón, ideal para pieles sensibles. Lava edredones King sin esfuerzo, optimiza el uso de detergente con su multidispensador automático y evita manchas con su llenado inteligente. ¡Potencia y cuidado en cada lavado!",
     "features": [
       "Xpert Eco: Ahorra 125L de agua y 30% de energía.",
@@ -1670,12 +1670,12 @@ export const products = [
   {
     "id": "804",
     "category": "linea_blanca",
-    "name": "Lavadora LG Carga Superior 16 Kilos WT16MVTB",
+    "name": "Lavadora LG 16 Kilos",
     "image": "images/products/804.webp",
     "price": 1912508,
     "isEnabled": false,
     "specs": { "size_value": 16, "unit": "kg" },
-    "shortdescription": "Lavadora LG Carga Superior 16KG color Negro Medio.",
+    "shortdescription": "WT16MVTB. Lavadora LG Carga Superior 16KG color Negro Medio.",
     "description": "Motor Smart Inverter proporciona un lavado silencioso y potente. Tres movimientos de lavado que se adaptan a cada tipo de tejido. Diseño delgado y duradero.",
     "features": [
       "TurboDrum™ proporciona un lavado potente",
@@ -1689,12 +1689,12 @@ export const products = [
   {
     "id": "805",
     "category": "linea_blanca",
-    "name": "Lavadora ELECTROLUX Carga Superior 22 Kilos LP22I Negra",
+    "name": "Lavadora ELECTROLUX 22 Kilos",
     "image": "images/products/805.webp",
     "price": 2137908,
     "isEnabled": true,
     "specs": { "size_value": 22, "unit": "kg" },
-    "shortdescription": "Lleva eficiencia, cuidado y estilo a tu hogar con la Lavadora ELECTROLUX LP22I.",
+    "shortdescription": "LP22I Negra. Lleva eficiencia, cuidado y estilo a tu hogar con la Lavadora ELECTROLUX LP22I.",
     "description": "Lava hasta edredones King Size con su gran capacidad. Disfruta ciclos rápidos, lavado silencioso y 11 programas. Tecnología Jet&Clean para limpieza profunda sin manchas.",
     "features": [
       "Tapa de Cierre Suave",
@@ -1746,7 +1746,6 @@ export const products = [
     "image": "images/products/903.jfif",
     "price": 851058,
     "isEnabled": true,
-    "specs": { "size_value": 4, "unit": "puestos" },
     "shortdescription": "Gas Natural AT101-5 Negro",
     "description": "Diseño recto moderno, mesa firme en acero inoxidable, horno a gas con protección termoeléctrica para total seguridad. Práctico encendido electrónico.",
     "features": [
@@ -1764,7 +1763,6 @@ export const products = [
     "image": "images/products/904.webp",
     "price": 1114408,
     "isEnabled": true,
-    "specs": { "size_value": 4, "unit": "puestos" },
     "shortdescription": "Gas Natural Romero Reflex 50-Vidrio Negro",
     "description": "Contraste único de colores y acabados. Cocina con gratinador para toques crujientes y dorados. Fogón 35% más potente y sistema de termoseguridad.",
     "features": [
@@ -1783,7 +1781,6 @@ export const products = [
     "image": "images/products/905.webp",
     "price": 669358,
     "isEnabled": false,
-    "specs": { "size_value": 4, "unit": "puestos" },
     "shortdescription": "Gas Natural Con Gabinete Negro",
     "description": "Encuentra todo lo necesario para cocinar con comodidad: quemadores rápidos y ultra rápidos, mesón en acero inoxidable y un práctico gabinete multiusos.",
     "features": [
@@ -1798,11 +1795,12 @@ export const products = [
   {
     "id": "906",
     "category": "linea_blanca",
-    "name": "Lavadora MABE Carga Superior 24 Kilos LMC74215WDAB0 Gris",
+    "name": "Lavadora MABE 24 Kilos",
     "image": "images/products/906.avif",
     "price": 2644885,
     "isEnabled": true,
-    "shortdescription": "La lavadora MABE LMC74215WDAB0 es ideal para ayudarte a ahorrar tiempo y esfuerzo, gracias a sus 11 ciclos automáticos e inicio programado.",
+    "specs": { "size_value": 24, "unit": "kg" },
+    "shortdescription": "LMC74215WDAB0 Gris. La lavadora MABE es ideal para ayudarte a ahorrar tiempo y esfuerzo, gracias a sus 11 ciclos automáticos e inicio programado.",
     "description": "Cuenta con tecnología aqua saver green que ahorra hasta 76% de agua y 55% de energía. Cuida tu salud y la de tu familia gracias a su ciclo de sanitizado, que elimina el 99.9% de las bacterías. Su sistema de lavado con agitador Hybrid Washing, elimina los residuos con un lavado profundo y eficiente.",
     "features": [
       "Ciclo Sanitizado, cuida tu salud.",
@@ -1816,11 +1814,12 @@ export const products = [
   {
     "id": "907",
     "category": "linea_blanca",
-    "name": "Lavadora LG Carga Superior 25 Kilos WT25MT6HK Negro",
+    "name": "Lavadora LG 25 Kilos",
     "image": "images/products/907.avif",
     "price": 3047385,
     "isEnabled": true,
-    "shortdescription": "Selecciona un programa de lavado y la tecnología 6 Motion Direct Drive moverá la tina en varias direcciones, dándole a las telas el cuidado apropiado mientras deja la ropa ultra limpia.",
+    "specs": { "size_value": 25, "unit": "kg" },
+    "shortdescription": "WT25MT6HK Negro. Selecciona un programa de lavado y la tecnología 6 Motion Direct Drive moverá la tina en varias direcciones, dándole a las telas el cuidado apropiado mientras deja la ropa ultra limpia.",
     "description": "Lavadora LG carga superior con excelente capacidad 25 Kg, exclusiva tecnología 6 Motion que te permite tener un lavado más profundo para cada tipo de prenda, permite un proceso de lavado más potente, eliminando la suciedad más difícil gracias al sistema de lavado TurboDrum™, con los potentes chorros de agua con JetSpray obtienes un enjuague eficaz y una limpieza total, gracias al motor Direct Drive opten Mayor eficiencia energética.",
     "features": [
       "6 Motion DD™, Óptimo lavado de las prendas",
@@ -1834,11 +1833,12 @@ export const products = [
   {
     "id": "908",
     "category": "linea_blanca",
-    "name": "Lavadora CHALLENGER 11 Kilos CW 4711 Blanca",
+    "name": "Lavadora CHALLENGER 11 Kilos",
     "image": "images/products/908.avif",
     "price": 735885,
     "isEnabled": true,
-    "shortdescription": "La lavadora CHALLENGER CW4711 facilita el cuidado de tu ropa con un lavado práctico, eficiente y pensado para tu día a día.",
+    "specs": { "size_value": 11, "unit": "kg" },
+    "shortdescription": "CW 4711 Blanca. La lavadora CHALLENGER CW4711 facilita el cuidado de tu ropa con un lavado práctico, eficiente y pensado para tu día a día.",
     "description": "Su sistema de impulsor genera movimientos que mejoran la limpieza de las prendas, mientras su centrifugado optimiza el tiempo de secado para que tu ropa esté lista más rápido. Su diseño funcional y fácil manejo te brinda comodidad en cada uso y un desempeño confiable en tu hogar.",
     "features": [
       "Capacidad 11 kg ideal para el lavado diario",

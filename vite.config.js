@@ -16,7 +16,6 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         productos: resolve(__dirname, 'productos.html'),
-        categoria: resolve(__dirname, 'categoria.html'),
         checkout: resolve(__dirname, 'checkout.html'),
         detalleproducto: resolve(__dirname, 'detalleproducto.html'),
         // agrega aquí las demás páginas que tengas en la raíz
