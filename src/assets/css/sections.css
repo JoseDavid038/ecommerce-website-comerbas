@@ -133,10 +133,7 @@
   border-bottom-right-radius: 25px;
 }
 
-.step-card.guide{
-  display: grid;
-  grid-template-columns: 1fr auto;
-}
+
 
 .step-desc{
   text-align: left;
