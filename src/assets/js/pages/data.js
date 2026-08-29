@@ -1605,11 +1605,11 @@ export const products = [
   {
     "id": "701",
     "category": "linea_blanca",
-    "name": "Nevera KALLEY Frost Una Puerta 187 Litros",
+    "name": "Nevera KALLEY Frost Una Puerta 187 Litros",  
     "image": "images/products/701.webp",
-    "price": 2298908,
+    "price": 1034885,
      "brand": "KALLEY",
-    "isEnabled": false,
+    "isEnabled": true,
     "specs": { "size_value": 187, "unit": "litros" },
     "shortdescription": "K-N187L2GO Gris Oscuro",
     "description": "La nevera KALLEY K-N187L2GO de 187 Litros gris cuenta con dispensador de agua manual, removible y fácil de limpiar con capacidad de 1.8 Litros, temperatura ajustable según tus necesidades, compartimiento extra frio para preservar adecuadamente tus alimentos. Además incluye bandeja inferior para vegetales, rejillas de vidrio removibles para adecuarlas como prefieras y compartimientos para botellas. Su garantía es de 1 año en la unidad y 5 años en el compresor ¡No esperes más y lleva la tuya!",
@@ -1626,7 +1626,7 @@ export const products = [
     "category": "linea_blanca",
     "name": "Nevera HACEB Frost Una Puerta 213 Litros",
     "image": "images/products/702.webp",
-    "price": 1436408,
+    "price": 1379885,
      "brand": "HACEB",
     "isEnabled": true,
     "specs": { "size_value": 213, "unit": "litros" },
@@ -1698,6 +1698,81 @@ export const products = [
       "Empaque magético removible y alarma de puerta abierta"
     ],
     "tags": ["mas-vendido"]
+  },
+  {
+    "id": "706",
+    "category": "linea_blanca",
+    "name": "Nevecón KALLEY Side by Side 439 Litros",
+    "image": "images/products/706.avif",
+    "price": 2679385,
+    "brand": "KALLEY",
+    "isEnabled": true,
+    "specs": {
+      "size_value": 439,
+      "unit": "litros"
+    },
+    "shortdescription": "K-N439L2 Gris",
+    "description": "El nevecón de KALLEY K-N439L2 de 439 litros es ideal para tu hogar, con su sistema inverter no solo ahorra 20% más de energía comparado con un compresor convencional, sino que también mantiene tus alimentos frescos por más tiempo. Su diseño elegante encajará perfectamente en cualquier cocina, añadiendo un toque de sofisticación. Y el sistema de súper congelamiento te permite conservar tus alimentos de forma óptima.",
+    "features": [
+      "Nevecón 2 puertas Side by side de 439 Litros",
+      "Tecnología Inverter que ahorra hasta de un 67% de energía",
+      "Cuenta con alarma de puerta abierta y tecnología no frost",
+      "12 años de garantía en el compresor",
+      "Acabado mate y antihuella"
+    ],
+    "tags": [
+      "disponible"
+    ]
+  },
+  {
+    "id": "707",
+    "category": "linea_blanca",
+    "name": "Nevera KALLEY No Frost Congelador Superior 245 Litros INVERTER",
+    "image": "images/products/707.avif",
+    "price": 1598385,
+    "brand": "KALLEY",
+    "isEnabled": true,
+    "specs": {
+      "size_value": 245,
+      "unit": "litros"
+    },
+    "shortdescription": "K-NT245L Gris",
+    "description": "Imagina una cocina fresca y organizada todos los días. Con la nevera KALLEY K-NT245L y su tecnología No Frost, olvídate de descongelar. Su compresor Inverter y eficiencia energética A te permiten ahorrar hasta un 67% de energía, con un funcionamiento silencioso y duradero. Además, su diseño moderno con acabado anti-huella y dispensador de agua la hacen perfecta para tu hogar.",
+    "features": [
+      "Tecnología No Frost: sin escarcha ni descongelamiento",
+      "Compresor Inverter: silencioso, durable y eficiente",
+      "Ahorra hasta 67% con eficiencia energética A",
+      "Dispensador de agua manual práctico de 2 L",
+      "Distribuye el aire frio de manera uniforme"
+    ],
+    "tags": [
+      "disponible"
+    ]
+  },
+  {
+    "id": "708",
+    "category": "linea_blanca",
+    "name": "Nevera KALLEY No Frost Congelador Superior 332 Litros Inverter",
+    "image": "images/products/708.avif",
+    "price": 1839885,
+    "brand": "KALLEY",
+    "isEnabled": true,
+    "specs": {
+      "size_value": 332,
+      "unit": "litros"
+    },
+    "shortdescription": "K-NT332L Gris",
+    "description": "Imagina una cocina fresca y organizada todos los días. Con la nevera KALLEY K-NT332A y su tecnología No Frost, olvídate de descongelar. Su compresor Inverter y eficiencia energética A te permiten ahorrar hasta un 67% de energía, con un funcionamiento silencioso y duradero. Además, su diseño moderno con acabado anti-huella y dispensador de agua la hacen perfecta para tu hogar.",
+    "features": [
+      "Tecnología No Frost: sin escarcha ni descongelamiento",
+      "Compresor Inverter: silencioso, durable y eficiente",
+      "Ahorra hasta 67% con eficiencia energética A",
+      "Dispensador de agua manual práctico de 2 L",
+      "Distribuye el aire frio de manera uniforme"
+    ],
+    "tags": [
+      "disponible"
+    ]
   },
   {
     "id": "801",
@@ -1888,10 +1963,10 @@ export const products = [
     "tags": ["Nuevo"]
   },
   {
-    "id": "906",
+    "id": "806",
     "category": "linea_blanca",
     "name": "Lavadora MABE 24 Kilos",
-    "image": "images/products/906.avif",
+    "image": "images/products/806.avif",
     "price": 2644885,
      "brand": "MABE",
     "isEnabled": true,
@@ -1908,10 +1983,10 @@ export const products = [
     "tags": []
   },
   {
-    "id": "907",
+    "id": "807",
     "category": "linea_blanca",
     "name": "Lavadora LG 25 Kilos",
-    "image": "images/products/907.avif",
+    "image": "images/products/807.avif",
     "price": 3047385,
      "brand": "LG",
     "isEnabled": true,
@@ -1928,10 +2003,10 @@ export const products = [
     "tags": []
   },
   {
-    "id": "908",
+    "id": "808",
     "category": "linea_blanca",
     "name": "Lavadora CHALLENGER 11 Kilos",
-    "image": "images/products/908.avif",
+    "image": "images/products/808.avif",
     "price": 735885,
      "brand": "CHALLENGER",
     "isEnabled": true,
@@ -1946,6 +2021,103 @@ export const products = [
       "Filtro atrapa pelusas para mayor limpieza"
     ],
     "tags": ["recomendado1"]
+  },
+  {
+    "id": "809",
+    "category": "linea_blanca",
+    "name": "Lavadora KALLEY Carga Superior 14 Kilos K-LD14GE Gris",
+    "image": "images/products/809.avif",
+    "price": 1379885,
+    "brand": "KALLEY",
+    "isEnabled": true,
+    "specs": {
+      "size_value": 14,
+      "unit": "kg"
+    },
+    "shortdescription": "¡Descubre la lavadora ideal para tu hogar! Con 14 kilos de capacidad y un diseño compacto, es perfecta para espacios reducidos.",
+    "description": "Su panel digital y 8 ciclos de lavado garantizan un rendimiento personalizado y eficiente. La tapa con control de caída evita accidentes, y su manejo es intuitivo para tu comodidad. Aprovecha esta combinación de gran capacidad y tamaño reducido.",
+    "features": [
+      "Garantía 5 años en el motor",
+      "Más ahorro, menos consumo y excelente rendimiento.",
+      "Gran variedad de funciones que se ajustan a tus necesidades"
+    ],
+    "tags": [
+      "disponible"
+    ]
+  },
+  {
+    "id": "810",
+    "category": "linea_blanca",
+    "name": "Lavadora KALLEY Carga Superior 18 Kilos K-LD18G2 Gris",
+    "image": "images/products/810.avif",
+    "price": 1724885,
+    "brand": "KALLEY",
+    "isEnabled": true,
+    "specs": {
+      "size_value": 18,
+      "unit": "kg"
+    },
+    "shortdescription": "La Lavadora Digital K-LD18G2 KALLEY de 18 kg combina capacidad y eficiencia.",
+    "description": "Con su elegante color gris y panel LED con 10 programas preestablecidos, ajustes de temperatura, nivel de agua y suciedad, y funciones como bloqueo para niños y enjuague extra. Cuenta con tina de acero inoxidable y puerta de vidrio, garantizando durabilidad. Es práctica y resistente, con una capacidad capacidad de 18 kg es perfecta para cuidar todas tus prendas, desde las más delicadas hasta las toallas más grandes. ideal para cualquier hogar.",
+    "features": [
+      "Panel digital con programas preestablecidos y luces LED",
+      "Selecciona automáticamente el nivel de agua óptimo",
+      "10 Ciclos que se ajustan a tus necesidades",
+      "Garantía de 5 años en el motor",
+      "Mayor capacidad y eficiencia para el cuidado de tu ropa"
+    ],
+    "tags": [
+      "disponible"
+    ]
+  },
+  {
+    "id": "811",
+    "category": "linea_blanca",
+    "name": "Lavadora KALLEY Carga Superior 22 Kilos K-LD22G Gris",
+    "image": "images/products/811.avif",
+    "price": 1874385,
+    "brand": "KALLEY",
+    "isEnabled": true,
+    "specs": {
+      "size_value": 22,
+      "unit": "kg"
+    },
+    "shortdescription": "La Lavadora Digital KALLEY de 22 kg ofrece gran capacidad y control total para el cuidado de tu ropa.",
+    "description": "Su panel digital LED integra 10 programas de lavado y múltiples funciones como ajuste de temperatura, nivel de agua y suciedad, temporizador, enjuague extra, remojo, bloqueo para niños y sistema de limpieza de tambor Klean+. Diseñada para adaptarse a todo tipo de prendas, desde delicadas hasta cargas pesadas, combina practicidad y eficiencia en cada ciclo. Cuenta con 1 año de garantía en la unidad, 5 años en el motor y 3 años en el panel.",
+    "features": [
+      "Lavadora automática digital de 22 kg",
+      "Panel LED con 10 programas de lavado",
+      "Ajuste de temperatura, agua y suciedad",
+      "Garantías en años: 1a unidad, 5a motor y 3a panel",
+      "Función Klean+ y bloqueo para niños"
+    ],
+    "tags": [
+      "disponible"
+    ]
+  },
+  {
+    "id": "812",
+    "category": "linea_blanca",
+    "name": "Lavadora KALLEY Semi automática Carga Superior 10,1 Kilos K-LDT10B1 Blanca",
+    "image": "images/products/812.avif",
+    "price": 666885,
+    "brand": "KALLEY",
+    "isEnabled": true,
+    "specs": {
+      "size_value": 10.1,
+      "unit": "kg"
+    },
+    "shortdescription": "Si buscas una lavadora práctica, económica y eficiente, la lavadora KALLEY semi automática de 10,1 Kilos de capacidad es para ti.",
+    "description": "Es ideal para tu ropa, de uso sencillo y un diseño que te va a encantar! Además, su doble tina te permite lavar y secar al mismo tiempo, lo que te ahorrará tiempo y esfuerzo.",
+    "features": [
+      "Apagado automático",
+      "Filtro de limpieza (atrapa motas)",
+      "Lavado y centrifugado programable",
+      "Garantía de un año, respaldo Kalley"
+    ],
+    "tags": [
+      "disponible"
+    ]
   },
   {
     "id": "1001",
