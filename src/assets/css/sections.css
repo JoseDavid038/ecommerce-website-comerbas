@@ -148,6 +148,11 @@
     margin-top: 1rem;
   }
 
+.step-desc.redirec{
+
+  margin-bottom: 1rem;
+}
+
 
 .button--services {
   background: var(--white-color);
@@ -623,6 +628,11 @@
   margin-right: 12px;
   font-weight: bold;
 }
+
+/* .step-content{
+  display: flex;
+  flex-direction: column;
+} */
 
 /* ===========================
    IMAGE PREVIEW
