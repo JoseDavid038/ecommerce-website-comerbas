@@ -43,7 +43,7 @@ function renderProducts(array, targetClass) {
 const activeProducts = products.filter(p => p.isEnabled !== false);
 
 // 🔹 2. Filtrar por categoría y ORDENAR
-const categorias = ["audio_video", "celulares", "computadores", "electromenores", "linea_blanca", "bicicletas"];
+const categorias = ["video", "audio", "celulares", "computadores", "electromenores", "linea_blanca", "bicicletas"];
 
 categorias.forEach(categoria => {
   // Filtramos y aplicamos el ordenamiento antes de renderizar

@@ -17,7 +17,7 @@ export function getProduct(productId) {
 export const products = [
   {
     "id": "101",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor TCL 32\" Smart TV Google",
     "image": "images/products/101.webp",
     "price": 827885,
@@ -37,7 +37,7 @@ export const products = [
   },
   {
     "id": "102",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor KALLEY 40\"",
     "image": "images/products/102.webp",
     "price": 918931,
@@ -56,7 +56,7 @@ export const products = [
   },
   {
     "id": "103",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor PANASONIC 43\"",
     "image": "images/products/103.webp",
     "price": 1206431,
@@ -75,7 +75,7 @@ export const products = [
   },
   {
     "id": "104",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor CHALLENGER 43\"",
     "image": "images/products/104.webp",
     "price": 1137324,
@@ -94,7 +94,7 @@ export const products = [
   },
   {
     "id": "105",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor HYUNDAI 43\" Sistema Operativo Roku",
     "image": "images/products/105.webp",
     "price": 1010931,
@@ -113,7 +113,7 @@ export const products = [
   },
   {
     "id": "106",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor SAMSUNG 43\"",
     "image": "images/products/106.webp",
     "price": 1723931,
@@ -132,7 +132,7 @@ export const products = [
   },
   {
     "id": "107",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor TCL 43\"",
     "image": "images/products/107.webp",
     "price": 1149885,
@@ -152,7 +152,7 @@ export const products = [
   },
   {
     "id": "108",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor TCL 50\"",
     "image": "images/products/108.webp",
     "price": 1608931,
@@ -172,7 +172,7 @@ export const products = [
   },
   {
     "id": "109",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor TCL 55\"",
     "image": "images/products/109.webp",
     "price": 1724885,
@@ -192,7 +192,7 @@ export const products = [
   },
   {
     "id": "110",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor CHALLENGER 40\"",
     "image": "images/products/110.webp",
     "price": 965885,
@@ -212,7 +212,7 @@ export const products = [
   },
   {
     "id": "111",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor SAMSUNG 40\"",
     "image": "images/products/111.webp",
     "price": 1149885,
@@ -231,7 +231,7 @@ export const products = [
   },
   {
     "id": "112",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor HYUNDAI 40\"",
     "image": "images/products/112.webp",
     "price": 872931,
@@ -251,7 +251,7 @@ export const products = [
   },
   {
     "id": "113",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor TCL 43\"",
     "image": "images/products/113.webp",
     "price": 1263931,
@@ -271,7 +271,7 @@ export const products = [
   },
   {
     "id": "114",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor TCL 50\"",
     "image": "images/products/114.webp",
     "price": 1378931,
@@ -291,7 +291,7 @@ export const products = [
   },
   {
     "id": "115",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor CHALLENGER 40\"",
     "image": "images/products/115.avif",
     "price": 804885,
@@ -314,7 +314,7 @@ export const products = [
   },
   {
     "id": "116",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor CHALLENGER 32\"",
     "image": "images/products/116.avif",
     "price": 586385,
@@ -337,7 +337,7 @@ export const products = [
   },
   {
     "id": "117",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor HYUNDAI 32\"",
     "image": "images/products/117.avif",
     "price": 620885,
@@ -358,7 +358,7 @@ export const products = [
   },
   {
     "id": "118",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor KALLEY 40\"",
     "image": "images/products/118.avif",
     "price": 919885,
@@ -381,7 +381,7 @@ export const products = [
   },
   {
     "id": "119",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor SAMSUNG 43\"",
     "image": "images/products/119.avif",
     "price": 1552385,
@@ -403,7 +403,7 @@ export const products = [
   },
   {
     "id": "120",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor KALLEY 43\"",
     "image": "images/products/120.avif",
     "price": 1069385,
@@ -426,7 +426,7 @@ export const products = [
   },
   {
     "id": "121",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor HYUNDAI 55\"",
     "image": "images/products/121.avif",
     "price": 1743285,
@@ -449,7 +449,7 @@ export const products = [
   },
   {
     "id": "122",
-    "category": "audio_video",
+    "category": "video",
     "name": "Televisor SAMSUNG 50\"",
     "image": "images/products/122.avif",
     "price": 1839885,
@@ -471,7 +471,7 @@ export const products = [
   },
   {
     "id": "201",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Torre de Sonido PANASONIC 300 Watts.",
     "image": "images/products/201.jfif",
     "price": 780931,
@@ -489,7 +489,7 @@ export const products = [
   },
   {
     "id": "202",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Torre de Sonido SAMSUNG 500 Watts",
     "image": "images/products/202.webp",
     "price": 976431,
@@ -508,7 +508,7 @@ export const products = [
   },
   {
     "id": "203",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Minicomponente PANASONIC 650 Watts",
     "image": "images/products/203.jfif",
     "price": 838431,
@@ -527,7 +527,7 @@ export const products = [
   },
   {
     "id": "204",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Torre de Sonido LG 500 Watts",
     "image": "images/products/204.webp",
     "price": 976431,
@@ -546,7 +546,7 @@ export const products = [
   },
   {
     "id": "205",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Torre de Sonido SONY 200 Watts",
     "image": "images/products/205.webp",
     "price": 1091431,
@@ -565,7 +565,7 @@ export const products = [
   },
   {
     "id": "206",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Torre de Sonido LG 1000 Watts",
     "image": "images/products/206.webp",
     "price": 1298431,
@@ -584,7 +584,7 @@ export const products = [
   },
   {
     "id": "207",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Parlante PANASONIC 320W",
     "image": "images/products/207.avif",
     "price": 1149885,
@@ -603,7 +603,7 @@ export const products = [
   },
   {
     "id": "208",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Minicomponente PANASONIC 2000 Watts",
     "image": "images/products/208.avif",
     "price": 1034885,
@@ -626,7 +626,7 @@ export const products = [
   },
   {
     "id": "209",
-    "category": "audio_video",
+    "category": "audio",
     "name": "Minicomponente SONY 200Watts",
     "image": "images/products/209.avif",
     "price": 1034885,
