@@ -244,3 +244,34 @@
   border: 1px solid #e0e4ec;
   object-fit: cover;
 }
+
+
+@media (min-width: 600px) {
+  .text__slider{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    line-height: var(--spacing-large);
+  }
+.title__slider{
+    font-size: 3rem;
+  }
+  
+}
+
+
+@media screen and (max-width: 1149px) {
+  
+  .swiper__img.index.slide1,
+  .swiper__img.index.slide2,
+  .swiper__img.index.slide3,
+  .swiper__img.index.slide4 {
+  width: 100%;
+  max-width: 80%;
+}
+
+
+
+
+  
+}

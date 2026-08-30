@@ -161,14 +161,6 @@
   left: 0;
 }
 
-  /* .swiper__img{
-    width: 41.875rem;
-    max-width: 100%;
-    position: relative;
-    object-fit: cover;
-    object-position: center;
-    left: 60px;
-  } */
 
   .swiper__img {
   width: 100%;
@@ -182,22 +174,6 @@
   top: 0;
 }
 
-  
-
-  .swiper__img.index.slide1,
-.swiper__img.index.slide2,
-.swiper__img.index.slide3,
-.swiper__img.index.slide4 {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  position: relative;
-  display: block;
-  object-fit: contain;
-  object-position: center;
-  left: 0;
-  top: 0;
-}
    
 
   .swiper-slide-hero {
