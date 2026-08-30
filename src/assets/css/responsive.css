@@ -116,7 +116,7 @@
 
   .section__title {
     font-size: var(--font-heading);
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
 
   }
 
@@ -599,3 +599,11 @@
 }
 
 .nav__search { position: relative; }
+
+@media (min-width: 600px) {
+  
+ .product-main-image{
+  max-width: 70%;
+ }
+  
+}
