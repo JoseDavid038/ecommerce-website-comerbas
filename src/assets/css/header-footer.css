@@ -272,6 +272,7 @@ section[id] {
 .footer__icons{
   display: flex;
   column-gap: 30px;
+  justify-content: center;
 }
 
 .footer__nav__list{
@@ -740,4 +741,26 @@ section[id] {
   }
 }
 
+/* --footer responsive tablets.  */
+@media screen and (min-width: 1150px) and (max-width: 1350px) {
+
+  .footer__info-contact {
+    min-width: 0;
+  }
+
+  .info__contact {
+    min-width: 0;
+  }
+
+  .footer-nav-link {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  
+  
+    
+
+
+}
 

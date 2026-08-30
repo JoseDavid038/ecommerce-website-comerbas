@@ -314,7 +314,7 @@
   .footer__nav__list{
     display: grid;
     grid-template-rows: 1rem;
-    grid-template-columns: repeat(2,15rem);
+    grid-template-columns: repeat(2,11rem);
   }
 
   .footer__rights{
