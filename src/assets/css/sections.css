@@ -137,6 +137,7 @@
 
 .step-desc{
   text-align: left;
+  padding-left: 2rem;
 }
 
 .step-desc.envia,
@@ -589,7 +590,7 @@
   padding: 10px 14px;
   border-radius: 8px;
   border-left: 4px solid #1A237E;
-  text-align: left;
+  text-align: center;
   line-height: 1.4;
   margin-bottom: 1rem;
 }
