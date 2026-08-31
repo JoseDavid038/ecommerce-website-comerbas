@@ -267,8 +267,14 @@
   .swiper__img.index.slide3,
   .swiper__img.index.slide4 {
   width: 100%;
-  max-width: 80%;
+  max-width: 100%;
 }
+
+.swiper__img.index.slide1,
+  .swiper__img.index.slide2,
+  .swiper__img.index.slide3{
+    margin-top: 3rem;
+  }
 
 
 

@@ -766,6 +766,7 @@
   /* En Móvil: Centrado para que sea fácil de tocar con el pulgar */
   text-align: center; 
   padding-bottom: 1rem; /* Un poco de aire antes del formulario en móvil */
+  margin-bottom: 2rem;
 }
 
 .btn-secondary {
